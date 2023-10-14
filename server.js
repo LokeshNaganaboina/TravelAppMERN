@@ -1,6 +1,7 @@
 const express = require("express");
 const mongoose = require("mongoose");
 const dotenv = require('dotenv');
+const cors = require('cors');
 
 dotenv.config();
 
@@ -25,6 +26,8 @@ const PORT = 3500;
 app.get("/",(req,res)=>{
     res.send("Hey there!! I am Lokesh ")
 })
+
+app.use(cors());
 
 app.use('/api/hotelData', hotelDataRouter)
 app.use('/api/categorydata',categoryDataRouter)
