@@ -2,6 +2,7 @@ const { v4: uuid } = require('uuid');
 
 const categories = {
     "data": [
+        { id: uuid(), category: "Yurts"},
         { id: uuid(), category: "National Parks" },
         { id: uuid(), category: "Tiny Homes" },
         { id: uuid(), category: "Farms" },
