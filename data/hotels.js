@@ -1,7 +1,8 @@
 const { v4: uuid } = require('uuid');
 const hotels = {
-    "data": [{
-            id: uuid(),
+    "data": [
+        {
+            _id: uuid(),
             name: "Yurt Overlook #4 w/AC and Private Bath (2 Kings)",
             category: "Yurts",
             image: "https://a0.muscache.com/im/pictures/b7a70d63-2cc0-48f7-b430-783c11c2425e.jpg?im_w=720",
@@ -15,8 +16,8 @@ const hotels = {
             city: "Orderville",
             state: "Utah",
             country: "United States",
-            price: "294",
-            rating: "4.95",
+            price: 294,
+            rating: 4.95,
             numberOfBathrooms: 2,
             numberOfBeds: 1,
             numberOfguest: 3,
@@ -31,7 +32,7 @@ const hotels = {
             ],
             healthAndSafety: [
                 "No Smoke alarm",
-                "No Carbon monoxide alarm"
+                "No Carbon monox_ide alarm"
             ],
             houseRules: [
                 "Check-in: After 1:00 pm",
@@ -42,7 +43,7 @@ const hotels = {
             isCancelable: true
         },
         {
-            id: uuid(),
+            _id: uuid(),
             name: "Yurt Overlook #2 w/AC and Private Bath(King Suite)",
             category: "Yurts",
             image: "https://a0.muscache.com/im/pictures/31acfd9e-f5bb-474b-b61c-11827a75cfa2.jpg?im_w=720",
@@ -56,9 +57,9 @@ const hotels = {
             city: "Orderville",
             state: "Utah",
             country: "United States",
-            price: "277",
-            rating: "4.99",
-            numberOfBathrooms: 2,
+            price: 277,
+            rating: 4.99,
+            numberOfBathrooms: 3,
             numberOfBeds: 1,
             numberOfguest: 3,
             numberOfBedrooms: 1,
@@ -72,7 +73,7 @@ const hotels = {
             ],
             healthAndSafety: [
                 "No Smoke alarm",
-                "No Carbon monoxide alarm"
+                "No Carbon monox_ide alarm"
             ],
             houseRules: [
                 "Check-in: After 1:00 pm",
@@ -83,7 +84,7 @@ const hotels = {
             isCancelable: true
         },
         {
-            id: uuid(),
+            _id: uuid(),
             name: "Beautiful Luxury Yurt bordering on Flathead Lake",
             category: "Yurts",
             image: "https://a0.muscache.com/im/pictures/3b05948d-2751-4b19-b737-e6fefd881aef.jpg?im_w=720",
@@ -97,8 +98,8 @@ const hotels = {
             city: "Somers",
             state: "Montana",
             country: "United States",
-            price: "220",
-            rating: "4.99",
+            price: 220,
+            rating: 4.99,
             numberOfBathrooms: 2,
             numberOfBeds: 1,
             numberOfguest: 3,
@@ -113,7 +114,7 @@ const hotels = {
             ],
             healthAndSafety: [
                 "No Smoke alarm",
-                "No Carbon monoxide alarm"
+                "No Carbon monox_ide alarm"
             ],
             houseRules: [
                 "Check-in: After 1:00 pm",
@@ -124,7 +125,7 @@ const hotels = {
             isCancelable: true
         },
         {
-            id: uuid(),
+            _id: uuid(),
             name: "WILD+WANDER Luxury Yurt near Bozeman, Montana",
             category: "Yurts",
             image: "https://a0.muscache.com/im/pictures/miso/Hosting-669027516835493022/original/42761331-52de-4867-b85c-659b2631ac2b.jpeg?im_w=720",
@@ -138,13 +139,13 @@ const hotels = {
             city: "Bozeman",
             state: "Montana",
             country: "United States",
-            price: "321",
-            rating: "5.0",
-            numberOfBathrooms: 2,
-            numberOfBeds: 1,
+            price: 321,
+            rating: 5.0,
+            numberOfBathrooms: 5,
+            numberOfBeds: 2,
             numberOfguest: 3,
-            numberOfBedrooms: 1,
-            numberOfStudies: 1,
+            numberOfBedrooms: 2,
+            numberOfStudies: 4,
             hostName: "Lokesh",
             hostJoinedOn: "December 2019",
             ameneties: [
@@ -154,7 +155,7 @@ const hotels = {
             ],
             healthAndSafety: [
                 "No Smoke alarm",
-                "No Carbon monoxide alarm"
+                "No Carbon monox_ide alarm"
             ],
             houseRules: [
                 "Check-in: After 1:00 pm",
@@ -165,7 +166,7 @@ const hotels = {
             isCancelable: true
         },
         {
-            id: uuid(),
+            _id: uuid(),
             name: "THE HIPPIE SHACK YURT&Tiny house @ PACHAMAMA FARM",
             category: "Yurts",
             image: "https://a0.muscache.com/im/pictures/2c449a51-bf83-4aea-926b-5103456b95e0.jpg?im_w=720",
@@ -179,13 +180,13 @@ const hotels = {
             city: "Days Creek",
             state: "Oregon",
             country: "United States",
-            price: "120",
-            rating: "4.91",
-            numberOfBathrooms: 2,
-            numberOfBeds: 1,
-            numberOfguest: 3,
-            numberOfBedrooms: 1,
-            numberOfStudies: 1,
+            price: 120,
+            rating: 4.91,
+            numberOfBathrooms: 6,
+            numberOfBeds: 12,
+            numberOfguest: 12,
+            numberOfBedrooms: 7,
+            numberOfStudies: 3,
             hostName: "Lokesh",
             hostJoinedOn: "December 2019",
             ameneties: [
@@ -195,7 +196,7 @@ const hotels = {
             ],
             healthAndSafety: [
                 "No Smoke alarm",
-                "No Carbon monoxide alarm"
+                "No Carbon monox_ide alarm"
             ],
             houseRules: [
                 "Check-in: After 1:00 pm",
@@ -206,7 +207,7 @@ const hotels = {
             isCancelable: true
         },
         {
-            id: uuid(),
+            _id: uuid(),
             name: "High Desert Yurt",
             category: "Yurts",
             image: "https://a0.muscache.com/im/pictures/dc91997f-98b5-4463-bf7f-840ed21f95a8.jpg?im_w=720",
@@ -220,13 +221,13 @@ const hotels = {
             city: "Grand Junction",
             state: "Colorado",
             country: "United States",
-            price: "112",
-            rating: "4.9",
-            numberOfBathrooms: 2,
-            numberOfBeds: 1,
-            numberOfguest: 3,
-            numberOfBedrooms: 1,
-            numberOfStudies: 1,
+            price: 112,
+            rating: 4.9,
+            numberOfBathrooms: 1,
+            numberOfBeds: 3,
+            numberOfguest: 15,
+            numberOfBedrooms: 2,
+            numberOfStudies: 3,
             hostName: "Lokesh",
             hostJoinedOn: "December 2019",
             ameneties: [
@@ -236,7 +237,7 @@ const hotels = {
             ],
             healthAndSafety: [
                 "No Smoke alarm",
-                "No Carbon monoxide alarm"
+                "No Carbon monox_ide alarm"
             ],
             houseRules: [
                 "Check-in: After 1:00 pm",
@@ -247,7 +248,7 @@ const hotels = {
             isCancelable: true
         },
         {
-            id: uuid(),
+            _id: uuid(),
             name: "Unaweep Base Camp",
             category: "Yurts",
             image: "https://a0.muscache.com/im/pictures/miso/Hosting-960883339066850093/original/7c8809b4-7e13-4f60-ab09-463b2ffe30dc.jpeg?im_w=720",
@@ -261,13 +262,13 @@ const hotels = {
             city: "Gateway",
             state: "Colorado",
             country: "United States",
-            price: "130",
-            rating: "New",
-            numberOfBathrooms: 2,
+            price: 130,
+            rating: 0.0,
+            numberOfBathrooms: 1,
             numberOfBeds: 1,
-            numberOfguest: 3,
-            numberOfBedrooms: 1,
-            numberOfStudies: 1,
+            numberOfguest: 2,
+            numberOfBedrooms: 6,
+            numberOfStudies: 8,
             hostName: "Lokesh",
             hostJoinedOn: "December 2019",
             ameneties: [
@@ -277,7 +278,7 @@ const hotels = {
             ],
             healthAndSafety: [
                 "No Smoke alarm",
-                "No Carbon monoxide alarm"
+                "No Carbon monox_ide alarm"
             ],
             houseRules: [
                 "Check-in: After 1:00 pm",
@@ -288,7 +289,7 @@ const hotels = {
             isCancelable: true
         },
         {
-            id: uuid(),
+            _id: uuid(),
             name: "Sunset Yurt \u2013 stunning infinity pool",
             category: "Yurts",
             image: "https://a0.muscache.com/im/pictures/prohost-api/Hosting-17944878/original/5e59e27b-b0f5-461e-a383-1a653f7f5f97.jpeg?im_w=720",
@@ -302,13 +303,13 @@ const hotels = {
             city: "Garden Valley",
             state: "California",
             country: "United States",
-            price: "175",
-            rating: "4.9",
-            numberOfBathrooms: 2,
-            numberOfBeds: 1,
-            numberOfguest: 3,
-            numberOfBedrooms: 1,
-            numberOfStudies: 1,
+            price: 175,
+            rating: 4.9,
+            numberOfBathrooms: 4,
+            numberOfBeds: 6,
+            numberOfguest: 12,
+            numberOfBedrooms: 12,
+            numberOfStudies: 10,
             hostName: "Lokesh",
             hostJoinedOn: "December 2019",
             ameneties: [
@@ -318,7 +319,7 @@ const hotels = {
             ],
             healthAndSafety: [
                 "No Smoke alarm",
-                "No Carbon monoxide alarm"
+                "No Carbon monox_ide alarm"
             ],
             houseRules: [
                 "Check-in: After 1:00 pm",
@@ -329,8 +330,8 @@ const hotels = {
             isCancelable: true
         },
         {
-            id: uuid(),
-            name: "\u2b50 Northern Montana Yurt\u2022 Fire place\u2022  \u2b50",
+            _id: uuid(),
+            name: "Northern Montana Yurt Fire place",
             category: "Yurts",
             image: "https://a0.muscache.com/im/pictures/0b21f357-a9dd-4349-a531-98b0da6734c6.jpg?im_w=720",
             imageArr: [
@@ -343,13 +344,13 @@ const hotels = {
             city: "Saint Regis",
             state: "Montana",
             country: "United States",
-            price: "149",
-            rating: "4.93",
-            numberOfBathrooms: 2,
-            numberOfBeds: 1,
-            numberOfguest: 3,
-            numberOfBedrooms: 1,
-            numberOfStudies: 1,
+            price: 149,
+            rating: 4.93,
+            numberOfBathrooms: 4,
+            numberOfBeds: 6,
+            numberOfguest: 8,
+            numberOfBedrooms: 4,
+            numberOfStudies: 2,
             hostName: "Lokesh",
             hostJoinedOn: "December 2019",
             ameneties: [
@@ -359,7 +360,7 @@ const hotels = {
             ],
             healthAndSafety: [
                 "No Smoke alarm",
-                "No Carbon monoxide alarm"
+                "No Carbon monox_ide alarm"
             ],
             houseRules: [
                 "Check-in: After 1:00 pm",
@@ -370,7 +371,7 @@ const hotels = {
             isCancelable: true
         },
         {
-            id: uuid(),
+            _id: uuid(),
             name: "Treetop #1 at East Zion Resort",
             category: "Yurts",
             image: "https://a0.muscache.com/im/pictures/a85acd47-7658-4636-b1ce-b52903722499.jpg?im_w=720",
@@ -384,8 +385,8 @@ const hotels = {
             city: "Orderville",
             state: "Utah",
             country: "United States",
-            price: "138",
-            rating: "4.93",
+            price: 138,
+            rating: 4.93,
             numberOfBathrooms: 2,
             numberOfBeds: 1,
             numberOfguest: 3,
@@ -400,7 +401,7 @@ const hotels = {
             ],
             healthAndSafety: [
                 "No Smoke alarm",
-                "No Carbon monoxide alarm"
+                "No Carbon monox_ide alarm"
             ],
             houseRules: [
                 "Check-in: After 1:00 pm",
@@ -411,7 +412,7 @@ const hotels = {
             isCancelable: true
         },
         {
-            id: uuid(),
+            _id: uuid(),
             name: "Ponderosa Yurt - infinity pool/outdoor soaking tub",
             category: "Yurts",
             image: "https://a0.muscache.com/im/pictures/f440ef0d-6b96-4a7c-bf77-99cd0eb70865.jpg?im_w=720",
@@ -425,8 +426,8 @@ const hotels = {
             city: "Garden Valley",
             state: "California",
             country: "United States",
-            price: "175",
-            rating: "4.79",
+            price: 175,
+            rating: 4.79,
             numberOfBathrooms: 2,
             numberOfBeds: 1,
             numberOfguest: 3,
@@ -441,7 +442,7 @@ const hotels = {
             ],
             healthAndSafety: [
                 "No Smoke alarm",
-                "No Carbon monoxide alarm"
+                "No Carbon monox_ide alarm"
             ],
             houseRules: [
                 "Check-in: After 1:00 pm",
@@ -452,7 +453,7 @@ const hotels = {
             isCancelable: true
         },
         {
-            id: uuid(),
+            _id: uuid(),
             name: "The 36th Street Urban Yurt, in Large Garden Oasis",
             category: "Yurts",
             image: "https://a0.muscache.com/im/pictures/02badde8-33a7-494c-b06b-9808195562a8.jpg?im_w=720",
@@ -462,17 +463,17 @@ const hotels = {
                 "https://a0.muscache.com/im/pictures/miso/Hosting-14837261/original/d57e535d-5655-498b-8a95-4989815c9b86.jpeg?im_w=720",
                 "https://a0.muscache.com/im/pictures/miso/Hosting-14837261/original/81c04bf8-9a64-4f1d-9099-326e7960db4a.jpeg?im_w=720"
             ],
-            address: "Boise, Idaho",
+            address: "Boise, _idaho",
             city: "Boise",
-            state: "Idaho",
+            state: "_idaho",
             country: "United States",
-            price: "74",
-            rating: "4.84",
+            price: 74,
+            rating: 4.84,
             numberOfBathrooms: 2,
-            numberOfBeds: 1,
-            numberOfguest: 3,
-            numberOfBedrooms: 1,
-            numberOfStudies: 1,
+            numberOfBeds: 4,
+            numberOfguest: 5,
+            numberOfBedrooms: 3,
+            numberOfStudies: 2,
             hostName: "Lokesh",
             hostJoinedOn: "December 2019",
             ameneties: [
@@ -482,7 +483,7 @@ const hotels = {
             ],
             healthAndSafety: [
                 "No Smoke alarm",
-                "No Carbon monoxide alarm"
+                "No Carbon monox_ide alarm"
             ],
             houseRules: [
                 "Check-in: After 1:00 pm",
@@ -493,7 +494,7 @@ const hotels = {
             isCancelable: true
         },
         {
-            id: uuid(),
+            _id: uuid(),
             name: "Treetop #3 at East Zion Resort",
             category: "Yurts",
             image: "https://a0.muscache.com/im/pictures/8e987dc0-566e-4c3e-9c6c-bc77f435adf8.jpg?im_w=720",
@@ -507,13 +508,13 @@ const hotels = {
             city: "Orderville",
             state: "Utah",
             country: "United States",
-            price: "155",
-            rating: "4.94",
-            numberOfBathrooms: 2,
-            numberOfBeds: 1,
-            numberOfguest: 3,
-            numberOfBedrooms: 1,
-            numberOfStudies: 1,
+            price: 155,
+            rating: 4.94,
+            numberOfBathrooms: 3,
+            numberOfBeds: 5,
+            numberOfguest: 4,
+            numberOfBedrooms: 3,
+            numberOfStudies: 2,
             hostName: "Lokesh",
             hostJoinedOn: "December 2019",
             ameneties: [
@@ -523,7 +524,7 @@ const hotels = {
             ],
             healthAndSafety: [
                 "No Smoke alarm",
-                "No Carbon monoxide alarm"
+                "No Carbon monox_ide alarm"
             ],
             houseRules: [
                 "Check-in: After 1:00 pm",
@@ -534,7 +535,7 @@ const hotels = {
             isCancelable: true
         },
         {
-            id: uuid(),
+            _id: uuid(),
             name: "Tranquil  Glamping Yurt Near Eugene",
             category: "Yurts",
             image: "https://a0.muscache.com/im/pictures/faa8272b-fdb3-4de5-9bc3-bb41e1b7dc3f.jpg?im_w=720",
@@ -548,12 +549,12 @@ const hotels = {
             city: "Springfield",
             state: "Oregon",
             country: "United States",
-            price: "73",
-            rating: "4.89",
-            numberOfBathrooms: 2,
-            numberOfBeds: 1,
+            price: 73,
+            rating: 4.89,
+            numberOfBathrooms: 3,
+            numberOfBeds: 2,
             numberOfguest: 3,
-            numberOfBedrooms: 1,
+            numberOfBedrooms: 3,
             numberOfStudies: 1,
             hostName: "Lokesh",
             hostJoinedOn: "December 2019",
@@ -564,7 +565,7 @@ const hotels = {
             ],
             healthAndSafety: [
                 "No Smoke alarm",
-                "No Carbon monoxide alarm"
+                "No Carbon monox_ide alarm"
             ],
             houseRules: [
                 "Check-in: After 1:00 pm",
@@ -575,8 +576,8 @@ const hotels = {
             isCancelable: true
         },
         {
-            id: uuid(),
-            name: "Forest Yurt Nature Retreat on Whidbey Island",
+            _id: uuid(),
+            name: "Forest Yurt Nature Retreat on Wh_idbey Island",
             category: "Yurts",
             image: "https://a0.muscache.com/im/pictures/be8cc14d-8fab-4fc0-8bce-88649e0f04cf.jpg?im_w=720",
             imageArr: [
@@ -589,13 +590,13 @@ const hotels = {
             city: "Clinton",
             state: "Washington",
             country: "United States",
-            price: "104",
-            rating: "4.93",
+            price: 104,
+            rating: 4.93,
             numberOfBathrooms: 2,
             numberOfBeds: 1,
             numberOfguest: 3,
             numberOfBedrooms: 1,
-            numberOfStudies: 1,
+            numberOfStudies: 4,
             hostName: "Lokesh",
             hostJoinedOn: "December 2019",
             ameneties: [
@@ -605,7 +606,7 @@ const hotels = {
             ],
             healthAndSafety: [
                 "No Smoke alarm",
-                "No Carbon monoxide alarm"
+                "No Carbon monox_ide alarm"
             ],
             houseRules: [
                 "Check-in: After 1:00 pm",
@@ -616,7 +617,7 @@ const hotels = {
             isCancelable: true
         },
         {
-            id: uuid(),
+            _id: uuid(),
             name: "Yosemite Shuteye, a most romantic getaway...",
             category: "Yurts",
             image: "https://a0.muscache.com/im/pictures/5ccd59ab-47d9-471d-af28-6687d472eaa5.jpg?im_w=720",
@@ -630,8 +631,8 @@ const hotels = {
             city: "Oakhurst",
             state: "California",
             country: "United States",
-            price: "149",
-            rating: "4.98",
+            price: 149,
+            rating: 4.98,
             numberOfBathrooms: 2,
             numberOfBeds: 1,
             numberOfguest: 3,
@@ -646,7 +647,7 @@ const hotels = {
             ],
             healthAndSafety: [
                 "No Smoke alarm",
-                "No Carbon monoxide alarm"
+                "No Carbon monox_ide alarm"
             ],
             houseRules: [
                 "Check-in: After 1:00 pm",
@@ -657,7 +658,7 @@ const hotels = {
             isCancelable: true
         },
         {
-            id: uuid(),
+            _id: uuid(),
             name: "Paisley Paradise Yurt",
             category: "Yurts",
             image: "https://a0.muscache.com/im/pictures/00d85f08-0f8d-4ba7-a0bf-6368ea5aee7c.jpg?im_w=720",
@@ -671,8 +672,8 @@ const hotels = {
             city: "Roy",
             state: "Washington",
             country: "United States",
-            price: "95",
-            rating: "4.93",
+            price: 95,
+            rating: 4.93,
             numberOfBathrooms: 2,
             numberOfBeds: 1,
             numberOfguest: 3,
@@ -687,7 +688,7 @@ const hotels = {
             ],
             healthAndSafety: [
                 "No Smoke alarm",
-                "No Carbon monoxide alarm"
+                "No Carbon monox_ide alarm"
             ],
             houseRules: [
                 "Check-in: After 1:00 pm",
@@ -698,7 +699,7 @@ const hotels = {
             isCancelable: true
         },
         {
-            id: uuid(),
+            _id: uuid(),
             name: "Riverview Yurt with private geothermal hotpool",
             category: "Yurts",
             image: "https://a0.muscache.com/im/pictures/c1d0d4ec-239a-4bcf-93e4-1fca68d3a0d7.jpg?im_w=720",
@@ -708,16 +709,16 @@ const hotels = {
                 "https://a0.muscache.com/im/pictures/caee6842-5a6b-4f2b-a481-9ec8c30c50e1.jpg?im_w=720",
                 "https://a0.muscache.com/im/pictures/804e107b-dacf-4d60-9bdc-5a7693092267.jpg?im_w=720"
             ],
-            address: "Buhl, Idaho",
+            address: "Buhl, _idaho",
             city: "Buhl",
-            state: "Idaho",
+            state: "_idaho",
             country: "United States",
-            price: "160",
-            rating: "4.99",
-            numberOfBathrooms: 2,
-            numberOfBeds: 1,
-            numberOfguest: 3,
-            numberOfBedrooms: 1,
+            price: 160,
+            rating: 4.99,
+            numberOfBathrooms: 3,
+            numberOfBeds: 11,
+            numberOfguest: 14,
+            numberOfBedrooms: 12,
             numberOfStudies: 1,
             hostName: "Lokesh",
             hostJoinedOn: "December 2019",
@@ -728,7 +729,7 @@ const hotels = {
             ],
             healthAndSafety: [
                 "No Smoke alarm",
-                "No Carbon monoxide alarm"
+                "No Carbon monox_ide alarm"
             ],
             houseRules: [
                 "Check-in: After 1:00 pm",
@@ -739,7 +740,7 @@ const hotels = {
             isCancelable: true
         },
         {
-            id: uuid(),
+            _id: uuid(),
             name: "Yurt - Okanagan Glamping Co.",
             category: "Yurts",
             image: "https://a0.muscache.com/im/pictures/miso/Hosting-593567280628572650/original/debf843b-978b-4c4f-99e1-cd01e343ac5e.jpeg?im_w=720",
@@ -753,8 +754,8 @@ const hotels = {
             city: "Vernon",
             state: "Canada",
             country: "United States",
-            price: "161",
-            rating: "4.97",
+            price: 161,
+            rating: 4.97,
             numberOfBathrooms: 2,
             numberOfBeds: 1,
             numberOfguest: 3,
@@ -769,7 +770,7 @@ const hotels = {
             ],
             healthAndSafety: [
                 "No Smoke alarm",
-                "No Carbon monoxide alarm"
+                "No Carbon monox_ide alarm"
             ],
             houseRules: [
                 "Check-in: After 1:00 pm",
@@ -780,7 +781,7 @@ const hotels = {
             isCancelable: true
         },
         {
-            id: uuid(),
+            _id: uuid(),
             name: "Flying Frog Yurt w/Mountain View (Easy Checkout!)",
             category: "Yurts",
             image: "https://a0.muscache.com/im/pictures/miso/Hosting-47509248/original/383f595a-4796-4707-a4f2-fff1fd2a9cfd.jpeg?im_w=720",
@@ -794,8 +795,8 @@ const hotels = {
             city: "Gresham",
             state: "Oregon",
             country: "United States",
-            price: "119",
-            rating: "4.98",
+            price: 119,
+            rating: 4.98,
             numberOfBathrooms: 2,
             numberOfBeds: 1,
             numberOfguest: 3,
@@ -810,7 +811,7 @@ const hotels = {
             ],
             healthAndSafety: [
                 "No Smoke alarm",
-                "No Carbon monoxide alarm"
+                "No Carbon monox_ide alarm"
             ],
             houseRules: [
                 "Check-in: After 1:00 pm",
@@ -821,7 +822,7 @@ const hotels = {
             isCancelable: true
         },
         {
-            id: uuid(),
+            _id: uuid(),
             name: "Retreat on the Willamette River",
             category: "Yurts",
             image: "https://a0.muscache.com/im/pictures/4af720ff-775f-4a9b-a314-53195b037fb1.jpg?im_w=720",
@@ -835,8 +836,8 @@ const hotels = {
             city: "Eugene",
             state: "Oregon",
             country: "United States",
-            price: "58",
-            rating: "4.82",
+            price: 58,
+            rating: 4.82,
             numberOfBathrooms: 2,
             numberOfBeds: 1,
             numberOfguest: 3,
@@ -851,7 +852,7 @@ const hotels = {
             ],
             healthAndSafety: [
                 "No Smoke alarm",
-                "No Carbon monoxide alarm"
+                "No Carbon monox_ide alarm"
             ],
             houseRules: [
                 "Check-in: After 1:00 pm",
@@ -862,7 +863,7 @@ const hotels = {
             isCancelable: true
         },
         {
-            id: uuid(),
+            _id: uuid(),
             name: "Vibrant and unique yurt - Welcome to Madrona Grove",
             category: "Yurts",
             image: "https://a0.muscache.com/im/pictures/miso/Hosting-651656778532694188/original/7e950394-4bc3-4e9f-9a68-bf8de3f69831.jpeg?im_w=720",
@@ -876,8 +877,8 @@ const hotels = {
             city: "Sequim",
             state: "Washington",
             country: "United States",
-            price: "166",
-            rating: "4.9",
+            price: 166,
+            rating: 4.9,
             numberOfBathrooms: 2,
             numberOfBeds: 1,
             numberOfguest: 3,
@@ -892,7 +893,7 @@ const hotels = {
             ],
             healthAndSafety: [
                 "No Smoke alarm",
-                "No Carbon monoxide alarm"
+                "No Carbon monox_ide alarm"
             ],
             houseRules: [
                 "Check-in: After 1:00 pm",
@@ -900,10 +901,10 @@ const hotels = {
                 "Pets are allowed"
             ],
             propertyType: "Guest House",
-            isCancelable: true
+            isCancelable: false
         },
         {
-            id: uuid(),
+            _id: uuid(),
             name: "Mountain View Yurt",
             category: "Yurts",
             image: "https://a0.muscache.com/im/pictures/miso/Hosting-53458593/original/f11a4297-4612-4e84-83d0-7448cd3d42c9.jpeg?im_w=720",
@@ -917,8 +918,8 @@ const hotels = {
             city: "Victor",
             state: "Montana",
             country: "United States",
-            price: "81",
-            rating: "4.98",
+            price: 81,
+            rating: 4.98,
             numberOfBathrooms: 2,
             numberOfBeds: 1,
             numberOfguest: 3,
@@ -933,7 +934,7 @@ const hotels = {
             ],
             healthAndSafety: [
                 "No Smoke alarm",
-                "No Carbon monoxide alarm"
+                "No Carbon monox_ide alarm"
             ],
             houseRules: [
                 "Check-in: After 1:00 pm",
@@ -944,7 +945,7 @@ const hotels = {
             isCancelable: true
         },
         {
-            id: uuid(),
+            _id: uuid(),
             name: "Yurt Meadow Retreat - on farm by nature park",
             category: "Yurts",
             image: "https://a0.muscache.com/im/pictures/53b6d30c-6739-4889-af62-39a9e3616680.jpg?im_w=720",
@@ -958,8 +959,8 @@ const hotels = {
             city: "Portland",
             state: "Oregon",
             country: "United States",
-            price: "70",
-            rating: "4.92",
+            price: 70,
+            rating: 4.92,
             numberOfBathrooms: 2,
             numberOfBeds: 1,
             numberOfguest: 3,
@@ -974,7 +975,7 @@ const hotels = {
             ],
             healthAndSafety: [
                 "No Smoke alarm",
-                "No Carbon monoxide alarm"
+                "No Carbon monox_ide alarm"
             ],
             houseRules: [
                 "Check-in: After 1:00 pm",
@@ -985,7 +986,7 @@ const hotels = {
             isCancelable: true
         },
         {
-            id: uuid(),
+            _id: uuid(),
             name: "Montana Bunkhouse Cabin Right on The River",
             category: "Yurts",
             image: "https://a0.muscache.com/im/pictures/miso/Hosting-14385441/original/a08e428e-5a95-401b-80d0-377007809c78.jpeg?im_w=720",
@@ -999,8 +1000,8 @@ const hotels = {
             city: "Troy",
             state: "Montana",
             country: "United States",
-            price: "95",
-            rating: "4.99",
+            price: 95,
+            rating: 4.99,
             numberOfBathrooms: 2,
             numberOfBeds: 1,
             numberOfguest: 3,
@@ -1015,7 +1016,7 @@ const hotels = {
             ],
             healthAndSafety: [
                 "No Smoke alarm",
-                "No Carbon monoxide alarm"
+                "No Carbon monox_ide alarm"
             ],
             houseRules: [
                 "Check-in: After 1:00 pm",
@@ -1026,7 +1027,7 @@ const hotels = {
             isCancelable: true
         },
         {
-            id: uuid(),
+            _id: uuid(),
             name: "Myrtle's Yurt",
             category: "Yurts",
             image: "https://a0.muscache.com/im/pictures/miso/Hosting-911006145051734908/original/e33a5bae-3ad4-4cb4-b466-ee0adb83a321.jpeg?im_w=720",
@@ -1040,8 +1041,8 @@ const hotels = {
             city: "Chiloquin",
             state: "Oregon",
             country: "United States",
-            price: "135",
-            rating: "4.88",
+            price: 135,
+            rating: 4.88,
             numberOfBathrooms: 2,
             numberOfBeds: 1,
             numberOfguest: 3,
@@ -1056,7 +1057,7 @@ const hotels = {
             ],
             healthAndSafety: [
                 "No Smoke alarm",
-                "No Carbon monoxide alarm"
+                "No Carbon monox_ide alarm"
             ],
             houseRules: [
                 "Check-in: After 1:00 pm",
@@ -1067,7 +1068,7 @@ const hotels = {
             isCancelable: true
         },
         {
-            id: uuid(),
+            _id: uuid(),
             name: "Camp Earnest Queen Yurt in Twain Harte",
             category: "Yurts",
             image: "https://a0.muscache.com/im/pictures/miso/Hosting-629817824557185384/original/3c04f79b-0e2c-4c25-8a6d-28d5ca38334a.jpeg?im_w=720",
@@ -1081,8 +1082,8 @@ const hotels = {
             city: "Twain Harte",
             state: "California",
             country: "United States",
-            price: "99",
-            rating: "4.88",
+            price: 99,
+            rating: 4.88,
             numberOfBathrooms: 2,
             numberOfBeds: 1,
             numberOfguest: 3,
@@ -1097,7 +1098,7 @@ const hotels = {
             ],
             healthAndSafety: [
                 "No Smoke alarm",
-                "No Carbon monoxide alarm"
+                "No Carbon monox_ide alarm"
             ],
             houseRules: [
                 "Check-in: After 1:00 pm",
@@ -1108,8 +1109,8 @@ const hotels = {
             isCancelable: true
         },
         {
-            id: uuid(),
-            name: "Stanwood Resorts",
+            _id: uuid(),
+            name: "StanWood Hotel",
             category: "Yurts",
             image: "https://a0.muscache.com/im/pictures/miso/Hosting-52983762/original/b2691e77-cc5b-4ea0-9e19-129aab0b955f.jpeg?im_w=720",
             imageArr: [
@@ -1122,8 +1123,8 @@ const hotels = {
             city: "Stanwood",
             state: "Washington",
             country: "United States",
-            price: "211",
-            rating: "4.98",
+            price: 211,
+            rating: 4.98,
             numberOfBathrooms: 2,
             numberOfBeds: 1,
             numberOfguest: 3,
@@ -1138,7 +1139,7 @@ const hotels = {
             ],
             healthAndSafety: [
                 "No Smoke alarm",
-                "No Carbon monoxide alarm"
+                "No Carbon monox_ide alarm"
             ],
             houseRules: [
                 "Check-in: After 1:00 pm",
@@ -1149,7 +1150,7 @@ const hotels = {
             isCancelable: true
         },
         {
-            id: uuid(),
+            _id: uuid(),
             name: "The Yurt at Cluster Flock Farms",
             category: "Yurts",
             image: "https://a0.muscache.com/im/pictures/bc55f780-875c-44f6-99da-54deb7577540.jpg?im_w=720",
@@ -1163,8 +1164,8 @@ const hotels = {
             city: "White Salmon",
             state: "Washington",
             country: "United States",
-            price: "96",
-            rating: "4.86",
+            price: 96,
+            rating: 4.86,
             numberOfBathrooms: 2,
             numberOfBeds: 1,
             numberOfguest: 3,
@@ -1179,7 +1180,7 @@ const hotels = {
             ],
             healthAndSafety: [
                 "No Smoke alarm",
-                "No Carbon monoxide alarm"
+                "No Carbon monox_ide alarm"
             ],
             houseRules: [
                 "Check-in: After 1:00 pm",
@@ -1190,7 +1191,7 @@ const hotels = {
             isCancelable: true
         },
         {
-            id: uuid(),
+            _id: uuid(),
             name: "Authentic, amazing PNW glamping experience!",
             category: "Yurts",
             image: "https://a0.muscache.com/im/pictures/6a9e99cc-d94c-4105-b44b-d439975b717c.jpg?im_w=720",
@@ -1204,8 +1205,8 @@ const hotels = {
             city: "Vashon",
             state: "Washington",
             country: "United States",
-            price: "125",
-            rating: "4.9",
+            price: 125,
+            rating: 4.9,
             numberOfBathrooms: 2,
             numberOfBeds: 1,
             numberOfguest: 3,
@@ -1220,7 +1221,7 @@ const hotels = {
             ],
             healthAndSafety: [
                 "No Smoke alarm",
-                "No Carbon monoxide alarm"
+                "No Carbon monox_ide alarm"
             ],
             houseRules: [
                 "Check-in: After 1:00 pm",
@@ -1231,7 +1232,7 @@ const hotels = {
             isCancelable: true
         },
         {
-            id: uuid(),
+            _id: uuid(),
             name: "Rock House Yurt in the woods",
             category: "Yurts",
             image: "https://a0.muscache.com/im/pictures/40017275-6b54-49d1-81e9-bbf028901c69.jpg?im_w=720",
@@ -1245,8 +1246,8 @@ const hotels = {
             city: "Oroville",
             state: "California",
             country: "United States",
-            price: "52",
-            rating: "4.8",
+            price: 52,
+            rating: 4.8,
             numberOfBathrooms: 2,
             numberOfBeds: 1,
             numberOfguest: 3,
@@ -1261,7 +1262,7 @@ const hotels = {
             ],
             healthAndSafety: [
                 "No Smoke alarm",
-                "No Carbon monoxide alarm"
+                "No Carbon monox_ide alarm"
             ],
             houseRules: [
                 "Check-in: After 1:00 pm",
@@ -1272,7 +1273,7 @@ const hotels = {
             isCancelable: true
         },
         {
-            id: uuid(),
+            _id: uuid(),
             name: "Yurt Glamping, Mtn bike trail, Disc golf course!",
             category: "Yurts",
             image: "https://a0.muscache.com/im/pictures/miso/Hosting-645822126707243847/original/3a63ca36-19e9-488a-99e0-fdf5e544830d.jpeg?im_w=720",
@@ -1286,8 +1287,8 @@ const hotels = {
             city: "Milburn",
             state: "Utah",
             country: "United States",
-            price: "115",
-            rating: "4.91",
+            price: 115,
+            rating: 4.91,
             numberOfBathrooms: 2,
             numberOfBeds: 1,
             numberOfguest: 3,
@@ -1302,7 +1303,7 @@ const hotels = {
             ],
             healthAndSafety: [
                 "No Smoke alarm",
-                "No Carbon monoxide alarm"
+                "No Carbon monox_ide alarm"
             ],
             houseRules: [
                 "Check-in: After 1:00 pm",
@@ -1310,10 +1311,10 @@ const hotels = {
                 "Pets are allowed"
             ],
             propertyType: "Guest House",
-            isCancelable: true
+            isCancelable: false
         },
         {
-            id: uuid(),
+            _id: uuid(),
             name: "Two Ravens Yurt: Modern, Romantic, Eco-Friendly",
             category: "Yurts",
             image: "https://a0.muscache.com/im/pictures/ed2d6699-48dd-43d6-bf59-ddf843002f60.jpg?im_w=720",
@@ -1327,8 +1328,8 @@ const hotels = {
             city: "Golden",
             state: "Canada",
             country: "United States",
-            price: "125",
-            rating: "4.99",
+            price: 125,
+            rating: 4.99,
             numberOfBathrooms: 2,
             numberOfBeds: 1,
             numberOfguest: 3,
@@ -1343,7 +1344,7 @@ const hotels = {
             ],
             healthAndSafety: [
                 "No Smoke alarm",
-                "No Carbon monoxide alarm"
+                "No Carbon monox_ide alarm"
             ],
             houseRules: [
                 "Check-in: After 1:00 pm",
@@ -1354,7 +1355,7 @@ const hotels = {
             isCancelable: true
         },
         {
-            id: uuid(),
+            _id: uuid(),
             name: "R&R King Suite",
             category: "Yurts",
             image: "https://a0.muscache.com/im/pictures/c947fe12-182a-4dd4-b5c9-3b56c25b6995.jpg?im_w=720",
@@ -1364,12 +1365,12 @@ const hotels = {
                 "https://a0.muscache.com/im/pictures/b2896d5f-96ea-4f1e-b453-2b55fa95f4d3.jpg?im_w=720",
                 "https://a0.muscache.com/im/pictures/1d7b976b-7fb4-46be-83ba-15ef65a4a94d.jpg?im_w=720"
             ],
-            address: "Lowman, Idaho",
+            address: "Lowman, _idaho",
             city: "Lowman",
-            state: "Idaho",
+            state: "_idaho",
             country: "United States",
-            price: "81",
-            rating: "4.8",
+            price: 81,
+            rating: 4.8,
             numberOfBathrooms: 2,
             numberOfBeds: 1,
             numberOfguest: 3,
@@ -1384,7 +1385,7 @@ const hotels = {
             ],
             healthAndSafety: [
                 "No Smoke alarm",
-                "No Carbon monoxide alarm"
+                "No Carbon monox_ide alarm"
             ],
             houseRules: [
                 "Check-in: After 1:00 pm",
@@ -1395,9 +1396,9 @@ const hotels = {
             isCancelable: true
         },
         {
-            id: uuid(),
+            _id: uuid(),
             name: "Magpie Springs Yurtship",
-            category: "Yurts",
+            category: "Treehouses",
             image: "https://a0.muscache.com/im/pictures/miso/Hosting-39302912/original/05de9b18-5689-4d66-963a-58f463e238ba.jpeg?im_w=720",
             imageArr: [
                 "https://a0.muscache.com/im/pictures/miso/Hosting-39302912/original/91fed77e-0f68-4288-a905-4b64156bf65d.jpeg?im_w=720",
@@ -1409,8 +1410,8 @@ const hotels = {
             city: "Dillon",
             state: "Montana",
             country: "United States",
-            price: "60",
-            rating: "4.98",
+            price: 60,
+            rating: 4.98,
             numberOfBathrooms: 2,
             numberOfBeds: 1,
             numberOfguest: 3,
@@ -1425,7 +1426,7 @@ const hotels = {
             ],
             healthAndSafety: [
                 "No Smoke alarm",
-                "No Carbon monoxide alarm"
+                "No Carbon monox_ide alarm"
             ],
             houseRules: [
                 "Check-in: After 1:00 pm",
@@ -1436,9 +1437,9 @@ const hotels = {
             isCancelable: true
         },
         {
-            id: uuid(),
+            _id: uuid(),
             name: "Camp Earnest King Yurt in Twain Harte",
-            category: "Yurts",
+            category: "Treehouses",
             image: "https://a0.muscache.com/im/pictures/miso/Hosting-629808186437102897/original/c791c12d-9300-4419-ad6e-f20faefca77d.jpeg?im_w=720",
             imageArr: [
                 "https://a0.muscache.com/im/pictures/miso/Hosting-629808186437102897/original/14a0f994-d199-4050-9622-f2d897bc99b3.jpeg?im_w=720",
@@ -1450,8 +1451,8 @@ const hotels = {
             city: "Twain Harte",
             state: "California",
             country: "United States",
-            price: "99",
-            rating: "4.86",
+            price: 99,
+            rating: 4.86,
             numberOfBathrooms: 2,
             numberOfBeds: 1,
             numberOfguest: 3,
@@ -1466,7 +1467,48 @@ const hotels = {
             ],
             healthAndSafety: [
                 "No Smoke alarm",
-                "No Carbon monoxide alarm"
+                "No Carbon monox_ide alarm"
+            ],
+            houseRules: [
+                "Check-in: After 1:00 pm",
+                "Check out: 11:00 am",
+                "Pets are allowed"
+            ],
+            propertyType: "Guest House",
+            isCancelable: false
+        },
+        {
+            _id: uuid(),
+            name: "She Dances in Moonlight Yurt up Rock Creek",
+            category: "Treehouses",
+            image: "https://a0.muscache.com/im/pictures/db3c600b-9a33-4655-b9d6-0d60120e246d.jpg?im_w=720",
+            imageArr: [
+                "https://a0.muscache.com/im/pictures/cab42fc6-b2fd-4659-8288-0018e99899a1.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/547ca041-cc63-406f-a557-1838d2ecef5e.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/870f26b9-5d67-4a41-9804-619301bc02d0.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/144d20bf-8c1d-47f0-8906-d94a984e35ae.jpg?im_w=720"
+            ],
+            address: "Clinton, Montana",
+            city: "Clinton",
+            state: "Montana",
+            country: "United States",
+            price: 89,
+            rating: 4.98,
+            numberOfBathrooms: 2,
+            numberOfBeds: 1,
+            numberOfguest: 3,
+            numberOfBedrooms: 1,
+            numberOfStudies: 1,
+            hostName: "Lokesh",
+            hostJoinedOn: "December 2019",
+            ameneties: [
+                "Kitchen",
+                "Wifi",
+                "Pets Allowed"
+            ],
+            healthAndSafety: [
+                "No Smoke alarm",
+                "No Carbon monox_ide alarm"
             ],
             houseRules: [
                 "Check-in: After 1:00 pm",
@@ -1477,7 +1519,89 @@ const hotels = {
             isCancelable: true
         },
         {
-            id: uuid(),
+            _id: uuid(),
+            name: "26' Yurt Cozy Glamping Getaway!",
+            category: "Treehouses",
+            image: "https://a0.muscache.com/im/pictures/e928af0c-c1d7-42ee-a176-b798e9f452bf.jpg?im_w=720",
+            imageArr: [
+                "https://a0.muscache.com/im/pictures/34f44a19-c266-4119-8664-c7501a7d6719.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/36dd8fe2-a589-4729-8984-71be04a46962.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/ffde9fb4-2b5b-44b8-968a-c72d4e5c106a.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/f5e0c4a2-f628-4f48-867e-1786828db46e.jpg?im_w=720"
+            ],
+            address: "Cedar City, Utah",
+            city: "Cedar City",
+            state: "Utah",
+            country: "United States",
+            price: 69,
+            rating: 4.77,
+            numberOfBathrooms: 2,
+            numberOfBeds: 1,
+            numberOfguest: 3,
+            numberOfBedrooms: 1,
+            numberOfStudies: 1,
+            hostName: "Lokesh",
+            hostJoinedOn: "December 2019",
+            ameneties: [
+                "Kitchen",
+                "Wifi",
+                "Pets Allowed"
+            ],
+            healthAndSafety: [
+                "No Smoke alarm",
+                "No Carbon monox_ide alarm"
+            ],
+            houseRules: [
+                "Check-in: After 1:00 pm",
+                "Check out: 11:00 am",
+                "Pets are allowed"
+            ],
+            propertyType: "Guest House",
+            isCancelable: false
+        },
+        {
+            _id: uuid(),
+            name: "Camp Earnest King Yurt in Twain Harte",
+            category: "Treehouses",
+            image: "https://a0.muscache.com/im/pictures/miso/Hosting-629808186437102897/original/c791c12d-9300-4419-ad6e-f20faefca77d.jpeg?im_w=720",
+            imageArr: [
+                "https://a0.muscache.com/im/pictures/miso/Hosting-629808186437102897/original/14a0f994-d199-4050-9622-f2d897bc99b3.jpeg?im_w=720",
+                "https://a0.muscache.com/im/pictures/miso/Hosting-629808186437102897/original/b22b7321-8093-4bb0-9895-b6092ce3dbc3.jpeg?im_w=720",
+                "https://a0.muscache.com/im/pictures/miso/Hosting-629808186437102897/original/8dc19f71-5f1e-4722-a74d-b7cd9b42c84c.jpeg?im_w=720",
+                "https://a0.muscache.com/im/pictures/miso/Hosting-629808186437102897/original/f4be612d-198d-428d-a958-a793d8759176.jpeg?im_w=720"
+            ],
+            address: "Twain Harte, California",
+            city: "Twain Harte",
+            state: "California",
+            country: "United States",
+            price: 99,
+            rating: 4.86,
+            numberOfBathrooms: 2,
+            numberOfBeds: 1,
+            numberOfguest: 3,
+            numberOfBedrooms: 1,
+            numberOfStudies: 1,
+            hostName: "Lokesh",
+            hostJoinedOn: "December 2019",
+            ameneties: [
+                "Kitchen",
+                "Wifi",
+                "Pets Allowed"
+            ],
+            healthAndSafety: [
+                "No Smoke alarm",
+                "No Carbon monox_ide alarm"
+            ],
+            houseRules: [
+                "Check-in: After 1:00 pm",
+                "Check out: 11:00 am",
+                "Pets are allowed"
+            ],
+            propertyType: "Guest House",
+            isCancelable: true
+        },
+        {
+            _id: uuid(),
             name: "She Dances in Moonlight Yurt up Rock Creek",
             category: "Yurts",
             image: "https://a0.muscache.com/im/pictures/db3c600b-9a33-4655-b9d6-0d60120e246d.jpg?im_w=720",
@@ -1491,8 +1615,8 @@ const hotels = {
             city: "Clinton",
             state: "Montana",
             country: "United States",
-            price: "89",
-            rating: "4.98",
+            price: 89,
+            rating: 4.98,
             numberOfBathrooms: 2,
             numberOfBeds: 1,
             numberOfguest: 3,
@@ -1507,7 +1631,7 @@ const hotels = {
             ],
             healthAndSafety: [
                 "No Smoke alarm",
-                "No Carbon monoxide alarm"
+                "No Carbon monox_ide alarm"
             ],
             houseRules: [
                 "Check-in: After 1:00 pm",
@@ -1518,7 +1642,7 @@ const hotels = {
             isCancelable: true
         },
         {
-            id: uuid(),
+            _id: uuid(),
             name: "26' Yurt Cozy Glamping Getaway!",
             category: "Yurts",
             image: "https://a0.muscache.com/im/pictures/e928af0c-c1d7-42ee-a176-b798e9f452bf.jpg?im_w=720",
@@ -1532,8 +1656,8 @@ const hotels = {
             city: "Cedar City",
             state: "Utah",
             country: "United States",
-            price: "69",
-            rating: "4.77",
+            price: 69,
+            rating: 4.77,
             numberOfBathrooms: 2,
             numberOfBeds: 1,
             numberOfguest: 3,
@@ -1548,7 +1672,7 @@ const hotels = {
             ],
             healthAndSafety: [
                 "No Smoke alarm",
-                "No Carbon monoxide alarm"
+                "No Carbon monox_ide alarm"
             ],
             houseRules: [
                 "Check-in: After 1:00 pm",
@@ -1559,130 +1683,7 @@ const hotels = {
             isCancelable: true
         },
         {
-            id: uuid(),
-            name: "Camp Earnest King Yurt in Twain Harte",
-            category: "Yurts",
-            image: "https://a0.muscache.com/im/pictures/miso/Hosting-629808186437102897/original/c791c12d-9300-4419-ad6e-f20faefca77d.jpeg?im_w=720",
-            imageArr: [
-                "https://a0.muscache.com/im/pictures/miso/Hosting-629808186437102897/original/14a0f994-d199-4050-9622-f2d897bc99b3.jpeg?im_w=720",
-                "https://a0.muscache.com/im/pictures/miso/Hosting-629808186437102897/original/b22b7321-8093-4bb0-9895-b6092ce3dbc3.jpeg?im_w=720",
-                "https://a0.muscache.com/im/pictures/miso/Hosting-629808186437102897/original/8dc19f71-5f1e-4722-a74d-b7cd9b42c84c.jpeg?im_w=720",
-                "https://a0.muscache.com/im/pictures/miso/Hosting-629808186437102897/original/f4be612d-198d-428d-a958-a793d8759176.jpeg?im_w=720"
-            ],
-            address: "Twain Harte, California",
-            city: "Twain Harte",
-            state: "California",
-            country: "United States",
-            price: "99",
-            rating: "4.86",
-            numberOfBathrooms: 2,
-            numberOfBeds: 1,
-            numberOfguest: 3,
-            numberOfBedrooms: 1,
-            numberOfStudies: 1,
-            hostName: "Lokesh",
-            hostJoinedOn: "December 2019",
-            ameneties: [
-                "Kitchen",
-                "Wifi",
-                "Pets Allowed"
-            ],
-            healthAndSafety: [
-                "No Smoke alarm",
-                "No Carbon monoxide alarm"
-            ],
-            houseRules: [
-                "Check-in: After 1:00 pm",
-                "Check out: 11:00 am",
-                "Pets are allowed"
-            ],
-            propertyType: "Guest House",
-            isCancelable: true
-        },
-        {
-            id: uuid(),
-            name: "She Dances in Moonlight Yurt up Rock Creek",
-            category: "Yurts",
-            image: "https://a0.muscache.com/im/pictures/db3c600b-9a33-4655-b9d6-0d60120e246d.jpg?im_w=720",
-            imageArr: [
-                "https://a0.muscache.com/im/pictures/cab42fc6-b2fd-4659-8288-0018e99899a1.jpg?im_w=720",
-                "https://a0.muscache.com/im/pictures/547ca041-cc63-406f-a557-1838d2ecef5e.jpg?im_w=720",
-                "https://a0.muscache.com/im/pictures/870f26b9-5d67-4a41-9804-619301bc02d0.jpg?im_w=720",
-                "https://a0.muscache.com/im/pictures/144d20bf-8c1d-47f0-8906-d94a984e35ae.jpg?im_w=720"
-            ],
-            address: "Clinton, Montana",
-            city: "Clinton",
-            state: "Montana",
-            country: "United States",
-            price: "89",
-            rating: "4.98",
-            numberOfBathrooms: 2,
-            numberOfBeds: 1,
-            numberOfguest: 3,
-            numberOfBedrooms: 1,
-            numberOfStudies: 1,
-            hostName: "Lokesh",
-            hostJoinedOn: "December 2019",
-            ameneties: [
-                "Kitchen",
-                "Wifi",
-                "Pets Allowed"
-            ],
-            healthAndSafety: [
-                "No Smoke alarm",
-                "No Carbon monoxide alarm"
-            ],
-            houseRules: [
-                "Check-in: After 1:00 pm",
-                "Check out: 11:00 am",
-                "Pets are allowed"
-            ],
-            propertyType: "Guest House",
-            isCancelable: true
-        },
-        {
-            id: uuid(),
-            name: "26' Yurt Cozy Glamping Getaway!",
-            category: "Yurts",
-            image: "https://a0.muscache.com/im/pictures/e928af0c-c1d7-42ee-a176-b798e9f452bf.jpg?im_w=720",
-            imageArr: [
-                "https://a0.muscache.com/im/pictures/34f44a19-c266-4119-8664-c7501a7d6719.jpg?im_w=720",
-                "https://a0.muscache.com/im/pictures/36dd8fe2-a589-4729-8984-71be04a46962.jpg?im_w=720",
-                "https://a0.muscache.com/im/pictures/ffde9fb4-2b5b-44b8-968a-c72d4e5c106a.jpg?im_w=720",
-                "https://a0.muscache.com/im/pictures/f5e0c4a2-f628-4f48-867e-1786828db46e.jpg?im_w=720"
-            ],
-            address: "Cedar City, Utah",
-            city: "Cedar City",
-            state: "Utah",
-            country: "United States",
-            price: "69",
-            rating: "4.77",
-            numberOfBathrooms: 2,
-            numberOfBeds: 1,
-            numberOfguest: 3,
-            numberOfBedrooms: 1,
-            numberOfStudies: 1,
-            hostName: "Lokesh",
-            hostJoinedOn: "December 2019",
-            ameneties: [
-                "Kitchen",
-                "Wifi",
-                "Pets Allowed"
-            ],
-            healthAndSafety: [
-                "No Smoke alarm",
-                "No Carbon monoxide alarm"
-            ],
-            houseRules: [
-                "Check-in: After 1:00 pm",
-                "Check out: 11:00 am",
-                "Pets are allowed"
-            ],
-            propertyType: "Guest House",
-            isCancelable: true
-        },
-        {
-            id: uuid(),
+            _id: uuid(),
             name: "Wildedge Ranch Yurt",
             category: "Yurts",
             image: "https://a0.muscache.com/im/pictures/miso/Hosting-770968997359978589/original/a2510c11-9486-449a-be4b-36700689b16f.jpeg?im_w=720",
@@ -1692,12 +1693,12 @@ const hotels = {
                 "https://a0.muscache.com/im/pictures/miso/Hosting-770968997359978589/original/12697a0d-cc60-4087-b61c-66263395d28a.jpeg?im_w=720",
                 "https://a0.muscache.com/im/pictures/miso/Hosting-770968997359978589/original/885c2ce0-5d77-4da3-a9bf-d92046810048.jpeg?im_w=720"
             ],
-            address: "Garden Valley, Idaho",
+            address: "Garden Valley, _idaho",
             city: "Garden Valley",
-            state: "Idaho",
+            state: "_idaho",
             country: "United States",
-            price: "56",
-            rating: "4.97",
+            price: 56,
+            rating: 4.97,
             numberOfBathrooms: 2,
             numberOfBeds: 1,
             numberOfguest: 3,
@@ -1712,7 +1713,7 @@ const hotels = {
             ],
             healthAndSafety: [
                 "No Smoke alarm",
-                "No Carbon monoxide alarm"
+                "No Carbon monox_ide alarm"
             ],
             houseRules: [
                 "Check-in: After 1:00 pm",
@@ -1720,12 +1721,12 @@ const hotels = {
                 "Pets are allowed"
             ],
             propertyType: "Guest House",
-            isCancelable: true
+            isCancelable: false
         },
         {
-            id: uuid(),
+            _id: uuid(),
             name: "Camp Caribou Guest Yurt - 10min from Glacier NP!",
-            category: "Yurts",
+            category: "Farms",
             image: "https://a0.muscache.com/im/pictures/86a9a03a-14bb-4337-9966-4feedd515bb8.jpg?im_w=720",
             imageArr: [
                 "https://a0.muscache.com/im/pictures/ef4b0077-ab08-4d9d-9698-901331404147.jpg?im_w=720",
@@ -1737,8 +1738,8 @@ const hotels = {
             city: "Coram",
             state: "Montana",
             country: "United States",
-            price: "189",
-            rating: "4.98",
+            price: 189,
+            rating: 4.98,
             numberOfBathrooms: 2,
             numberOfBeds: 1,
             numberOfguest: 3,
@@ -1753,7 +1754,7 @@ const hotels = {
             ],
             healthAndSafety: [
                 "No Smoke alarm",
-                "No Carbon monoxide alarm"
+                "No Carbon monox_ide alarm"
             ],
             houseRules: [
                 "Check-in: After 1:00 pm",
@@ -1764,9 +1765,9 @@ const hotels = {
             isCancelable: true
         },
         {
-            id: uuid(),
+            _id: uuid(),
             name: "Unique Luxury Grain Bin called the Happy Place",
-            category: "Yurts",
+            category: "Farms",
             image: "https://a0.muscache.com/im/pictures/6c5bf06a-9df1-4549-9c83-0f6524cbfde3.jpg?im_w=720",
             imageArr: [
                 "https://a0.muscache.com/im/pictures/39b503a9-cb9d-4d31-a333-f3f51b7fab97.jpg?im_w=720",
@@ -1778,8 +1779,8 @@ const hotels = {
             city: "Ronan",
             state: "Montana",
             country: "United States",
-            price: "80",
-            rating: "4.97",
+            price: 80,
+            rating: 4.97,
             numberOfBathrooms: 2,
             numberOfBeds: 1,
             numberOfguest: 3,
@@ -1794,7 +1795,7 @@ const hotels = {
             ],
             healthAndSafety: [
                 "No Smoke alarm",
-                "No Carbon monoxide alarm"
+                "No Carbon monox_ide alarm"
             ],
             houseRules: [
                 "Check-in: After 1:00 pm",
@@ -1805,9 +1806,9 @@ const hotels = {
             isCancelable: true
         },
         {
-            id: uuid(),
+            _id: uuid(),
             name: "Yurtle Turtle  Island Getaway",
-            category: "Yurts",
+            category: "Golfing",
             image: "https://a0.muscache.com/im/pictures/52d4fd9c-c6fc-41d0-b521-201068cd72d7.jpg?im_w=720",
             imageArr: [
                 "https://a0.muscache.com/im/pictures/miso/Hosting-768248700081133087/original/1f3c4fd4-a298-4e89-8221-6df20a575e30.jpeg?im_w=720",
@@ -1819,8 +1820,8 @@ const hotels = {
             city: "Camano",
             state: "Washington",
             country: "United States",
-            price: "87",
-            rating: "4.87",
+            price: 87,
+            rating: 4.87,
             numberOfBathrooms: 2,
             numberOfBeds: 1,
             numberOfguest: 3,
@@ -1835,7 +1836,7 @@ const hotels = {
             ],
             healthAndSafety: [
                 "No Smoke alarm",
-                "No Carbon monoxide alarm"
+                "No Carbon monox_ide alarm"
             ],
             houseRules: [
                 "Check-in: After 1:00 pm",
@@ -1846,9 +1847,9 @@ const hotels = {
             isCancelable: true
         },
         {
-            id: uuid(),
+            _id: uuid(),
             name: "Prism Mongolian Yurt with Cedar Hot Tub",
-            category: "Yurts",
+            category: "Golfing",
             image: "https://a0.muscache.com/im/pictures/f716a5a8-bc40-4663-8172-b080f8a53129.jpg?im_w=720",
             imageArr: [
                 "https://a0.muscache.com/im/pictures/ea438c25-4664-49bd-addf-974a91b849fe.jpg?im_w=720",
@@ -1860,8 +1861,8 @@ const hotels = {
             city: "Buckley",
             state: "Washington",
             country: "United States",
-            price: "79",
-            rating: "5.0",
+            price: 79,
+            rating: 5.0,
             numberOfBathrooms: 2,
             numberOfBeds: 1,
             numberOfguest: 3,
@@ -1876,7 +1877,7 @@ const hotels = {
             ],
             healthAndSafety: [
                 "No Smoke alarm",
-                "No Carbon monoxide alarm"
+                "No Carbon monox_ide alarm"
             ],
             houseRules: [
                 "Check-in: After 1:00 pm",
@@ -1887,7 +1888,7 @@ const hotels = {
             isCancelable: true
         },
         {
-            id: uuid(),
+            _id: uuid(),
             name: "Sanctuary Farm Yurt Glamping with Breakfast",
             category: "Yurts",
             image: "https://a0.muscache.com/im/pictures/071c7ae3-a091-405f-a6c9-abff3974c648.jpg?im_w=720",
@@ -1901,8 +1902,8 @@ const hotels = {
             city: "Alberton",
             state: "Montana",
             country: "United States",
-            price: "107",
-            rating: "4.94",
+            price: 107,
+            rating: 4.94,
             numberOfBathrooms: 2,
             numberOfBeds: 1,
             numberOfguest: 3,
@@ -1917,7 +1918,7 @@ const hotels = {
             ],
             healthAndSafety: [
                 "No Smoke alarm",
-                "No Carbon monoxide alarm"
+                "No Carbon monox_ide alarm"
             ],
             houseRules: [
                 "Check-in: After 1:00 pm",
@@ -1928,9 +1929,9 @@ const hotels = {
             isCancelable: true
         },
         {
-            id: uuid(),
-            name: "Magical retreat: off-grid on 10 acres",
-            category: "Yurts",
+            _id: uuid(),
+            name: "Magical retreat: off-gr_id on 10 acres",
+            category: "Golfing",
             image: "https://a0.muscache.com/im/pictures/6e2bced9-41e1-442e-9e3c-fd9990205d9d.jpg?im_w=720",
             imageArr: [
                 "https://a0.muscache.com/im/pictures/562d2c41-1084-4d37-9f02-432f6674e233.jpg?im_w=720",
@@ -1942,8 +1943,8 @@ const hotels = {
             city: "Nevada City",
             state: "California",
             country: "United States",
-            price: "185",
-            rating: "4.9",
+            price: 185,
+            rating: 4.9,
             numberOfBathrooms: 2,
             numberOfBeds: 1,
             numberOfguest: 3,
@@ -1958,7 +1959,7 @@ const hotels = {
             ],
             healthAndSafety: [
                 "No Smoke alarm",
-                "No Carbon monoxide alarm"
+                "No Carbon monox_ide alarm"
             ],
             houseRules: [
                 "Check-in: After 1:00 pm",
@@ -1966,12 +1967,12 @@ const hotels = {
                 "Pets are allowed"
             ],
             propertyType: "Guest House",
-            isCancelable: true
+            isCancelable: false
         },
         {
-            id: uuid(),
+            _id: uuid(),
             name: "White Salmon Yurt Getaway",
-            category: "Yurts",
+            category: "Golfing",
             image: "https://a0.muscache.com/im/pictures/b4f9ea55-546f-4a11-b52c-421fdec90ade.jpg?im_w=720",
             imageArr: [
                 "https://a0.muscache.com/im/pictures/airflow/Hosting-49691344/original/3057a569-f23b-45c5-b272-4aaf6aa29164.jpg?im_w=720",
@@ -1983,8 +1984,8 @@ const hotels = {
             city: "White Salmon",
             state: "Washington",
             country: "United States",
-            price: "204",
-            rating: "4.99",
+            price: 204,
+            rating: 4.99,
             numberOfBathrooms: 2,
             numberOfBeds: 1,
             numberOfguest: 3,
@@ -1999,7 +2000,7 @@ const hotels = {
             ],
             healthAndSafety: [
                 "No Smoke alarm",
-                "No Carbon monoxide alarm"
+                "No Carbon monox_ide alarm"
             ],
             houseRules: [
                 "Check-in: After 1:00 pm",
@@ -2010,7 +2011,7 @@ const hotels = {
             isCancelable: true
         },
         {
-            id: uuid(),
+            _id: uuid(),
             name: "Cozy yurt getaway - 16' and 20'",
             category: "Yurts",
             image: "https://a0.muscache.com/im/pictures/miso/Hosting-891298470628500049/original/8321c367-84c7-4215-8a69-18670a65bb42.jpeg?im_w=720",
@@ -2024,8 +2025,8 @@ const hotels = {
             city: "Pleasant Hill",
             state: "Oregon",
             country: "United States",
-            price: "200",
-            rating: "5.0",
+            price: 200,
+            rating: 5.0,
             numberOfBathrooms: 2,
             numberOfBeds: 1,
             numberOfguest: 3,
@@ -2040,7 +2041,7 @@ const hotels = {
             ],
             healthAndSafety: [
                 "No Smoke alarm",
-                "No Carbon monoxide alarm"
+                "No Carbon monox_ide alarm"
             ],
             houseRules: [
                 "Check-in: After 1:00 pm",
@@ -2051,8 +2052,8 @@ const hotels = {
             isCancelable: true
         },
         {
-            id: uuid(),
-            name: "Countryside Yurt",
+            _id: uuid(),
+            name: "Countrys_ide Yurt",
             category: "Yurts",
             image: "https://a0.muscache.com/im/pictures/miso/Hosting-917705126228415358/original/c45c9d41-4cbd-4072-bdd2-90c4bbaeea39.jpeg?im_w=720",
             imageArr: [
@@ -2065,8 +2066,8 @@ const hotels = {
             city: "Pincher Creek No. 9",
             state: "Canada",
             country: "United States",
-            price: "144",
-            rating: "4.9",
+            price: 144,
+            rating: 4.9,
             numberOfBathrooms: 2,
             numberOfBeds: 1,
             numberOfguest: 3,
@@ -2081,7 +2082,7 @@ const hotels = {
             ],
             healthAndSafety: [
                 "No Smoke alarm",
-                "No Carbon monoxide alarm"
+                "No Carbon monox_ide alarm"
             ],
             houseRules: [
                 "Check-in: After 1:00 pm",
@@ -2092,9 +2093,9 @@ const hotels = {
             isCancelable: true
         },
         {
-            id: uuid(),
+            _id: uuid(),
             name: "Heart Yurt - artisan made with cedar hot tub",
-            category: "Yurts",
+            category: "Golfing",
             image: "https://a0.muscache.com/im/pictures/prohost-api/Hosting-961661687102034735/original/9d15bd35-725e-4c51-96e4-9108681d7507.jpeg?im_w=720",
             imageArr: [
                 "https://a0.muscache.com/im/pictures/prohost-api/Hosting-961661687102034735/original/e9d0f7a3-81bc-4f04-9551-936c9173125b.jpeg?im_w=720",
@@ -2106,8 +2107,8 @@ const hotels = {
             city: "Buckley",
             state: "Washington",
             country: "United States",
-            price: "99",
-            rating: "New",
+            price: 99,
+            rating: 0.0,
             numberOfBathrooms: 2,
             numberOfBeds: 1,
             numberOfguest: 3,
@@ -2122,7 +2123,7 @@ const hotels = {
             ],
             healthAndSafety: [
                 "No Smoke alarm",
-                "No Carbon monoxide alarm"
+                "No Carbon monox_ide alarm"
             ],
             houseRules: [
                 "Check-in: After 1:00 pm",
@@ -2133,7 +2134,7 @@ const hotels = {
             isCancelable: true
         },
         {
-            id: uuid(),
+            _id: uuid(),
             name: "Enchanting 22-Foot Mongolian Yurt in the Woods",
             category: "Yurts",
             image: "https://a0.muscache.com/im/pictures/782691b1-6ed5-4d3c-b19a-2937ffd169a8.jpg?im_w=720",
@@ -2147,8 +2148,8 @@ const hotels = {
             city: "Weed",
             state: "California",
             country: "United States",
-            price: "195",
-            rating: "4.96",
+            price: 195,
+            rating: 4.96,
             numberOfBathrooms: 2,
             numberOfBeds: 1,
             numberOfguest: 3,
@@ -2163,7 +2164,7 @@ const hotels = {
             ],
             healthAndSafety: [
                 "No Smoke alarm",
-                "No Carbon monoxide alarm"
+                "No Carbon monox_ide alarm"
             ],
             houseRules: [
                 "Check-in: After 1:00 pm",
@@ -2174,7 +2175,7 @@ const hotels = {
             isCancelable: true
         },
         {
-            id: uuid(),
+            _id: uuid(),
             name: "Lupine Yurt of the Potomac Valley",
             category: "Yurts",
             image: "https://a0.muscache.com/im/pictures/265a2fb9-b558-4860-b177-b7393a65b2d7.jpg?im_w=720",
@@ -2188,8 +2189,8 @@ const hotels = {
             city: "Missoula County",
             state: "Montana",
             country: "United States",
-            price: "131",
-            rating: "4.95",
+            price: 131,
+            rating: 4.95,
             numberOfBathrooms: 2,
             numberOfBeds: 1,
             numberOfguest: 3,
@@ -2204,7 +2205,7 @@ const hotels = {
             ],
             healthAndSafety: [
                 "No Smoke alarm",
-                "No Carbon monoxide alarm"
+                "No Carbon monox_ide alarm"
             ],
             houseRules: [
                 "Check-in: After 1:00 pm",
@@ -2212,10 +2213,10 @@ const hotels = {
                 "Pets are allowed"
             ],
             propertyType: "Guest House",
-            isCancelable: true
+            isCancelable: false
         },
         {
-            id: uuid(),
+            _id: uuid(),
             name: "JJR Private Yurt with full bathroom, mountain",
             category: "Yurts",
             image: "https://a0.muscache.com/im/pictures/prohost-api/Hosting-892953664621254624/original/86b5d108-0464-4f41-b3a3-eb5c53501d8d.jpeg?im_w=720",
@@ -2229,8 +2230,8 @@ const hotels = {
             city: "Sisters",
             state: "Oregon",
             country: "United States",
-            price: "94",
-            rating: "4.83",
+            price: 94,
+            rating: 4.83,
             numberOfBathrooms: 2,
             numberOfBeds: 1,
             numberOfguest: 3,
@@ -2245,7 +2246,7 @@ const hotels = {
             ],
             healthAndSafety: [
                 "No Smoke alarm",
-                "No Carbon monoxide alarm"
+                "No Carbon monox_ide alarm"
             ],
             houseRules: [
                 "Check-in: After 1:00 pm",
@@ -2256,7 +2257,7 @@ const hotels = {
             isCancelable: true
         },
         {
-            id: uuid(),
+            _id: uuid(),
             name: "Kicking Horse Yurt with Hot Tub & Epic Views!",
             category: "Yurts",
             image: "https://a0.muscache.com/im/pictures/c366f35b-6baa-4c1e-9aa3-0f8728d56758.jpg?im_w=720",
@@ -2270,8 +2271,8 @@ const hotels = {
             city: "Golden",
             state: "Canada",
             country: "United States",
-            price: "110",
-            rating: "4.94",
+            price: 110,
+            rating: 4.94,
             numberOfBathrooms: 2,
             numberOfBeds: 1,
             numberOfguest: 3,
@@ -2286,7 +2287,7 @@ const hotels = {
             ],
             healthAndSafety: [
                 "No Smoke alarm",
-                "No Carbon monoxide alarm"
+                "No Carbon monox_ide alarm"
             ],
             houseRules: [
                 "Check-in: After 1:00 pm",
@@ -2297,7 +2298,7 @@ const hotels = {
             isCancelable: true
         },
         {
-            id: uuid(),
+            _id: uuid(),
             name: "The Moon Yurt",
             category: "Yurts",
             image: "https://a0.muscache.com/im/pictures/miso/Hosting-48517187/original/861bd06c-1641-4038-85e4-c2e23fb030e8.jpeg?im_w=720",
@@ -2307,12 +2308,12 @@ const hotels = {
                 "https://a0.muscache.com/im/pictures/miso/Hosting-48517187/original/d956a5fa-0a55-4c7e-8f54-8fe9ec8ce12e.jpeg?im_w=720",
                 "https://a0.muscache.com/im/pictures/miso/Hosting-48517187/original/1c100be9-3124-4c13-97e5-2a7f017b7ee4.jpeg?im_w=720"
             ],
-            address: "McCall, Idaho",
+            address: "McCall, _idaho",
             city: "McCall",
-            state: "Idaho",
+            state: "_idaho",
             country: "United States",
-            price: "78",
-            rating: "4.96",
+            price: 78,
+            rating: 4.96,
             numberOfBathrooms: 2,
             numberOfBeds: 1,
             numberOfguest: 3,
@@ -2327,7 +2328,7 @@ const hotels = {
             ],
             healthAndSafety: [
                 "No Smoke alarm",
-                "No Carbon monoxide alarm"
+                "No Carbon monox_ide alarm"
             ],
             houseRules: [
                 "Check-in: After 1:00 pm",
@@ -2335,10 +2336,10 @@ const hotels = {
                 "Pets are allowed"
             ],
             propertyType: "Guest House",
-            isCancelable: true
+            isCancelable: false
         },
         {
-            id: uuid(),
+            _id: uuid(),
             name: "Smith Rock Casita Steps From Smith Rock State Park",
             category: "Yurts",
             image: "https://a0.muscache.com/im/pictures/miso/Hosting-20152623/original/1e70485a-4693-4ea7-a53e-a6fa5b6c8d2d.jpeg?im_w=720",
@@ -2352,8 +2353,8 @@ const hotels = {
             city: "Terrebonne",
             state: "Oregon",
             country: "United States",
-            price: "199",
-            rating: "4.99",
+            price: 199,
+            rating: 4.99,
             numberOfBathrooms: 2,
             numberOfBeds: 1,
             numberOfguest: 3,
@@ -2368,7 +2369,7 @@ const hotels = {
             ],
             healthAndSafety: [
                 "No Smoke alarm",
-                "No Carbon monoxide alarm"
+                "No Carbon monox_ide alarm"
             ],
             houseRules: [
                 "Check-in: After 1:00 pm",
@@ -2379,7 +2380,7 @@ const hotels = {
             isCancelable: true
         },
         {
-            id: uuid(),
+            _id: uuid(),
             name: "Gorge Yurt Getaway",
             category: "Yurts",
             image: "https://a0.muscache.com/im/pictures/c3be7396-2d8f-4007-ab9f-84a48ab13ff1.jpg?im_w=720",
@@ -2393,8 +2394,8 @@ const hotels = {
             city: "Mosier",
             state: "Oregon",
             country: "United States",
-            price: "120",
-            rating: "4.93",
+            price: 120,
+            rating: 4.93,
             numberOfBathrooms: 2,
             numberOfBeds: 1,
             numberOfguest: 3,
@@ -2409,7 +2410,7 @@ const hotels = {
             ],
             healthAndSafety: [
                 "No Smoke alarm",
-                "No Carbon monoxide alarm"
+                "No Carbon monox_ide alarm"
             ],
             houseRules: [
                 "Check-in: After 1:00 pm",
@@ -2420,7 +2421,7 @@ const hotels = {
             isCancelable: true
         },
         {
-            id: uuid(),
+            _id: uuid(),
             name: "Glen Ellen Wine Country Cottage/Hot Tub/Yoga Yurt",
             category: "Yurts",
             image: "https://a0.muscache.com/im/pictures/miso/Hosting-556815229323490321/original/97ba39fb-7c1a-4695-bd78-39b119499523.jpeg?im_w=720",
@@ -2434,8 +2435,8 @@ const hotels = {
             city: "Glen Ellen",
             state: "California",
             country: "United States",
-            price: "350",
-            rating: "4.97",
+            price: 350,
+            rating: 4.97,
             numberOfBathrooms: 2,
             numberOfBeds: 1,
             numberOfguest: 3,
@@ -2450,7 +2451,7 @@ const hotels = {
             ],
             healthAndSafety: [
                 "No Smoke alarm",
-                "No Carbon monoxide alarm"
+                "No Carbon monox_ide alarm"
             ],
             houseRules: [
                 "Check-in: After 1:00 pm",
@@ -2461,7 +2462,7 @@ const hotels = {
             isCancelable: true
         },
         {
-            id: uuid(),
+            _id: uuid(),
             name: "Riverfront Yurt near Hot Springs and Hiking.",
             category: "Yurts",
             image: "https://a0.muscache.com/im/pictures/miso/Hosting-602818151214696900/original/719d11da-8019-4bcc-91c4-d0e388db4c1d.jpeg?im_w=720",
@@ -2471,12 +2472,12 @@ const hotels = {
                 "https://a0.muscache.com/im/pictures/miso/Hosting-602818151214696900/original/d7bb19ed-9d28-4793-a93d-d057c96786a6.jpeg?im_w=720",
                 "https://a0.muscache.com/im/pictures/miso/Hosting-602818151214696900/original/b377d769-25a9-49cd-8375-cccd76d6e699.jpeg?im_w=720"
             ],
-            address: "Buhl, Idaho",
+            address: "Buhl, _idaho",
             city: "Buhl",
-            state: "Idaho",
+            state: "_idaho",
             country: "United States",
-            price: "99",
-            rating: "4.98",
+            price: 99,
+            rating: 4.98,
             numberOfBathrooms: 2,
             numberOfBeds: 1,
             numberOfguest: 3,
@@ -2491,7 +2492,7 @@ const hotels = {
             ],
             healthAndSafety: [
                 "No Smoke alarm",
-                "No Carbon monoxide alarm"
+                "No Carbon monox_ide alarm"
             ],
             houseRules: [
                 "Check-in: After 1:00 pm",
@@ -2499,10 +2500,10 @@ const hotels = {
                 "Pets are allowed"
             ],
             propertyType: "Guest House",
-            isCancelable: true
+            isCancelable: false
         },
         {
-            id: uuid(),
+            _id: uuid(),
             name: "Ranch House #2  Farm Tours- Near Crater Lake",
             category: "Yurts",
             image: "https://a0.muscache.com/im/pictures/1571ac89-a054-40a7-97cf-051327c0e3cf.jpg?im_w=720",
@@ -2516,8 +2517,8 @@ const hotels = {
             city: "Days Creek",
             state: "Oregon",
             country: "United States",
-            price: "135",
-            rating: "4.9",
+            price: 135,
+            rating: 4.9,
             numberOfBathrooms: 2,
             numberOfBeds: 1,
             numberOfguest: 3,
@@ -2532,7 +2533,7 @@ const hotels = {
             ],
             healthAndSafety: [
                 "No Smoke alarm",
-                "No Carbon monoxide alarm"
+                "No Carbon monox_ide alarm"
             ],
             houseRules: [
                 "Check-in: After 1:00 pm",
@@ -2543,7 +2544,7 @@ const hotels = {
             isCancelable: true
         },
         {
-            id: uuid(),
+            _id: uuid(),
             name: "Yolo Yurt",
             category: "Yurts",
             image: "https://a0.muscache.com/im/pictures/d496df6c-0bac-464a-aaa7-676813ba0587.jpg?im_w=720",
@@ -2557,8 +2558,8 @@ const hotels = {
             city: "Davis",
             state: "California",
             country: "United States",
-            price: "100",
-            rating: "4.99",
+            price: 100,
+            rating: 4.99,
             numberOfBathrooms: 2,
             numberOfBeds: 1,
             numberOfguest: 3,
@@ -2573,7 +2574,7 @@ const hotels = {
             ],
             healthAndSafety: [
                 "No Smoke alarm",
-                "No Carbon monoxide alarm"
+                "No Carbon monox_ide alarm"
             ],
             houseRules: [
                 "Check-in: After 1:00 pm",
@@ -2584,8 +2585,8 @@ const hotels = {
             isCancelable: true
         },
         {
-            id: uuid(),
-            name: "Zen Den\nOff-grid\nRoadside Yurt",
+            _id: uuid(),
+            name: "Zen Den Off-gr_id Roads_ide Yurt",
             category: "Yurts",
             image: "https://a0.muscache.com/im/pictures/2e4650b6-cb3b-4eac-a264-3e523a0d9704.jpg?im_w=720",
             imageArr: [
@@ -2598,8 +2599,8 @@ const hotels = {
             city: "Sequim",
             state: "Washington",
             country: "United States",
-            price: "245",
-            rating: "4.84",
+            price: 245,
+            rating: 4.84,
             numberOfBathrooms: 2,
             numberOfBeds: 1,
             numberOfguest: 3,
@@ -2614,7 +2615,7 @@ const hotels = {
             ],
             healthAndSafety: [
                 "No Smoke alarm",
-                "No Carbon monoxide alarm"
+                "No Carbon monox_ide alarm"
             ],
             houseRules: [
                 "Check-in: After 1:00 pm",
@@ -2625,7 +2626,7 @@ const hotels = {
             isCancelable: true
         },
         {
-            id: uuid(),
+            _id: uuid(),
             name: "Yurt in the country",
             category: "Yurts",
             image: "https://a0.muscache.com/im/pictures/miso/Hosting-50969725/original/3a9293d1-4634-4208-9eac-60024d571d7c.jpeg?im_w=720",
@@ -2635,12 +2636,12 @@ const hotels = {
                 "https://a0.muscache.com/im/pictures/miso/Hosting-50969725/original/abc3b1f5-7411-49dc-829a-22223f3f3f43.jpeg?im_w=720",
                 "https://a0.muscache.com/im/pictures/miso/Hosting-50969725/original/ad943449-68e2-4660-9976-869dcecbb865.jpeg?im_w=720"
             ],
-            address: "Ridgefield, Washington",
-            city: "Ridgefield",
+            address: "R_idgefield, Washington",
+            city: "R_idgefield",
             state: "Washington",
             country: "United States",
-            price: "165",
-            rating: "4.93",
+            price: 165,
+            rating: 4.93,
             numberOfBathrooms: 2,
             numberOfBeds: 1,
             numberOfguest: 3,
@@ -2655,7 +2656,7 @@ const hotels = {
             ],
             healthAndSafety: [
                 "No Smoke alarm",
-                "No Carbon monoxide alarm"
+                "No Carbon monox_ide alarm"
             ],
             houseRules: [
                 "Check-in: After 1:00 pm",
@@ -2666,7 +2667,7 @@ const hotels = {
             isCancelable: true
         },
         {
-            id: uuid(),
+            _id: uuid(),
             name: "Cozy Yurt - Mazama special place",
             category: "Yurts",
             image: "https://a0.muscache.com/im/pictures/prohost-api/Hosting-46639465/original/5f8b9756-5942-4743-8008-dcb69b25894c.jpeg?im_w=720",
@@ -2680,8 +2681,8 @@ const hotels = {
             city: "Okanogan County",
             state: "Washington",
             country: "United States",
-            price: "243",
-            rating: "4.92",
+            price: 243,
+            rating: 4.92,
             numberOfBathrooms: 2,
             numberOfBeds: 1,
             numberOfguest: 3,
@@ -2696,7 +2697,7 @@ const hotels = {
             ],
             healthAndSafety: [
                 "No Smoke alarm",
-                "No Carbon monoxide alarm"
+                "No Carbon monox_ide alarm"
             ],
             houseRules: [
                 "Check-in: After 1:00 pm",
@@ -2707,7 +2708,7 @@ const hotels = {
             isCancelable: true
         },
         {
-            id: uuid(),
+            _id: uuid(),
             name: "Lovely guesthouse in gorgeous nature. (UNIT B)",
             category: "Yurts",
             image: "https://a0.muscache.com/im/pictures/miso/Hosting-753185687519334969/original/a2627718-6320-402d-b246-0ebc49e30cfe.jpeg?im_w=720",
@@ -2721,8 +2722,8 @@ const hotels = {
             city: "Inverness",
             state: "California",
             country: "United States",
-            price: "149",
-            rating: "4.95",
+            price: 149,
+            rating: 4.95,
             numberOfBathrooms: 2,
             numberOfBeds: 1,
             numberOfguest: 3,
@@ -2737,7 +2738,7 @@ const hotels = {
             ],
             healthAndSafety: [
                 "No Smoke alarm",
-                "No Carbon monoxide alarm"
+                "No Carbon monox_ide alarm"
             ],
             houseRules: [
                 "Check-in: After 1:00 pm",
@@ -2748,7 +2749,7 @@ const hotels = {
             isCancelable: true
         },
         {
-            id: uuid(),
+            _id: uuid(),
             name: "Hike In Yurts @ Radius - THE NEST",
             category: "Yurts",
             image: "https://a0.muscache.com/im/pictures/miso/Hosting-33073838/original/60c71159-8dc3-4f95-9af6-5b8801d425fa.jpeg?im_w=720",
@@ -2762,8 +2763,8 @@ const hotels = {
             city: "Radium Hot Springs",
             state: "Canada",
             country: "United States",
-            price: "111",
-            rating: "4.86",
+            price: 111,
+            rating: 4.86,
             numberOfBathrooms: 2,
             numberOfBeds: 1,
             numberOfguest: 3,
@@ -2778,7 +2779,7 @@ const hotels = {
             ],
             healthAndSafety: [
                 "No Smoke alarm",
-                "No Carbon monoxide alarm"
+                "No Carbon monox_ide alarm"
             ],
             houseRules: [
                 "Check-in: After 1:00 pm",
@@ -2789,8 +2790,8 @@ const hotels = {
             isCancelable: true
         },
         {
-            id: uuid(),
-            name: "Off-Grid Yurt with views into Glacier Nat'l Park",
+            _id: uuid(),
+            name: "Off-Gr_id Yurt with views into Glacier Nat'l Park",
             category: "Yurts",
             image: "https://a0.muscache.com/im/pictures/753018de-6ff4-4b1a-aedd-aa659b233830.jpg?im_w=720",
             imageArr: [
@@ -2803,8 +2804,8 @@ const hotels = {
             city: "Flathead County",
             state: "Montana",
             country: "United States",
-            price: "200",
-            rating: "4.89",
+            price: 200,
+            rating: 4.89,
             numberOfBathrooms: 2,
             numberOfBeds: 1,
             numberOfguest: 3,
@@ -2819,7 +2820,7 @@ const hotels = {
             ],
             healthAndSafety: [
                 "No Smoke alarm",
-                "No Carbon monoxide alarm"
+                "No Carbon monox_ide alarm"
             ],
             houseRules: [
                 "Check-in: After 1:00 pm",
@@ -2827,10 +2828,10 @@ const hotels = {
                 "Pets are allowed"
             ],
             propertyType: "Guest House",
-            isCancelable: true
+            isCancelable: false
         },
         {
-            id: uuid(),
+            _id: uuid(),
             name: "Ruby Pines Vacation Yurt",
             category: "Yurts",
             image: "https://a0.muscache.com/im/pictures/miso/Hosting-660350525708864057/original/326a90f2-0491-452c-9af9-8c8ec156e04f.jpeg?im_w=720",
@@ -2844,8 +2845,8 @@ const hotels = {
             city: "Enterprise",
             state: "Oregon",
             country: "United States",
-            price: "125",
-            rating: "5.0",
+            price: 125,
+            rating: 5.0,
             numberOfBathrooms: 2,
             numberOfBeds: 1,
             numberOfguest: 3,
@@ -2860,7 +2861,7 @@ const hotels = {
             ],
             healthAndSafety: [
                 "No Smoke alarm",
-                "No Carbon monoxide alarm"
+                "No Carbon monox_ide alarm"
             ],
             houseRules: [
                 "Check-in: After 1:00 pm",
@@ -2871,7 +2872,7 @@ const hotels = {
             isCancelable: true
         },
         {
-            id: uuid(),
+            _id: uuid(),
             name: "Glacier Glamping Yurt",
             category: "Yurts",
             image: "https://a0.muscache.com/im/pictures/miso/Hosting-43614439/original/4685b2d5-e1ff-42b8-9a02-5ec642c0655c.jpeg?im_w=720",
@@ -2885,8 +2886,8 @@ const hotels = {
             city: "Coram",
             state: "Montana",
             country: "United States",
-            price: "175",
-            rating: "4.83",
+            price: 175,
+            rating: 4.83,
             numberOfBathrooms: 2,
             numberOfBeds: 1,
             numberOfguest: 3,
@@ -2901,7 +2902,7 @@ const hotels = {
             ],
             healthAndSafety: [
                 "No Smoke alarm",
-                "No Carbon monoxide alarm"
+                "No Carbon monox_ide alarm"
             ],
             houseRules: [
                 "Check-in: After 1:00 pm",
@@ -2912,7 +2913,7 @@ const hotels = {
             isCancelable: true
         },
         {
-            id: uuid(),
+            _id: uuid(),
             name: "Yurt at Base Camp Bigfork",
             category: "Yurts",
             image: "https://a0.muscache.com/im/pictures/666297c7-42e4-433c-b3cb-1bf699e37083.jpg?im_w=720",
@@ -2926,8 +2927,8 @@ const hotels = {
             city: "Bigfork",
             state: "Montana",
             country: "United States",
-            price: "145",
-            rating: "4.91",
+            price: 145,
+            rating: 4.91,
             numberOfBathrooms: 2,
             numberOfBeds: 1,
             numberOfguest: 3,
@@ -2942,7 +2943,7 @@ const hotels = {
             ],
             healthAndSafety: [
                 "No Smoke alarm",
-                "No Carbon monoxide alarm"
+                "No Carbon monox_ide alarm"
             ],
             houseRules: [
                 "Check-in: After 1:00 pm",
@@ -2950,10 +2951,10 @@ const hotels = {
                 "Pets are allowed"
             ],
             propertyType: "Guest House",
-            isCancelable: true
+            isCancelable: false
         },
         {
-            id: uuid(),
+            _id: uuid(),
             name: "Mooseshroom Yurt",
             category: "Yurts",
             image: "https://a0.muscache.com/im/pictures/92f67fe4-fbe5-4d36-b52e-701bbc76a456.jpg?im_w=720",
@@ -2967,8 +2968,8 @@ const hotels = {
             city: "Columbia Falls",
             state: "Montana",
             country: "United States",
-            price: "119",
-            rating: "4.95",
+            price: 119,
+            rating: 4.95,
             numberOfBathrooms: 2,
             numberOfBeds: 1,
             numberOfguest: 3,
@@ -2983,7 +2984,7 @@ const hotels = {
             ],
             healthAndSafety: [
                 "No Smoke alarm",
-                "No Carbon monoxide alarm"
+                "No Carbon monox_ide alarm"
             ],
             houseRules: [
                 "Check-in: After 1:00 pm",
@@ -2994,8 +2995,8 @@ const hotels = {
             isCancelable: true
         },
         {
-            id: uuid(),
-            name: "Tranquil hillside yurt and spa in the mountains",
+            _id: uuid(),
+            name: "Tranquil hills_ide yurt and spa in the mountains",
             category: "Yurts",
             image: "https://a0.muscache.com/im/pictures/da0aad2f-9255-41fa-b32c-06e575a850dd.jpg?im_w=720",
             imageArr: [
@@ -3008,8 +3009,8 @@ const hotels = {
             city: "Nevada City",
             state: "California",
             country: "United States",
-            price: "131",
-            rating: "5.0",
+            price: 131,
+            rating: 5.0,
             numberOfBathrooms: 2,
             numberOfBeds: 1,
             numberOfguest: 3,
@@ -3024,7 +3025,7 @@ const hotels = {
             ],
             healthAndSafety: [
                 "No Smoke alarm",
-                "No Carbon monoxide alarm"
+                "No Carbon monox_ide alarm"
             ],
             houseRules: [
                 "Check-in: After 1:00 pm",
@@ -3035,7 +3036,7 @@ const hotels = {
             isCancelable: true
         },
         {
-            id: uuid(),
+            _id: uuid(),
             name: "The Yurt at Tavin Dorvon",
             category: "Yurts",
             image: "https://a0.muscache.com/im/pictures/41c22733-91a0-421b-abb8-51de0343f828.jpg?im_w=720",
@@ -3049,8 +3050,8 @@ const hotels = {
             city: "Eugene",
             state: "Oregon",
             country: "United States",
-            price: "60",
-            rating: "4.87",
+            price: 60,
+            rating: 4.87,
             numberOfBathrooms: 2,
             numberOfBeds: 1,
             numberOfguest: 3,
@@ -3065,7 +3066,7 @@ const hotels = {
             ],
             healthAndSafety: [
                 "No Smoke alarm",
-                "No Carbon monoxide alarm"
+                "No Carbon monox_ide alarm"
             ],
             houseRules: [
                 "Check-in: After 1:00 pm",
@@ -3076,8 +3077,8 @@ const hotels = {
             isCancelable: true
         },
         {
-            id: uuid(),
-            name: "Off Grid Yurt At Inshallah",
+            _id: uuid(),
+            name: "Off Gr_id Yurt At Inshallah",
             category: "Yurts",
             image: "https://a0.muscache.com/im/pictures/0da9f311-705a-4dfc-b085-795280f3e59c.jpg?im_w=720",
             imageArr: [
@@ -3090,8 +3091,8 @@ const hotels = {
             city: "Golden",
             state: "Canada",
             country: "United States",
-            price: "65",
-            rating: "4.84",
+            price: 65,
+            rating: 4.84,
             numberOfBathrooms: 2,
             numberOfBeds: 1,
             numberOfguest: 3,
@@ -3106,7 +3107,7 @@ const hotels = {
             ],
             healthAndSafety: [
                 "No Smoke alarm",
-                "No Carbon monoxide alarm"
+                "No Carbon monox_ide alarm"
             ],
             houseRules: [
                 "Check-in: After 1:00 pm",
@@ -3117,8 +3118,8 @@ const hotels = {
             isCancelable: true
         },
         {
-            id: uuid(),
-            name: "Hideaway Glamping Yurt",
+            _id: uuid(),
+            name: "H_ideaway Glamping Yurt",
             category: "Yurts",
             image: "https://a0.muscache.com/im/pictures/miso/Hosting-53866147/original/d9b639b5-4d67-49e1-8a5b-1eb810cc2075.jpeg?im_w=720",
             imageArr: [
@@ -3131,8 +3132,8 @@ const hotels = {
             city: "Bellingham",
             state: "Washington",
             country: "United States",
-            price: "110",
-            rating: "4.95",
+            price: 110,
+            rating: 4.95,
             numberOfBathrooms: 2,
             numberOfBeds: 1,
             numberOfguest: 3,
@@ -3147,7 +3148,7 @@ const hotels = {
             ],
             healthAndSafety: [
                 "No Smoke alarm",
-                "No Carbon monoxide alarm"
+                "No Carbon monox_ide alarm"
             ],
             houseRules: [
                 "Check-in: After 1:00 pm",
@@ -3158,7 +3159,7 @@ const hotels = {
             isCancelable: true
         },
         {
-            id: uuid(),
+            _id: uuid(),
             name: "Private Canyon with a Rustic One-of-a-kind Yurt",
             category: "Yurts",
             image: "https://a0.muscache.com/im/pictures/miso/Hosting-695749473766562409/original/e1441bae-20c2-49f2-b555-d93726c7068c.jpeg?im_w=720",
@@ -3168,12 +3169,12 @@ const hotels = {
                 "https://a0.muscache.com/im/pictures/miso/Hosting-695749473766562409/original/a1ebbfd0-bf1f-4f3e-af02-9060a3c13375.jpeg?im_w=720",
                 "https://a0.muscache.com/im/pictures/miso/Hosting-695749473766562409/original/0d72aca8-c0ec-495c-be9e-00aa692cdb8b.jpeg?im_w=720"
             ],
-            address: "Malad City, Idaho",
+            address: "Malad City, _idaho",
             city: "Malad City",
-            state: "Idaho",
+            state: "_idaho",
             country: "United States",
-            price: "125",
-            rating: "4.97",
+            price: 125,
+            rating: 4.97,
             numberOfBathrooms: 2,
             numberOfBeds: 1,
             numberOfguest: 3,
@@ -3188,7 +3189,7 @@ const hotels = {
             ],
             healthAndSafety: [
                 "No Smoke alarm",
-                "No Carbon monoxide alarm"
+                "No Carbon monox_ide alarm"
             ],
             houseRules: [
                 "Check-in: After 1:00 pm",
@@ -3196,10 +3197,10 @@ const hotels = {
                 "Pets are allowed"
             ],
             propertyType: "Guest House",
-            isCancelable: true
+            isCancelable: false
         },
         {
-            id: uuid(),
+            _id: uuid(),
             name: "Cozy Getaway Yurt with  beautiful view!",
             category: "Yurts",
             image: "https://a0.muscache.com/im/pictures/b981e25f-f414-4b28-93f8-e23e8323062b.jpg?im_w=720",
@@ -3213,8 +3214,8 @@ const hotels = {
             city: "Trout Creek",
             state: "Montana",
             country: "United States",
-            price: "82",
-            rating: "4.96",
+            price: 82,
+            rating: 4.96,
             numberOfBathrooms: 2,
             numberOfBeds: 1,
             numberOfguest: 3,
@@ -3229,7 +3230,7 @@ const hotels = {
             ],
             healthAndSafety: [
                 "No Smoke alarm",
-                "No Carbon monoxide alarm"
+                "No Carbon monox_ide alarm"
             ],
             houseRules: [
                 "Check-in: After 1:00 pm",
@@ -3237,10 +3238,10 @@ const hotels = {
                 "Pets are allowed"
             ],
             propertyType: "Guest House",
-            isCancelable: true
+            isCancelable: false
         },
         {
-            id: uuid(),
+            _id: uuid(),
             name: "Rest Deeply and Stargaze in our 20-Ft Emerald Yurt",
             category: "Yurts",
             image: "https://a0.muscache.com/im/pictures/7c57a825-07da-4f90-99ce-74ce3369c025.jpg?im_w=720",
@@ -3254,8 +3255,8 @@ const hotels = {
             city: "Weed",
             state: "California",
             country: "United States",
-            price: "145",
-            rating: "5.0",
+            price: 145,
+            rating: 5.0,
             numberOfBathrooms: 2,
             numberOfBeds: 1,
             numberOfguest: 3,
@@ -3270,7 +3271,7 @@ const hotels = {
             ],
             healthAndSafety: [
                 "No Smoke alarm",
-                "No Carbon monoxide alarm"
+                "No Carbon monox_ide alarm"
             ],
             houseRules: [
                 "Check-in: After 1:00 pm",
@@ -3281,7 +3282,7 @@ const hotels = {
             isCancelable: true
         },
         {
-            id: uuid(),
+            _id: uuid(),
             name: "Enchanted Forest Yurt",
             category: "Yurts",
             image: "https://a0.muscache.com/im/pictures/miso/Hosting-50119484/original/7fba1d49-51df-42b8-96d6-2110ee58b3a8.jpeg?im_w=720",
@@ -3295,8 +3296,8 @@ const hotels = {
             city: "Lummi Island",
             state: "Washington",
             country: "United States",
-            price: "123",
-            rating: "5.0",
+            price: 123,
+            rating: 5.0,
             numberOfBathrooms: 2,
             numberOfBeds: 1,
             numberOfguest: 3,
@@ -3311,7 +3312,7 @@ const hotels = {
             ],
             healthAndSafety: [
                 "No Smoke alarm",
-                "No Carbon monoxide alarm"
+                "No Carbon monox_ide alarm"
             ],
             houseRules: [
                 "Check-in: After 1:00 pm",
@@ -3322,7 +3323,7 @@ const hotels = {
             isCancelable: true
         },
         {
-            id: uuid(),
+            _id: uuid(),
             name: "Luxury Retreat Yurt at Brigadoon",
             category: "Yurts",
             image: "https://a0.muscache.com/im/pictures/miso/Hosting-870989443979618635/original/270d215d-ee0b-4a38-9722-b8b7b51443dd.jpeg?im_w=720",
@@ -3336,8 +3337,8 @@ const hotels = {
             city: "Port Hadlock-Irondale",
             state: "Washington",
             country: "United States",
-            price: "155",
-            rating: "5.0",
+            price: 155,
+            rating: 5.0,
             numberOfBathrooms: 2,
             numberOfBeds: 1,
             numberOfguest: 3,
@@ -3352,7 +3353,7 @@ const hotels = {
             ],
             healthAndSafety: [
                 "No Smoke alarm",
-                "No Carbon monoxide alarm"
+                "No Carbon monox_ide alarm"
             ],
             houseRules: [
                 "Check-in: After 1:00 pm",
@@ -3360,10 +3361,10 @@ const hotels = {
                 "Pets are allowed"
             ],
             propertyType: "Guest House",
-            isCancelable: true
+            isCancelable: false
         },
         {
-            id: uuid(),
+            _id: uuid(),
             name: "Conrad Creek Yurt",
             category: "Yurts",
             image: "https://a0.muscache.com/im/pictures/miso/Hosting-20935544/original/acfb73e1-70d2-4cb8-91a4-257780b5fcd0.jpeg?im_w=720",
@@ -3377,8 +3378,8 @@ const hotels = {
             city: "Lamoille",
             state: "Nevada",
             country: "United States",
-            price: "175",
-            rating: "4.97",
+            price: 175,
+            rating: 4.97,
             numberOfBathrooms: 2,
             numberOfBeds: 1,
             numberOfguest: 3,
@@ -3393,7 +3394,7 @@ const hotels = {
             ],
             healthAndSafety: [
                 "No Smoke alarm",
-                "No Carbon monoxide alarm"
+                "No Carbon monox_ide alarm"
             ],
             houseRules: [
                 "Check-in: After 1:00 pm",
@@ -3404,7 +3405,7 @@ const hotels = {
             isCancelable: true
         },
         {
-            id: uuid(),
+            _id: uuid(),
             name: "The Yuba Yurt at RiverSea East",
             category: "Yurts",
             image: "https://a0.muscache.com/im/pictures/d7539f4a-9873-4d79-a4ab-e7a13693be76.jpg?im_w=720",
@@ -3418,8 +3419,8 @@ const hotels = {
             city: "North San Juan",
             state: "California",
             country: "United States",
-            price: "101",
-            rating: "4.94",
+            price: 101,
+            rating: 4.94,
             numberOfBathrooms: 2,
             numberOfBeds: 1,
             numberOfguest: 3,
@@ -3434,7 +3435,7 @@ const hotels = {
             ],
             healthAndSafety: [
                 "No Smoke alarm",
-                "No Carbon monoxide alarm"
+                "No Carbon monox_ide alarm"
             ],
             houseRules: [
                 "Check-in: After 1:00 pm",
@@ -3445,7 +3446,7 @@ const hotels = {
             isCancelable: true
         },
         {
-            id: uuid(),
+            _id: uuid(),
             name: "Mountain  Range Yurt",
             category: "Yurts",
             image: "https://a0.muscache.com/im/pictures/89db3fc3-4388-4cc5-a96c-54cd13c7bb32.jpg?im_w=720",
@@ -3459,8 +3460,8 @@ const hotels = {
             city: "Skookumchuck",
             state: "Canada",
             country: "United States",
-            price: "168",
-            rating: "4.93",
+            price: 168,
+            rating: 4.93,
             numberOfBathrooms: 2,
             numberOfBeds: 1,
             numberOfguest: 3,
@@ -3475,7 +3476,7 @@ const hotels = {
             ],
             healthAndSafety: [
                 "No Smoke alarm",
-                "No Carbon monoxide alarm"
+                "No Carbon monox_ide alarm"
             ],
             houseRules: [
                 "Check-in: After 1:00 pm",
@@ -3486,7 +3487,7 @@ const hotels = {
             isCancelable: true
         },
         {
-            id: uuid(),
+            _id: uuid(),
             name: "Rejuvenate in a Magical 30-Foot Yurt in the Woods",
             category: "Yurts",
             image: "https://a0.muscache.com/im/pictures/656af70d-58d1-42b0-bb98-ed8a67b6f18b.jpg?im_w=720",
@@ -3500,8 +3501,8 @@ const hotels = {
             city: "Weed",
             state: "California",
             country: "United States",
-            price: "195",
-            rating: "5.0",
+            price: 195,
+            rating: 5.0,
             numberOfBathrooms: 2,
             numberOfBeds: 1,
             numberOfguest: 3,
@@ -3516,7 +3517,7 @@ const hotels = {
             ],
             healthAndSafety: [
                 "No Smoke alarm",
-                "No Carbon monoxide alarm"
+                "No Carbon monox_ide alarm"
             ],
             houseRules: [
                 "Check-in: After 1:00 pm",
@@ -3527,7 +3528,7 @@ const hotels = {
             isCancelable: true
         },
         {
-            id: uuid(),
+            _id: uuid(),
             name: "Spencer Mtn solar yurt glamping",
             category: "Yurts",
             image: "https://a0.muscache.com/im/pictures/835448a0-346c-4a06-98dd-72566d3748a8.jpg?im_w=720",
@@ -3541,8 +3542,8 @@ const hotels = {
             city: "Whitefish",
             state: "Montana",
             country: "United States",
-            price: "129",
-            rating: "5.0",
+            price: 129,
+            rating: 5.0,
             numberOfBathrooms: 2,
             numberOfBeds: 1,
             numberOfguest: 3,
@@ -3557,7 +3558,7 @@ const hotels = {
             ],
             healthAndSafety: [
                 "No Smoke alarm",
-                "No Carbon monoxide alarm"
+                "No Carbon monox_ide alarm"
             ],
             houseRules: [
                 "Check-in: After 1:00 pm",
@@ -3565,10 +3566,10 @@ const hotels = {
                 "Pets are allowed"
             ],
             propertyType: "Guest House",
-            isCancelable: true
+            isCancelable: false
         },
         {
-            id: uuid(),
+            _id: uuid(),
             name: "City of Rocks Retreat - Pinion Yurt (Pets welcome)",
             category: "Yurts",
             image: "https://a0.muscache.com/im/pictures/9bcf168d-d6a8-415d-be51-cbb08b6b5846.jpg?im_w=720",
@@ -3578,12 +3579,12 @@ const hotels = {
                 "https://a0.muscache.com/im/pictures/c91e0678-9ad0-4811-8ac4-0398c1752055.jpg?im_w=720",
                 "https://a0.muscache.com/im/pictures/7a62878c-e4f9-486d-b0e2-1da5adf7cf9c.jpg?im_w=720"
             ],
-            address: "Almo, Idaho",
+            address: "Almo, _idaho",
             city: "Almo",
-            state: "Idaho",
+            state: "_idaho",
             country: "United States",
-            price: "59",
-            rating: "4.88",
+            price: 59,
+            rating: 4.88,
             numberOfBathrooms: 2,
             numberOfBeds: 1,
             numberOfguest: 3,
@@ -3598,7 +3599,7 @@ const hotels = {
             ],
             healthAndSafety: [
                 "No Smoke alarm",
-                "No Carbon monoxide alarm"
+                "No Carbon monox_ide alarm"
             ],
             houseRules: [
                 "Check-in: After 1:00 pm",
@@ -3609,7 +3610,7 @@ const hotels = {
             isCancelable: true
         },
         {
-            id: uuid(),
+            _id: uuid(),
             name: "Hike In Yurts @ Radius - THE HOLLOW",
             category: "Yurts",
             image: "https://a0.muscache.com/im/pictures/miso/Hosting-33073645/original/a31a5fe9-308e-404c-afc2-ee99925f5e47.jpeg?im_w=720",
@@ -3623,8 +3624,8 @@ const hotels = {
             city: "Radium Hot Springs",
             state: "Canada",
             country: "United States",
-            price: "123",
-            rating: "4.97",
+            price: 123,
+            rating: 4.97,
             numberOfBathrooms: 2,
             numberOfBeds: 1,
             numberOfguest: 3,
@@ -3639,7 +3640,7 @@ const hotels = {
             ],
             healthAndSafety: [
                 "No Smoke alarm",
-                "No Carbon monoxide alarm"
+                "No Carbon monox_ide alarm"
             ],
             houseRules: [
                 "Check-in: After 1:00 pm",
@@ -3650,7 +3651,7 @@ const hotels = {
             isCancelable: true
         },
         {
-            id: uuid(),
+            _id: uuid(),
             name: "River view Yurt on the South Fork American River",
             category: "Yurts",
             image: "https://a0.muscache.com/im/pictures/8ff60085-3167-406e-8164-86bc52508471.jpg?im_w=720",
@@ -3664,8 +3665,8 @@ const hotels = {
             city: "Coloma",
             state: "California",
             country: "United States",
-            price: "190",
-            rating: "4.88",
+            price: 190,
+            rating: 4.88,
             numberOfBathrooms: 2,
             numberOfBeds: 1,
             numberOfguest: 3,
@@ -3680,7 +3681,7 @@ const hotels = {
             ],
             healthAndSafety: [
                 "No Smoke alarm",
-                "No Carbon monoxide alarm"
+                "No Carbon monox_ide alarm"
             ],
             houseRules: [
                 "Check-in: After 1:00 pm",
@@ -3691,7 +3692,7 @@ const hotels = {
             isCancelable: true
         },
         {
-            id: uuid(),
+            _id: uuid(),
             name: "Sunrise Retreat Yurt Accommodations",
             category: "Yurts",
             image: "https://a0.muscache.com/im/pictures/c5d564f2-dd24-484b-9d3a-9e22c07fd54c.jpg?im_w=720",
@@ -3701,12 +3702,12 @@ const hotels = {
                 "https://a0.muscache.com/im/pictures/6b794922-1da3-453c-8e29-3939f2c68cf8.jpg?im_w=720",
                 "https://a0.muscache.com/im/pictures/e837c051-3f04-4dae-8e04-24550e536d79.jpg?im_w=720"
             ],
-            address: "Cascade, Idaho",
+            address: "Cascade, _idaho",
             city: "Cascade",
-            state: "Idaho",
+            state: "_idaho",
             country: "United States",
-            price: "139",
-            rating: "4.89",
+            price: 139,
+            rating: 4.89,
             numberOfBathrooms: 2,
             numberOfBeds: 1,
             numberOfguest: 3,
@@ -3721,7 +3722,7 @@ const hotels = {
             ],
             healthAndSafety: [
                 "No Smoke alarm",
-                "No Carbon monoxide alarm"
+                "No Carbon monox_ide alarm"
             ],
             houseRules: [
                 "Check-in: After 1:00 pm",
@@ -3729,10 +3730,10 @@ const hotels = {
                 "Pets are allowed"
             ],
             propertyType: "Guest House",
-            isCancelable: true
+            isCancelable: false
         },
         {
-            id: uuid(),
+            _id: uuid(),
             name: "Yurt 1 with 4 Twin XL beds",
             category: "Yurts",
             image: "https://a0.muscache.com/im/pictures/2519c20b-78f5-46c2-b4c4-f87e51e5e034.jpg?im_w=720",
@@ -3746,8 +3747,8 @@ const hotels = {
             city: "Nyssa",
             state: "Oregon",
             country: "United States",
-            price: "175",
-            rating: "4.97",
+            price: 175,
+            rating: 4.97,
             numberOfBathrooms: 2,
             numberOfBeds: 1,
             numberOfguest: 3,
@@ -3762,7 +3763,7 @@ const hotels = {
             ],
             healthAndSafety: [
                 "No Smoke alarm",
-                "No Carbon monoxide alarm"
+                "No Carbon monox_ide alarm"
             ],
             houseRules: [
                 "Check-in: After 1:00 pm",
@@ -3773,7 +3774,7 @@ const hotels = {
             isCancelable: true
         },
         {
-            id: uuid(),
+            _id: uuid(),
             name: "Umpqua River, Dog Friendly yurt!",
             category: "Yurts",
             image: "https://a0.muscache.com/im/pictures/60a6e5cc-97ea-488c-90f6-4f5eef6608a9.jpg?im_w=720",
@@ -3787,8 +3788,8 @@ const hotels = {
             city: "Roseburg",
             state: "Oregon",
             country: "United States",
-            price: "115",
-            rating: "5.0",
+            price: 115,
+            rating: 5.0,
             numberOfBathrooms: 2,
             numberOfBeds: 1,
             numberOfguest: 3,
@@ -3803,7 +3804,7 @@ const hotels = {
             ],
             healthAndSafety: [
                 "No Smoke alarm",
-                "No Carbon monoxide alarm"
+                "No Carbon monox_ide alarm"
             ],
             houseRules: [
                 "Check-in: After 1:00 pm",
@@ -3811,10 +3812,10 @@ const hotels = {
                 "Pets are allowed"
             ],
             propertyType: "Guest House",
-            isCancelable: true
+            isCancelable: false
         },
         {
-            id: uuid(),
+            _id: uuid(),
             name: "Hike In Yurts @ Radius - THE PERCH",
             category: "Yurts",
             image: "https://a0.muscache.com/im/pictures/039330f5-0622-4277-b800-3d9dfa5522ae.jpg?im_w=720",
@@ -3828,8 +3829,8 @@ const hotels = {
             city: "Radium Hot Springs",
             state: "Canada",
             country: "United States",
-            price: "139",
-            rating: "5.0",
+            price: 139,
+            rating: 5.0,
             numberOfBathrooms: 2,
             numberOfBeds: 1,
             numberOfguest: 3,
@@ -3844,7 +3845,7 @@ const hotels = {
             ],
             healthAndSafety: [
                 "No Smoke alarm",
-                "No Carbon monoxide alarm"
+                "No Carbon monox_ide alarm"
             ],
             houseRules: [
                 "Check-in: After 1:00 pm",
@@ -3855,7 +3856,7 @@ const hotels = {
             isCancelable: true
         },
         {
-            id: uuid(),
+            _id: uuid(),
             name: "Pine Meadows Yurt minutes from downtown Sandpoint",
             category: "Yurts",
             image: "https://a0.muscache.com/im/pictures/243167d5-d1d9-458d-89dc-b64d0b69cfdb.jpg?im_w=720",
@@ -3865,12 +3866,12 @@ const hotels = {
                 "https://a0.muscache.com/im/pictures/ff68f02f-c491-41d5-a1fa-80e0002a8251.jpg?im_w=720",
                 "https://a0.muscache.com/im/pictures/caa7f853-ac73-4521-9d94-48338bd84214.jpg?im_w=720"
             ],
-            address: "Sandpoint, Idaho",
+            address: "Sandpoint, _idaho",
             city: "Sandpoint",
-            state: "Idaho",
+            state: "_idaho",
             country: "United States",
-            price: "110",
-            rating: "4.89",
+            price: 110,
+            rating: 4.89,
             numberOfBathrooms: 2,
             numberOfBeds: 1,
             numberOfguest: 3,
@@ -3885,7 +3886,7 @@ const hotels = {
             ],
             healthAndSafety: [
                 "No Smoke alarm",
-                "No Carbon monoxide alarm"
+                "No Carbon monox_ide alarm"
             ],
             houseRules: [
                 "Check-in: After 1:00 pm",
@@ -3893,11 +3894,11 @@ const hotels = {
                 "Pets are allowed"
             ],
             propertyType: "Guest House",
-            isCancelable: true
+            isCancelable: false
         },
         {
-            id: uuid(),
-            name: "The Off-Grid Red Yurt in the woods",
+            _id: uuid(),
+            name: "The Off-Gr_id Red Yurt in the woods",
             category: "Yurts",
             image: "https://a0.muscache.com/im/pictures/miso/Hosting-644225953072427824/original/b7b389ff-1913-4ce0-a677-81914b33952d.jpeg?im_w=720",
             imageArr: [
@@ -3910,8 +3911,8 @@ const hotels = {
             city: "Blaeberry",
             state: "Canada",
             country: "United States",
-            price: "73",
-            rating: "4.95",
+            price: 73,
+            rating: 4.95,
             numberOfBathrooms: 2,
             numberOfBeds: 1,
             numberOfguest: 3,
@@ -3926,7 +3927,7 @@ const hotels = {
             ],
             healthAndSafety: [
                 "No Smoke alarm",
-                "No Carbon monoxide alarm"
+                "No Carbon monox_ide alarm"
             ],
             houseRules: [
                 "Check-in: After 1:00 pm",
@@ -3937,8 +3938,8 @@ const hotels = {
             isCancelable: true
         },
         {
-            id: uuid(),
-            name: "Large Charming Yurt at Rocky Ridge Outpost",
+            _id: uuid(),
+            name: "Large Charming Yurt at Rocky R_idge Outpost",
             category: "Yurts",
             image: "https://a0.muscache.com/im/pictures/prohost-api/Hosting-45141589/original/a4b56b33-94ca-4932-9aea-f607a6646d99.jpeg?im_w=720",
             imageArr: [
@@ -3951,8 +3952,8 @@ const hotels = {
             city: "Manila",
             state: "Utah",
             country: "United States",
-            price: "119",
-            rating: "4.96",
+            price: 119,
+            rating: 4.96,
             numberOfBathrooms: 2,
             numberOfBeds: 1,
             numberOfguest: 3,
@@ -3967,7 +3968,7 @@ const hotels = {
             ],
             healthAndSafety: [
                 "No Smoke alarm",
-                "No Carbon monoxide alarm"
+                "No Carbon monox_ide alarm"
             ],
             houseRules: [
                 "Check-in: After 1:00 pm",
@@ -3976,8 +3977,1608 @@ const hotels = {
             ],
             propertyType: "Guest House",
             isCancelable: true
-        }
+        },
+        {
+            _id: uuid(),
+            name: "Whispering Pines Cottages",
+            category: "National Parks",
+            image: "https://a0.muscache.com/im/pictures/miso/Hosting-26117817/original/9da40e3c-5846-4359-bb41-05c27b09a8f5.jpeg?im_w=720",
+            imageArr: ["https://a0.muscache.com/im/pictures/miso/Hosting-578733555164036351/original/fc0129d6-02df-4782-92e9-051a881c67a5.jpeg?im_w=720", "https://a0.muscache.com/im/pictures/miso/Hosting-578733555164036351/original/694d278e-ff0d-4c08-b549-de3a07313be8.jpeg?im_w=720", "https://a0.muscache.com/im/pictures/miso/Hosting-578733555164036351/original/c3222377-07de-4376-868d-d1b55b06390c.jpeg?im_w=720", "https://a0.muscache.com/im/pictures/miso/Hosting-578733555164036351/original/8d2a7815-1e0e-4946-8457-8884f5842fff.jpeg?im_w=720"],
+            address: "Jibhi",
+            city: "Banjar Valley",
+            state: "Himachal Pradesh",
+            country: "India",
+            price: 2999,
+            rating: 3.7,
+            numberOfBathrooms: 2,
+            numberOfBeds: 2,
+            numberOfguest: 6,
+            numberOfBedrooms: 2,
+            numberOfStudies: 0,
+            hostName: "Daleep",
+            hostJoinedOn: "March 2018",
+            ameneties: ["Kitchen", "Wifi", "Pets Allowed"],
+            healthAndSafety: ["Smoke alarm", "Carbon monox_ide alarm"],
+            houseRules: ["Check-in: 12:00 pm - 11:00 pm", "Check out: 11:00 am", "Pets are allowed"],
+            propertyType: "Hotel",
+            isCancelable: true,
+        },
+        {
+            _id: uuid(),
+            name: "Sukoon Baag",
+            category: "National Parks",
+            image: "https://a0.muscache.com/im/pictures/90d0b224-16e2-41c1-9819-6002749a193e.jpg?im_w=720",
+            imageArr: ["https://a0.muscache.com/im/pictures/miso/Hosting-53407714/original/f3cf4c09-5419-4f1c-b47c-01987c09b4df.jpeg?im_w=720", "https://a0.muscache.com/im/pictures/c1947f8b-da1e-4800-badf-ed51be3e90da.jpg?im_w=720", "https://a0.muscache.com/im/pictures/miso/Hosting-53407714/original/db0a4d4b-f03a-4c36-a70b-d87bf32c41a7.jpeg?im_w=720", "https://a0.muscache.com/im/pictures/2430bf07-ec42-4b91-9e16-2f88939671fd.jpg?im_w=720"],
+            address: "Bir",
+            city: "Joginder Nagar Valley",
+            state: "Himachal Pradesh",
+            country: "India",
+            price: 3020,
+            rating: 3.8,
+            numberOfBathrooms: 2,
+            numberOfBeds: 1,
+            numberOfguest: 3,
+            numberOfBedrooms: 1,
+            numberOfStudies: 1,
+            hostName: "Shashi",
+            hostJoinedOn: "December 2019",
+            ameneties: ["Kitchen", "Wifi", "Pets Allowed"],
+            healthAndSafety: ["No Smoke alarm", "No Carbon monox_ide alarm"],
+            houseRules: ["Check-in: After 1:00 pm", "Check out: 11:00 am", "Pets are allowed"],
+            propertyType: "Guest House",
+            isCancelable: true,
+        },
+        {
+            _id: uuid(),
+            name: "Sooty's H_ideout",
+            category: "National Parks",
+            image: "https://a0.muscache.com/im/pictures/miso/Hosting-614375154474735110/original/7e7f4c4a-c496-4844-bd02-44e276b41718.jpeg?im_w=720",
+            imageArr: ["https://a0.muscache.com/im/pictures/miso/Hosting-614375154474735110/original/1479b1a0-ee19-49a6-94e4-3c43049776c0.jpeg?im_w=720", "https://a0.muscache.com/im/pictures/miso/Hosting-614375154474735110/original/cd0c1eba-74bd-4d6b-9ec3-20c6dd8b5226.jpeg?im_w=720", "https://a0.muscache.com/im/pictures/miso/Hosting-614375154474735110/original/3ac04d3f-b4f5-4d01-8258-8083979c792e.jpeg?im_w=720", "https://a0.muscache.com/im/pictures/miso/Hosting-614375154474735110/original/ac259f95-bc29-4466-89f9-12a97f2b0977.jpeg?im_w=720"],
+            address: "Shangarh",
+            city: "HP",
+            state: "Himachal Pradesh",
+            country: "India",
+            price: 2750,
+            rating: 4.5,
+            numberOfBathrooms: 3,
+            numberOfBeds: 4,
+            numberOfguest: 10,
+            numberOfBedrooms: 3,
+            numberOfStudies: 3,
+            hostName: "Sankalp Avirjaan",
+            hostJoinedOn: "May 2018",
+            ameneties: ["Kitchen", "Wifi", "Pets Allowed"],
+            healthAndSafety: ["No Smoke alarm", "No Carbon monox_ide alarm", "Nearby lake, river, other body of water"],
+            houseRules: ["Check-in: After 2:00 pm", "Check out: 11:00 am", "Pets are allowed", "No smoking", "No parties or events"],
+            propertyType: "House",
+            isCancelable: false,
+        },
+        {
+            _id: uuid(),
+            name: "StayVista @ Vista Divine",
+            category: "National Parks",
+            image: "https://a0.muscache.com/im/pictures/miso/Hosting-46781700/original/2b25b21b-87d4-48c9-b796-c2cd04af2788.jpeg?im_w=1200",
+            imageArr: ["https://a0.muscache.com/im/pictures/miso/Hosting-46781700/original/76c122b8-e7ab-4933-a5ba-cfc86f949db5.jpeg?im_w=720", "https://a0.muscache.com/im/pictures/miso/Hosting-46781700/original/1eaf860f-053d-46d9-9ee9-c7a603473ed0.jpeg?im_w=720", "https://a0.muscache.com/im/pictures/miso/Hosting-46781700/original/57c1ca9f-8a11-4453-a15a-d6f0a257931c.jpeg?im_w=720", "https://a0.muscache.com/im/pictures/miso/Hosting-46781700/original/eaf3779d-7978-4850-909b-c7a6ae6d15d8.jpeg?im_w=720"],
+            address: "Rishikesh",
+            city: "Rishikesh",
+            state: "Uttarakhand",
+            country: "India",
+            price: 13541,
+            rating: 4.69,
+            numberOfBathrooms: 4,
+            numberOfBeds: 3,
+            numberOfguest: 0,
+            numberOfBedrooms: 3,
+            numberOfStudies: 3,
+            hostName: " Ojas",
+            hostJoinedOn: "May 2019",
+            ameneties: ["Kitchen", "Wifi", "Pets Allowed"],
+            healthAndSafety: ["No Smoke alarm", "No Carbon monox_ide alarm", "Nearby lake, river, other body of water"],
+            houseRules: ["Check-in: After 2:00 pm", "Check out: 11:00 am", "Pets are allowed", "No smoking", "No parties or events"],
+            propertyType: "Hotel",
+            isCancelable: true,
+        },
+        {
+            _id: uuid(),
+            name: "Stone Cottage",
+            category: "National Parks",
+            image: "https://a0.muscache.com/im/pictures/miso/Hosting-601816645157829673/original/e4792d54-354c-4187-854a-1d0552ecaa3e.jpeg?im_w=1200",
+            imageArr: ["https://a0.muscache.com/im/pictures/miso/Hosting-601816645157829673/original/cec8d5b3-5c9c-4430-a4de-91e955a262aa.jpeg?im_w=720", "https://a0.muscache.com/im/pictures/miso/Hosting-601816645157829673/original/0307b7d1-0588-4e54-ae51-c0f527a6c14f.jpeg?im_w=720", "https://a0.muscache.com/im/pictures/miso/Hosting-601816645157829673/original/da17c3d7-7c27-4f13-9382-60d74a180e92.jpeg?im_w=720", "https://a0.muscache.com/im/pictures/miso/Hosting-601816645157829673/original/209b06d4-d07b-4410-9f01-7b68580f5022.jpeg?im_w=720"],
+            address: "Jibhi",
+            city: "Banjar Valley",
+            state: "Himachal Pradesh",
+            country: "India",
+            price: 2499,
+            rating: 4.60,
+            numberOfBathrooms: 3,
+            numberOfBeds: 4,
+            numberOfguest: 10,
+            numberOfBedrooms: 3,
+            numberOfStudies: 3,
+            hostName: "Sankalp Avirjaan",
+            hostJoinedOn: "May 2018",
+            ameneties: ["Kitchen", "Wifi", "Pets Allowed"],
+            healthAndSafety: ["No Smoke alarm", "No Carbon monox_ide alarm", "Nearby lake, river, other body of water"],
+            houseRules: ["Check-in: After 2:00 pm", "Check out: 11:00 am", "Pets are allowed", "No smoking", "No parties or events"],
+            propertyType: "Guest House",
+            isCancelable: true,
+        },
+        {
+            _id: uuid(),
+            name: "Sun View Mountain",
+            category: "National Parks",
+            image: "https://a0.muscache.com/im/pictures/miso/Hosting-20815828/original/f4cfbfab-6113-444b-b1ac-f60e72ea510d.jpeg?im_w=1200",
+            imageArr: ["https://a0.muscache.com/im/pictures/89337997-5bdd-4dcd-9cc2-dd119df044ab.jpg?im_w=720", "https://a0.muscache.com/im/pictures/miso/Hosting-20815828/original/52b8b87c-af68-4823-ad83-24f1d1ce1ce7.jpeg?im_w=720", "https://a0.muscache.com/im/pictures/922f596f-9c8a-4b40-b729-4e352bdd6ae8.jpg?im_w=720", "https://a0.muscache.com/im/pictures/miso/Hosting-20815828/original/1dd8a1db-f7ce-44d5-b573-57984d621864.jpeg?im_w=720"],
+            address: "Kasol",
+            city: "kasol",
+            state: "Himachal Pradesh",
+            country: "India",
+            price: 925,
+            rating: 4.86,
+            numberOfBathrooms: 3,
+            numberOfBeds: 4,
+            numberOfguest: 10,
+            numberOfBedrooms: 3,
+            numberOfStudies: 3,
+            hostName: "Sankalp Avirjaan",
+            hostJoinedOn: "May 2018",
+            ameneties: ["Kitchen", "Wifi", "Pets Allowed"],
+            healthAndSafety: ["No Smoke alarm", "No Carbon monox_ide alarm", "Nearby lake, river, other body of water"],
+            houseRules: ["Check-in: After 2:00 pm", "Check out: 11:00 am", "Pets are allowed", "No smoking", "No parties or events"],
+            propertyType: "House",
+            isCancelable: true,
+        },
+
+        // from here
+        {
+            _id: uuid(),
+            name: "Folktales ; a Boutique Homestay & Artist Retreat#",
+            category: "A-frames",
+            image: "https://a0.muscache.com/im/pictures/cfdf5973-9fc1-42d3-bde1-a072fdbe1825.jpg?im_w=1200",
+            imageArr: ["https://a0.muscache.com/im/pictures/c7ecaa29-a2a6-4e50-8dd5-a4719096fb4b.jpg?im_w=720", "https://a0.muscache.com/im/pictures/d9f4455c-f29b-4068-81b8-c05957239930.jpg?im_w=720", "https://a0.muscache.com/im/pictures/eba3d6d8-8b5b-43a0-b1d4-05a4bb1c578b.jpg?im_w=720", "https://a0.muscache.com/im/pictures/941cc6e4-4178-489b-b92c-1df3af7a3464.jpg?im_w=720"],
+            address: "Rakchham",
+            city: "Rakchham",
+            state: "Himachal Pradesh",
+            country: "India",
+            price: 1850,
+            rating: 4.92,
+            numberOfBathrooms: 3,
+            numberOfBeds: 2,
+            numberOfguest: 5,
+            numberOfBedrooms: 2,
+            numberOfStudies: 3,
+            hostName: "Ishan",
+            hostJoinedOn: "July 2015",
+            ameneties: ["Kitchen", "Wifi", "Pets Allowed"],
+            healthAndSafety: ["No Smoke alarm", "No Carbon monox_ide alarm", "Nearby lake, river, other body of water"],
+            houseRules: ["Check-in: 12:00 pm - 7:00 pm", "Check out: 10:00 am", "Self check-in with lockbox", "Pets are allowed", "No smoking", "No parties or events"],
+            propertyType: "House",
+            isCancelable: true,
+        },
+        {
+            _id: uuid(),
+            name: "Free Birds, Charang",
+            category: "National Parks",
+            image: "https://a0.muscache.com/im/pictures/8a460633-914d-423d-92bb-d31e667043e6.jpg?im_w=1200",
+            imageArr: ["https://a0.muscache.com/im/pictures/333214e0-6746-49aa-9082-2137f3c1e197.jpg?im_w=720", "https://a0.muscache.com/im/pictures/283a0eba-1adf-40ec-80b1-3f29a2a18fc1.jpg?im_w=720", "https://a0.muscache.com/im/pictures/4d8781bb-808a-47e1-a416-a7940399b860.jpg?im_w=720", "https://a0.muscache.com/im/pictures/870c97b3-3676-44ed-9c22-3df1c3e47dad.jpg?im_w=720"],
+            address: "Charang Khas",
+            city: "Charang Khas",
+            state: "Himachal Pradesh",
+            country: "India",
+            price: 820,
+            rating: 5.0,
+            numberOfBathrooms: 2,
+            numberOfBeds: 3,
+            numberOfguest: 6,
+            numberOfBedrooms: 3,
+            numberOfStudies: 3,
+            hostName: "Sonu",
+            hostJoinedOn: "March 2017",
+            ameneties: ["Kitchen", "Wifi", "Pets Allowed"],
+            healthAndSafety: ["No Smoke alarm", "No Carbon monox_ide alarm", "Nearby lake, river, other body of water"],
+            houseRules: ["Check-in: After 2:00 pm", "Check out: 11:00 am", "Pets are allowed", "No smoking", "No parties or events"],
+            propertyType: "House",
+            isCancelable: true,
+        },
+        {
+            _id: uuid(),
+            name: "Adobe 2 by The Mudhouse Marayoor",
+            category: "National Parks",
+            image: "https://a0.muscache.com/im/pictures/miso/Hosting-23795589/original/706ffee7-faaa-4d83-8ad3-e6541198750a.jpeg?im_w=1200",
+            imageArr: ["https://a0.muscache.com/im/pictures/3f524723-b711-45e0-b75e-a1b66283da14.jpg?im_w=720", "https://a0.muscache.com/im/pictures/miso/Hosting-23795589/original/4bcf0213-c10e-4075-be14-0c0de7b885f4.jpeg?im_w=720", "https://a0.muscache.com/im/pictures/miso/Hosting-23795589/original/0b49d6ee-913d-4b5f-9616-ab84b62f75d5.png?im_w=720", "https://a0.muscache.com/im/pictures/miso/Hosting-23795589/original/98aec13a-0a53-48e9-86a0-844ac55653a3.jpeg?im_w=720"],
+            address: "Munnar",
+            city: "Munnar",
+            state: "Kerala",
+            country: "India",
+            price: 7200,
+            rating: 4.82,
+            numberOfBathrooms: 1,
+            numberOfBeds: 1,
+            numberOfguest: 3,
+            numberOfBedrooms: 1,
+            numberOfStudies: 3,
+            hostName: "Roopa",
+            hostJoinedOn: "March 2018",
+            ameneties: ["Kitchen", "Wifi", "Pets Allowed"],
+            healthAndSafety: ["No Smoke alarm", "No Carbon monox_ide alarm", "Nearby lake, river, other body of water"],
+            houseRules: ["Check-in: 12:00 pm - 5:00 pm", "No Pets", "No smoking", "No parties or events"],
+            propertyType: "House",
+            isCancelable: true,
+        },
+        {
+            _id: uuid(),
+            name: "Corona Safe: Avondale - Beautiful Heritage Home",
+            category: "Surfing",
+            image: "https://a0.muscache.com/im/pictures/7ef7f41b-62e2-43c1-b68f-8cd23e954167.jpg?im_w=1200",
+            imageArr: ["https://a0.muscache.com/im/pictures/062b4382-2379-4858-a750-a13f8baac367.jpg?im_w=720", "https://a0.muscache.com/im/pictures/7fae41d2-161c-4713-a8f3-c951f0f3b479.jpg?im_w=720", "https://a0.muscache.com/im/pictures/e33cf17f-8324-482c-a2dc-13db163e28d8.jpg?im_w=720", "https://a0.muscache.com/im/pictures/f2e679c9-f051-4e2b-830b-212be491e530.jpg?im_w=720"],
+            address: "Kodaikanal",
+            city: "Kodaikanal",
+            state: "Tamil Nadu",
+            country: "India",
+            price: 11500,
+            rating: 4.93,
+            numberOfBathrooms: 4.5,
+            numberOfBeds: 4,
+            numberOfguest: 16,
+            numberOfBedrooms: 4,
+            numberOfStudies: 3,
+            hostName: "Navin",
+            hostJoinedOn: "June 2016",
+            ameneties: ["Kitchen", "Wifi", "Pets Allowed"],
+            healthAndSafety: ["No Smoke alarm", "No Carbon monox_ide alarm", "Nearby lake, river, other body of water"],
+            houseRules: ["Check-in: 2:00 pm - 5:00 pm", "Check out: 11:00 am", "Pets are allowed", "No smoking"],
+            propertyType: "House",
+            isCancelable: true,
+        },
+        {
+            _id: uuid(),
+            name: "Camp Footprint - Wilderness Getaway",
+            category: "National Parks",
+            image: "https://a0.muscache.com/im/pictures/e1007553-4aff-4139-b913-21070752e414.jpg?im_w=1200",
+            imageArr: ["https://a0.muscache.com/im/pictures/edd83c9f-2618-4639-918a-c689e264ef0b.jpg?im_w=720", "https://a0.muscache.com/im/pictures/637f9e3e-6270-4aa6-959b-ce4073d5aa0f.jpg?im_w=7200", "https://a0.muscache.com/im/pictures/3e38dc52-65ed-4fdf-99a0-ea32a5c153fb.jpg?im_w=720", "https://a0.muscache.com/im/pictures/1e741e0b-f88f-43b4-8839-3c0e201ad422.jpg?im_w=720"],
+            address: "Munnar",
+            city: "Munnar",
+            state: "Kerala",
+            country: "India",
+            price: 24000,
+            rating: 4.28,
+            numberOfBathrooms: 3,
+            numberOfBeds: 6,
+            numberOfguest: 10,
+            numberOfBedrooms: 3,
+            numberOfStudies: 3,
+            hostName: "Senthil",
+            hostJoinedOn: "April 2019",
+            ameneties: ["Kitchen", "Wifi", "Pets Allowed"],
+            healthAndSafety: ["No Smoke alarm", "No Carbon monox_ide alarm", "Nearby lake, river, other body of water"],
+            houseRules: ["Check-in: 2:00 pm - 5:00 pm", "Not suitable for children and infants", "No Pets", "No smoking", "No parties or events", "Smoking is allowed"],
+            propertyType: "House",
+            isCancelable: true,
+        },
+        {
+            _id: uuid(),
+            name: "Fernweh - Merakii Hospitality",
+            category: "National Parks",
+            image: "https://a0.muscache.com/im/pictures/11d290f5-5f07-4bd2-9f2c-88d48d1e7161.jpg?im_w=1200",
+            imageArr: ["https://a0.muscache.com/im/pictures/a39b7f6c-a6d3-46a8-9424-fc4244e460c7.jpg?im_w=720", "https://a0.muscache.com/im/pictures/ef4bd879-93c3-4500-b326-826756eb9579.jpg?im_w=720", "https://a0.muscache.com/im/pictures/44b0bb83-abfc-422f-be17-6dc949432236.jpg?im_w=720", "https://a0.muscache.com/im/pictures/a0df622c-325f-4c59-a2a1-b1ca861fdc4b.jpg?im_w=720"],
+            address: "Manali",
+            city: "Manali",
+            state: "Himachal Pradesh",
+            country: "India",
+            price: 7876,
+            rating: 3.9,
+            numberOfBathrooms: 5.5,
+            numberOfBeds: 5,
+            numberOfguest: 10,
+            numberOfBedrooms: 5,
+            numberOfStudies: 3,
+            hostName: "Ajay",
+            hostJoinedOn: "May 2018",
+            ameneties: ["Kitchen", "Wifi", "Pets Allowed"],
+            healthAndSafety: ["No Smoke alarm", "No Carbon monox_ide alarm", "Nearby lake, river, other body of water"],
+            houseRules: ["Check-in: After 2:00 pm", "Check out: 11:00 am", "Pets are allowed", "Smoking is allowed",],
+            propertyType: "Guest House",
+            isCancelable: true,
+        },
+        {
+            _id: uuid(),
+            name: "Exclusive Top Floor 2 luxurious adjoining Rooms",
+            category: "Lakefront",
+            image: "https://a0.muscache.com/im/pictures/07824a1a-09a9-4a1d-903c-bcd84b9a6b96.jpg?im_w=720",
+            imageArr: ["https://a0.muscache.com/im/pictures/aad62348-0489-4b72-8942-a3d28168649f.jpg?im_w=720", "https://a0.muscache.com/im/pictures/ec96ad5c-5161-46aa-a37e-ee4ec253ff29.jpg?im_w=720", "https://a0.muscache.com/im/pictures/32b4d649-f409-4ce2-ac1a-bb1c4d41b0c7.jpg?im_w=720", "https://a0.muscache.com/im/pictures/dcc0b105-ec4f-4c62-b52d-58c509c537ce.jpg?im_w=720"],
+            address: "Manali",
+            city: "Manali",
+            state: "Himachal Pradesh",
+            country: "India",
+            price: 5000,
+            rating: 4.86,
+            numberOfBathrooms: 2,
+            numberOfBeds: 2,
+            numberOfguest: 6,
+            numberOfBedrooms: 2,
+            numberOfStudies: 3,
+            hostName: "Usha",
+            hostJoinedOn: "August 2021",
+            ameneties: ["Kitchen", "Wifi", "Pets Allowed"],
+            healthAndSafety: ["No Smoke alarm", "No Carbon monox_ide alarm", "Nearby lake, river, other body of water"],
+            houseRules: ["Check-in: After 2:00 pm", "Check out: 11:00 am", "No Pets", "Smoking is allowed"],
+            propertyType: "House",
+            isCancelable: true,
+        },
+        {
+            _id: uuid(),
+            name: "Taurus The Truck - Spiti Valley",
+            category: "Bed & Breakfast",
+            image: "https://a0.muscache.com/im/pictures/0a233759-c896-420e-878e-dced5fcebeb8.jpg?im_w=1200",
+            imageArr: ["https://a0.muscache.com/im/pictures/86868c0a-5a9f-4610-8405-4cc5378c4eb9.jpg?im_w=720", "https://a0.muscache.com/im/pictures/3314f870-662d-4287-a1ae-9dd4563b12b0.jpg?im_w=720", "https://a0.muscache.com/im/pictures/d6c0d0a2-2392-442d-8baf-89b7ef5666a4.jpg?im_w=720", "https://a0.muscache.com/im/pictures/6f4dd953-5577-470a-8b86-fa86327e317f.jpg?im_w=720"],
+            address: "Kaza",
+            city: "Kaza",
+            state: "Himachal Pradesh",
+            country: "India",
+            price: 9900,
+            rating: 4.86,
+            numberOfBathrooms: 3,
+            numberOfBeds: 10,
+            numberOfguest: 10,
+            numberOfBedrooms: 6,
+            numberOfStudies: 3,
+            hostName: "Captain Suresh",
+            hostJoinedOn: "October 2017",
+            ameneties: ["Kitchen", "Wifi", "Pets Allowed"],
+            healthAndSafety: ["No Smoke alarm", "No Carbon monox_ide alarm", "Nearby lake, river, other body of water"],
+            houseRules: ["Check-in: 3:00 pm - 2:00 am", "Check out: 10:00 am", "Pets are allowed", "Smoking is allowed"],
+            propertyType: "House",
+            isCancelable: true,
+        },
+        {
+            _id: uuid(),
+            name: "Sweven by Merakii Hospitality",
+            category: "National Parks",
+            image: "https://a0.muscache.com/im/pictures/miso/Hosting-592276635181204848/original/84b1f461-2b66-4c2e-84cc-267e601d27e6.jpeg?im_w=1200",
+            imageArr: ["https://a0.muscache.com/im/pictures/miso/Hosting-592276635181204848/original/84b1f461-2b66-4c2e-84cc-267e601d27e6.jpeg?im_w=1200", "https://a0.muscache.com/im/pictures/miso/Hosting-592276635181204848/original/876c2376-6b5f-41a6-9d74-68bb6899d906.jpeg?im_w=720", "https://a0.muscache.com/im/pictures/miso/Hosting-717191697481134021/original/9ef64c02-d8f0-4edb-8bf9-a7334eb2e6b4.jpeg?im_w=720", "https://a0.muscache.com/im/pictures/miso/Hosting-717191697481134021/original/15a1387e-8f49-49ee-b244-8f285b2a2ca7.jpeg?im_w=720"],
+            address: "Nasogi",
+            city: "Nasogi",
+            state: "Himachal Pradesh",
+            country: "India",
+            price: 10611,
+            rating: 4.86,
+            numberOfBathrooms: 7,
+            numberOfBeds: 7,
+            numberOfguest: 14,
+            numberOfBedrooms: 7,
+            numberOfStudies: 3,
+            hostName: "Ajay",
+            hostJoinedOn: "May 2018",
+            ameneties: ["Kitchen", "Wifi", "Pets Allowed"],
+            healthAndSafety: ["No Smoke alarm", "No Carbon monox_ide alarm", "Nearby lake, river, other body of water"],
+            houseRules: ["Check-in: After 12:00 pm", "Check out: 11:00 am", "Pets are allowed", "Smoking is allowed"],
+            propertyType: "House",
+            isCancelable: true,
+        },
+        {
+            _id: uuid(),
+            name: "StayVista at Maharaja Suite @ The Kang Estate",
+            category: "Bed & Breakfast",
+            image: "https://a0.muscache.com/im/pictures/miso/Hosting-40075274/original/86a517b4-06a5-4073-a862-c294f5e83dc4.jpeg?im_w=1200",
+            imageArr: ["https://a0.muscache.com/im/pictures/miso/Hosting-40075274/original/d10342cf-9f0e-43ca-8357-8a4c73e0f780.jpeg?im_w=720", "https://a0.muscache.com/im/pictures/miso/Hosting-40075274/original/e2f19c2e-36b6-4c78-8a9d-7f0cc3bfff5e.jpeg?im_w=720", "https://a0.muscache.com/im/pictures/miso/Hosting-40075274/original/e1c8b3ee-2bd3-4241-a897-e30ec1f2efac.jpeg?im_w=720", "https://a0.muscache.com/im/pictures/miso/Hosting-40075274/original/dc004e7b-dec5-4f91-ac3e-5cf11bb310d7.jpeg?im_w=720"],
+            address: "Manali",
+            city: "Manali",
+            state: "Himachal Pradesh",
+            country: "India",
+            price: 16888,
+            rating: 4.69,
+            numberOfBathrooms: 3,
+            numberOfBeds: 4,
+            numberOfguest: 10,
+            numberOfBedrooms: 3,
+            numberOfStudies: 3,
+            hostName: "Ankita",
+            hostJoinedOn: "November 2018",
+            ameneties: ["Kitchen", "Wifi", "Pets Allowed"],
+            healthAndSafety: ["No Smoke alarm", "No Carbon monox_ide alarm", "Nearby lake, river, other body of water"],
+            houseRules: ["Check-in: After 2:00 pm", "Check out: 11:00 am", "No pets", "No smoking"],
+            propertyType: "Guest House",
+            isCancelable: true,
+        },
+
+        {
+            _id: uuid(),
+            name: "Munnar Retreat- _ideal for groups",
+            category: "National Parks",
+            image: "https://a0.muscache.com/im/pictures/b0a8bec1-6a89-449d-825f-87b15f8453d5.jpg?im_w=1200",
+            imageArr: ["https://a0.muscache.com/im/pictures/4b675e29-a932-4f2d-8141-9bae74c553a1.jpg?im_w=720", "https://a0.muscache.com/im/pictures/e6b02036-b392-442c-aeab-da6a4f4492b8.jpg?im_w=720", "https://a0.muscache.com/im/pictures/80df48ac-578d-4983-b8ab-e29085884360.jpg?im_w=720", "https://a0.muscache.com/im/pictures/e44c0e63-681b-4681-9bd1-e1f73e794b6a.jpg?im_w=720"],
+            address: "_idukki",
+            city: "_idukki",
+            state: "Kerala",
+            country: "India",
+            price: 20000,
+            rating: 4.99,
+            numberOfBathrooms: 10,
+            numberOfBeds: 10,
+            numberOfguest: 16,
+            numberOfBedrooms: 10,
+            numberOfStudies: 3,
+            hostName: "Sankalp Avirjaan",
+            hostJoinedOn: "May 2018",
+            ameneties: ["Kitchen", "Wifi", "Pets Allowed"],
+            healthAndSafety: ["No Smoke alarm", "No Carbon monox_ide alarm", "Nearby lake, river, other body of water"],
+            houseRules: ["Check-in: After 2:00 pm", "Check out: 11:00 am", "No pets"],
+            propertyType: "Hotel",
+            isCancelable: true,
+        },
+        {
+            _id: uuid(),
+            name: "Sun View Mountain",
+            category: "Bed & Breakfast",
+            image: "https://a0.muscache.com/im/pictures/miso/Hosting-20815828/original/f4cfbfab-6113-444b-b1ac-f60e72ea510d.jpeg?im_w=1200",
+            imageArr: ["https://a0.muscache.com/im/pictures/89337997-5bdd-4dcd-9cc2-dd119df044ab.jpg?im_w=720", "https://a0.muscache.com/im/pictures/miso/Hosting-20815828/original/52b8b87c-af68-4823-ad83-24f1d1ce1ce7.jpeg?im_w=720", "https://a0.muscache.com/im/pictures/922f596f-9c8a-4b40-b729-4e352bdd6ae8.jpg?im_w=720", "https://a0.muscache.com/im/pictures/miso/Hosting-20815828/original/1dd8a1db-f7ce-44d5-b573-57984d621864.jpeg?im_w=720"],
+            address: "Kasol",
+            city: "kasol",
+            state: "Himachal Pradesh",
+            country: "India",
+            price: 925,
+            rating: 4.86,
+            numberOfBathrooms: 3,
+            numberOfBeds: 4,
+            numberOfguest: 10,
+            numberOfBedrooms: 3,
+            numberOfStudies: 3,
+            hostName: "Sankalp Avirjaan",
+            hostJoinedOn: "May 2018",
+            ameneties: ["Kitchen", "Wifi", "Pets Allowed"],
+            healthAndSafety: ["No Smoke alarm", "No Carbon monox_ide alarm", "Nearby lake, river, other body of water"],
+            houseRules: ["Check-in: After 2:00 pm", "Check out: 11:00 am", "Pets are allowed", "No smoking", "No parties or events"],
+            propertyType: "House",
+            isCancelable: true,
+        },
+        {
+            _id: uuid(),
+            name: "Sun View Mountain",
+            category: "National Parks",
+            image: "https://a0.muscache.com/im/pictures/miso/Hosting-20815828/original/f4cfbfab-6113-444b-b1ac-f60e72ea510d.jpeg?im_w=1200",
+            imageArr: ["https://a0.muscache.com/im/pictures/89337997-5bdd-4dcd-9cc2-dd119df044ab.jpg?im_w=720", "https://a0.muscache.com/im/pictures/miso/Hosting-20815828/original/52b8b87c-af68-4823-ad83-24f1d1ce1ce7.jpeg?im_w=720", "https://a0.muscache.com/im/pictures/922f596f-9c8a-4b40-b729-4e352bdd6ae8.jpg?im_w=720", "https://a0.muscache.com/im/pictures/miso/Hosting-20815828/original/1dd8a1db-f7ce-44d5-b573-57984d621864.jpeg?im_w=720"],
+            address: "Kasol",
+            city: "kasol",
+            state: "Himachal Pradesh",
+            country: "India",
+            price: 925,
+            rating: 4.86,
+            numberOfBathrooms: 3,
+            numberOfBeds: 4,
+            numberOfguest: 10,
+            numberOfBedrooms: 3,
+            numberOfStudies: 3,
+            hostName: "Sankalp Avirjaan",
+            hostJoinedOn: "May 2018",
+            ameneties: ["Kitchen", "Wifi", "Pets Allowed"],
+            healthAndSafety: ["No Smoke alarm", "No Carbon monox_ide alarm", "Nearby lake, river, other body of water"],
+            houseRules: ["Check-in: After 2:00 pm", "Check out: 11:00 am", "Pets are allowed", "No smoking", "No parties or events"],
+            propertyType: "House",
+            isCancelable: true,
+        },
+        {
+            _id: uuid(),
+            name: "Sun View Mountain",
+            category: "National Parks",
+            image: "https://a0.muscache.com/im/pictures/miso/Hosting-20815828/original/f4cfbfab-6113-444b-b1ac-f60e72ea510d.jpeg?im_w=1200",
+            imageArr: ["https://a0.muscache.com/im/pictures/89337997-5bdd-4dcd-9cc2-dd119df044ab.jpg?im_w=720", "https://a0.muscache.com/im/pictures/miso/Hosting-20815828/original/52b8b87c-af68-4823-ad83-24f1d1ce1ce7.jpeg?im_w=720", "https://a0.muscache.com/im/pictures/922f596f-9c8a-4b40-b729-4e352bdd6ae8.jpg?im_w=720", "https://a0.muscache.com/im/pictures/miso/Hosting-20815828/original/1dd8a1db-f7ce-44d5-b573-57984d621864.jpeg?im_w=720"],
+            address: "Kasol",
+            city: "kasol",
+            state: "Himachal Pradesh",
+            country: "India",
+            price: 925,
+            rating: 4.86,
+            numberOfBathrooms: 3,
+            numberOfBeds: 4,
+            numberOfguest: 10,
+            numberOfBedrooms: 3,
+            numberOfStudies: 3,
+            hostName: "Sankalp Avirjaan",
+            hostJoinedOn: "May 2018",
+            ameneties: ["Kitchen", "Wifi", "Pets Allowed"],
+            healthAndSafety: ["No Smoke alarm", "No Carbon monox_ide alarm", "Nearby lake, river, other body of water"],
+            houseRules: ["Check-in: After 2:00 pm", "Check out: 11:00 am", "Pets are allowed", "No smoking", "No parties or events"],
+            propertyType: "House",
+            isCancelable: true,
+        },
+        {
+            _id: uuid(),
+            name: "Sun View Mountain",
+            category: "Bed & Breakfast",
+            image: "https://a0.muscache.com/im/pictures/miso/Hosting-20815828/original/f4cfbfab-6113-444b-b1ac-f60e72ea510d.jpeg?im_w=1200",
+            imageArr: ["https://a0.muscache.com/im/pictures/89337997-5bdd-4dcd-9cc2-dd119df044ab.jpg?im_w=720", "https://a0.muscache.com/im/pictures/miso/Hosting-20815828/original/52b8b87c-af68-4823-ad83-24f1d1ce1ce7.jpeg?im_w=720", "https://a0.muscache.com/im/pictures/922f596f-9c8a-4b40-b729-4e352bdd6ae8.jpg?im_w=720", "https://a0.muscache.com/im/pictures/miso/Hosting-20815828/original/1dd8a1db-f7ce-44d5-b573-57984d621864.jpeg?im_w=720"],
+            address: "Kasol",
+            city: "kasol",
+            state: "Himachal Pradesh",
+            country: "India",
+            price: 925,
+            rating: 4.86,
+            numberOfBathrooms: 3,
+            numberOfBeds: 4,
+            numberOfguest: 10,
+            numberOfBedrooms: 3,
+            numberOfStudies: 3,
+            hostName: "Sankalp Avirjaan",
+            hostJoinedOn: "May 2018",
+            ameneties: ["Kitchen", "Wifi", "Pets Allowed"],
+            healthAndSafety: ["No Smoke alarm", "No Carbon monox_ide alarm", "Nearby lake, river, other body of water"],
+            houseRules: ["Check-in: After 2:00 pm", "Check out: 11:00 am", "Pets are allowed", "No smoking", "No parties or events"],
+            propertyType: "House",
+            isCancelable: true,
+        },
+        {
+            _id: uuid(),
+            name: "Sun View Mountain",
+            category: "National Parks",
+            image: "https://a0.muscache.com/im/pictures/miso/Hosting-20815828/original/f4cfbfab-6113-444b-b1ac-f60e72ea510d.jpeg?im_w=1200",
+            imageArr: ["https://a0.muscache.com/im/pictures/89337997-5bdd-4dcd-9cc2-dd119df044ab.jpg?im_w=720", "https://a0.muscache.com/im/pictures/miso/Hosting-20815828/original/52b8b87c-af68-4823-ad83-24f1d1ce1ce7.jpeg?im_w=720", "https://a0.muscache.com/im/pictures/922f596f-9c8a-4b40-b729-4e352bdd6ae8.jpg?im_w=720", "https://a0.muscache.com/im/pictures/miso/Hosting-20815828/original/1dd8a1db-f7ce-44d5-b573-57984d621864.jpeg?im_w=720"],
+            address: "Kasol",
+            city: "kasol",
+            state: "Himachal Pradesh",
+            country: "India",
+            price: 925,
+            rating: 4.86,
+            numberOfBathrooms: 3,
+            numberOfBeds: 4,
+            numberOfguest: 10,
+            numberOfBedrooms: 3,
+            numberOfStudies: 3,
+            hostName: "Sankalp Avirjaan",
+            hostJoinedOn: "May 2018",
+            ameneties: ["Kitchen", "Wifi", "Pets Allowed"],
+            healthAndSafety: ["No Smoke alarm", "No Carbon monox_ide alarm", "Nearby lake, river, other body of water"],
+            houseRules: ["Check-in: After 2:00 pm", "Check out: 11:00 am", "Pets are allowed", "No smoking", "No parties or events"],
+            propertyType: "House",
+            isCancelable: true,
+        },
+        {
+            _id: uuid(),
+            name: "Sun View Mountain",
+            category: "Amazing Pools",
+            image: "https://a0.muscache.com/im/pictures/miso/Hosting-20815828/original/f4cfbfab-6113-444b-b1ac-f60e72ea510d.jpeg?im_w=1200",
+            imageArr: ["https://a0.muscache.com/im/pictures/89337997-5bdd-4dcd-9cc2-dd119df044ab.jpg?im_w=720", "https://a0.muscache.com/im/pictures/miso/Hosting-20815828/original/52b8b87c-af68-4823-ad83-24f1d1ce1ce7.jpeg?im_w=720", "https://a0.muscache.com/im/pictures/922f596f-9c8a-4b40-b729-4e352bdd6ae8.jpg?im_w=720", "https://a0.muscache.com/im/pictures/miso/Hosting-20815828/original/1dd8a1db-f7ce-44d5-b573-57984d621864.jpeg?im_w=720"],
+            address: "Kasol",
+            city: "kasol",
+            state: "Himachal Pradesh",
+            country: "India",
+            price: 925,
+            rating: 4.86,
+            numberOfBathrooms: 3,
+            numberOfBeds: 4,
+            numberOfguest: 10,
+            numberOfBedrooms: 3,
+            numberOfStudies: 3,
+            hostName: "Sankalp Avirjaan",
+            hostJoinedOn: "May 2018",
+            ameneties: ["Kitchen", "Wifi", "Pets Allowed"],
+            healthAndSafety: ["No Smoke alarm", "No Carbon monox_ide alarm", "Nearby lake, river, other body of water"],
+            houseRules: ["Check-in: After 2:00 pm", "Check out: 11:00 am", "Pets are allowed", "No smoking", "No parties or events"],
+            propertyType: "House",
+            isCancelable: true,
+        },
+        {
+            _id: uuid(),
+            name: "Sun View Mountain",
+            category: "Bed & Breakfast",
+            image: "https://a0.muscache.com/im/pictures/miso/Hosting-20815828/original/f4cfbfab-6113-444b-b1ac-f60e72ea510d.jpeg?im_w=1200",
+            imageArr: ["https://a0.muscache.com/im/pictures/89337997-5bdd-4dcd-9cc2-dd119df044ab.jpg?im_w=720", "https://a0.muscache.com/im/pictures/miso/Hosting-20815828/original/52b8b87c-af68-4823-ad83-24f1d1ce1ce7.jpeg?im_w=720", "https://a0.muscache.com/im/pictures/922f596f-9c8a-4b40-b729-4e352bdd6ae8.jpg?im_w=720", "https://a0.muscache.com/im/pictures/miso/Hosting-20815828/original/1dd8a1db-f7ce-44d5-b573-57984d621864.jpeg?im_w=720"],
+            address: "Kasol",
+            city: "kasol",
+            state: "Himachal Pradesh",
+            country: "India",
+            price: 925,
+            rating: 4.86,
+            numberOfBathrooms: 3,
+            numberOfBeds: 4,
+            numberOfguest: 10,
+            numberOfBedrooms: 3,
+            numberOfStudies: 3,
+            hostName: "Sankalp Avirjaan",
+            hostJoinedOn: "May 2018",
+            ameneties: ["Kitchen", "Wifi", "Pets Allowed"],
+            healthAndSafety: ["No Smoke alarm", "No Carbon monox_ide alarm", "Nearby lake, river, other body of water"],
+            houseRules: ["Check-in: After 2:00 pm", "Check out: 11:00 am", "Pets are allowed", "No smoking", "No parties or events"],
+            propertyType: "House",
+            isCancelable: true,
+        },
+        {
+            _id: uuid(),
+            name: "Sun View Mountain",
+            category: "National Parks",
+            image: "https://a0.muscache.com/im/pictures/miso/Hosting-20815828/original/f4cfbfab-6113-444b-b1ac-f60e72ea510d.jpeg?im_w=1200",
+            imageArr: ["https://a0.muscache.com/im/pictures/89337997-5bdd-4dcd-9cc2-dd119df044ab.jpg?im_w=720", "https://a0.muscache.com/im/pictures/miso/Hosting-20815828/original/52b8b87c-af68-4823-ad83-24f1d1ce1ce7.jpeg?im_w=720", "https://a0.muscache.com/im/pictures/922f596f-9c8a-4b40-b729-4e352bdd6ae8.jpg?im_w=720", "https://a0.muscache.com/im/pictures/miso/Hosting-20815828/original/1dd8a1db-f7ce-44d5-b573-57984d621864.jpeg?im_w=720"],
+            address: "Kasol",
+            city: "kasol",
+            state: "Himachal Pradesh",
+            country: "India",
+            price: 925,
+            rating: 4.86,
+            numberOfBathrooms: 3,
+            numberOfBeds: 4,
+            numberOfguest: 10,
+            numberOfBedrooms: 3,
+            numberOfStudies: 3,
+            hostName: "Sankalp Avirjaan",
+            hostJoinedOn: "May 2018",
+            ameneties: ["Kitchen", "Wifi", "Pets Allowed"],
+            healthAndSafety: ["No Smoke alarm", "No Carbon monox_ide alarm", "Nearby lake, river, other body of water"],
+            houseRules: ["Check-in: After 2:00 pm", "Check out: 11:00 am", "Pets are allowed", "No smoking", "No parties or events"],
+            propertyType: "House",
+            isCancelable: true,
+        },
+        {
+            _id: uuid(),
+            name: "Sun View Mountain",
+            category: "Caves",
+            image: "https://a0.muscache.com/im/pictures/miso/Hosting-20815828/original/f4cfbfab-6113-444b-b1ac-f60e72ea510d.jpeg?im_w=1200",
+            imageArr: ["https://a0.muscache.com/im/pictures/89337997-5bdd-4dcd-9cc2-dd119df044ab.jpg?im_w=720", "https://a0.muscache.com/im/pictures/miso/Hosting-20815828/original/52b8b87c-af68-4823-ad83-24f1d1ce1ce7.jpeg?im_w=720", "https://a0.muscache.com/im/pictures/922f596f-9c8a-4b40-b729-4e352bdd6ae8.jpg?im_w=720", "https://a0.muscache.com/im/pictures/miso/Hosting-20815828/original/1dd8a1db-f7ce-44d5-b573-57984d621864.jpeg?im_w=720"],
+            address: "Kasol",
+            city: "kasol",
+            state: "Himachal Pradesh",
+            country: "India",
+            price: 925,
+            rating: 4.86,
+            numberOfBathrooms: 3,
+            numberOfBeds: 4,
+            numberOfguest: 10,
+            numberOfBedrooms: 3,
+            numberOfStudies: 3,
+            hostName: "Sankalp Avirjaan",
+            hostJoinedOn: "May 2018",
+            ameneties: ["Kitchen", "Wifi", "Pets Allowed"],
+            healthAndSafety: ["No Smoke alarm", "No Carbon monox_ide alarm", "Nearby lake, river, other body of water"],
+            houseRules: ["Check-in: After 2:00 pm", "Check out: 11:00 am", "Pets are allowed", "No smoking", "No parties or events"],
+            propertyType: "House",
+            isCancelable: true,
+        },
+        {
+            _id: uuid(),
+            name: "Sun View Mountain",
+            category: "Caves",
+            image: "https://a0.muscache.com/im/pictures/miso/Hosting-20815828/original/f4cfbfab-6113-444b-b1ac-f60e72ea510d.jpeg?im_w=1200",
+            imageArr: ["https://a0.muscache.com/im/pictures/89337997-5bdd-4dcd-9cc2-dd119df044ab.jpg?im_w=720", "https://a0.muscache.com/im/pictures/miso/Hosting-20815828/original/52b8b87c-af68-4823-ad83-24f1d1ce1ce7.jpeg?im_w=720", "https://a0.muscache.com/im/pictures/922f596f-9c8a-4b40-b729-4e352bdd6ae8.jpg?im_w=720", "https://a0.muscache.com/im/pictures/miso/Hosting-20815828/original/1dd8a1db-f7ce-44d5-b573-57984d621864.jpeg?im_w=720"],
+            address: "Kasol",
+            city: "kasol",
+            state: "Himachal Pradesh",
+            country: "India",
+            price: 925,
+            rating: 4.86,
+            numberOfBathrooms: 3,
+            numberOfBeds: 4,
+            numberOfguest: 10,
+            numberOfBedrooms: 3,
+            numberOfStudies: 3,
+            hostName: "Sankalp Avirjaan",
+            hostJoinedOn: "May 2018",
+            ameneties: ["Kitchen", "Wifi", "Pets Allowed"],
+            healthAndSafety: ["No Smoke alarm", "No Carbon monox_ide alarm", "Nearby lake, river, other body of water"],
+            houseRules: ["Check-in: After 2:00 pm", "Check out: 11:00 am", "Pets are allowed", "No smoking", "No parties or events"],
+            propertyType: "House",
+            isCancelable: true,
+        },
+        {
+            _id: uuid(),
+            name: "Sun View Mountain",
+            category: "Design",
+            image: "https://a0.muscache.com/im/pictures/miso/Hosting-20815828/original/f4cfbfab-6113-444b-b1ac-f60e72ea510d.jpeg?im_w=1200",
+            imageArr: ["https://a0.muscache.com/im/pictures/89337997-5bdd-4dcd-9cc2-dd119df044ab.jpg?im_w=720", "https://a0.muscache.com/im/pictures/miso/Hosting-20815828/original/52b8b87c-af68-4823-ad83-24f1d1ce1ce7.jpeg?im_w=720", "https://a0.muscache.com/im/pictures/922f596f-9c8a-4b40-b729-4e352bdd6ae8.jpg?im_w=720", "https://a0.muscache.com/im/pictures/miso/Hosting-20815828/original/1dd8a1db-f7ce-44d5-b573-57984d621864.jpeg?im_w=720"],
+            address: "Kasol",
+            city: "kasol",
+            state: "Himachal Pradesh",
+            country: "India",
+            price: 925,
+            rating: 4.86,
+            numberOfBathrooms: 3,
+            numberOfBeds: 4,
+            numberOfguest: 10,
+            numberOfBedrooms: 3,
+            numberOfStudies: 3,
+            hostName: "Sankalp Avirjaan",
+            hostJoinedOn: "May 2018",
+            ameneties: ["Kitchen", "Wifi", "Pets Allowed"],
+            healthAndSafety: ["No Smoke alarm", "No Carbon monox_ide alarm", "Nearby lake, river, other body of water"],
+            houseRules: ["Check-in: After 2:00 pm", "Check out: 11:00 am", "Pets are allowed", "No smoking", "No parties or events"],
+            propertyType: "House",
+            isCancelable: true,
+        },
+        {
+            _id: uuid(),
+            name: "Sun View Mountain",
+            category: "Campervans",
+            image: "https://a0.muscache.com/im/pictures/miso/Hosting-20815828/original/f4cfbfab-6113-444b-b1ac-f60e72ea510d.jpeg?im_w=1200",
+            imageArr: ["https://a0.muscache.com/im/pictures/89337997-5bdd-4dcd-9cc2-dd119df044ab.jpg?im_w=720", "https://a0.muscache.com/im/pictures/miso/Hosting-20815828/original/52b8b87c-af68-4823-ad83-24f1d1ce1ce7.jpeg?im_w=720", "https://a0.muscache.com/im/pictures/922f596f-9c8a-4b40-b729-4e352bdd6ae8.jpg?im_w=720", "https://a0.muscache.com/im/pictures/miso/Hosting-20815828/original/1dd8a1db-f7ce-44d5-b573-57984d621864.jpeg?im_w=720"],
+            address: "Kasol",
+            city: "kasol",
+            state: "Himachal Pradesh",
+            country: "India",
+            price: 925,
+            rating: 4.86,
+            numberOfBathrooms: 3,
+            numberOfBeds: 4,
+            numberOfguest: 10,
+            numberOfBedrooms: 3,
+            numberOfStudies: 3,
+            hostName: "Sankalp Avirjaan",
+            hostJoinedOn: "May 2018",
+            ameneties: ["Kitchen", "Wifi", "Pets Allowed"],
+            healthAndSafety: ["No Smoke alarm", "No Carbon monox_ide alarm", "Nearby lake, river, other body of water"],
+            houseRules: ["Check-in: After 2:00 pm", "Check out: 11:00 am", "Pets are allowed", "No smoking", "No parties or events"],
+            propertyType: "House",
+            isCancelable: true,
+        },
+        {
+            _id: uuid(),
+            name: "Sun View Mountain",
+            category: "Campervans",
+            image: "https://a0.muscache.com/im/pictures/miso/Hosting-20815828/original/f4cfbfab-6113-444b-b1ac-f60e72ea510d.jpeg?im_w=1200",
+            imageArr: ["https://a0.muscache.com/im/pictures/89337997-5bdd-4dcd-9cc2-dd119df044ab.jpg?im_w=720", "https://a0.muscache.com/im/pictures/miso/Hosting-20815828/original/52b8b87c-af68-4823-ad83-24f1d1ce1ce7.jpeg?im_w=720", "https://a0.muscache.com/im/pictures/922f596f-9c8a-4b40-b729-4e352bdd6ae8.jpg?im_w=720", "https://a0.muscache.com/im/pictures/miso/Hosting-20815828/original/1dd8a1db-f7ce-44d5-b573-57984d621864.jpeg?im_w=720"],
+            address: "Kasol",
+            city: "kasol",
+            state: "Himachal Pradesh",
+            country: "India",
+            price: 925,
+            rating: 4.86,
+            numberOfBathrooms: 3,
+            numberOfBeds: 4,
+            numberOfguest: 10,
+            numberOfBedrooms: 3,
+            numberOfStudies: 3,
+            hostName: "Sankalp Avirjaan",
+            hostJoinedOn: "May 2018",
+            ameneties: ["Kitchen", "Wifi", "Pets Allowed"],
+            healthAndSafety: ["No Smoke alarm", "No Carbon monox_ide alarm", "Nearby lake, river, other body of water"],
+            houseRules: ["Check-in: After 2:00 pm", "Check out: 11:00 am", "Pets are allowed", "No smoking", "No parties or events"],
+            propertyType: "House",
+            isCancelable: true,
+        },
+        {
+            _id: uuid(),
+            name: "Sun View Mountain",
+            category: "Campervans",
+            image: "https://a0.muscache.com/im/pictures/miso/Hosting-20815828/original/f4cfbfab-6113-444b-b1ac-f60e72ea510d.jpeg?im_w=1200",
+            imageArr: ["https://a0.muscache.com/im/pictures/89337997-5bdd-4dcd-9cc2-dd119df044ab.jpg?im_w=720", "https://a0.muscache.com/im/pictures/miso/Hosting-20815828/original/52b8b87c-af68-4823-ad83-24f1d1ce1ce7.jpeg?im_w=720", "https://a0.muscache.com/im/pictures/922f596f-9c8a-4b40-b729-4e352bdd6ae8.jpg?im_w=720", "https://a0.muscache.com/im/pictures/miso/Hosting-20815828/original/1dd8a1db-f7ce-44d5-b573-57984d621864.jpeg?im_w=720"],
+            address: "Kasol",
+            city: "kasol",
+            state: "Himachal Pradesh",
+            country: "India",
+            price: 925,
+            rating: 4.86,
+            numberOfBathrooms: 3,
+            numberOfBeds: 4,
+            numberOfguest: 10,
+            numberOfBedrooms: 3,
+            numberOfStudies: 3,
+            hostName: "Sankalp Avirjaan",
+            hostJoinedOn: "May 2018",
+            ameneties: ["Kitchen", "Wifi", "Pets Allowed"],
+            healthAndSafety: ["No Smoke alarm", "No Carbon monox_ide alarm", "Nearby lake, river, other body of water"],
+            houseRules: ["Check-in: After 2:00 pm", "Check out: 11:00 am", "Pets are allowed", "No smoking", "No parties or events"],
+            propertyType: "House",
+            isCancelable: true,
+        },
+        {
+            _id: uuid(),
+            name: "Sun View Mountain",
+            category: "Shared Homes",
+            image: "https://a0.muscache.com/im/pictures/miso/Hosting-20815828/original/f4cfbfab-6113-444b-b1ac-f60e72ea510d.jpeg?im_w=1200",
+            imageArr: ["https://a0.muscache.com/im/pictures/89337997-5bdd-4dcd-9cc2-dd119df044ab.jpg?im_w=720", "https://a0.muscache.com/im/pictures/miso/Hosting-20815828/original/52b8b87c-af68-4823-ad83-24f1d1ce1ce7.jpeg?im_w=720", "https://a0.muscache.com/im/pictures/922f596f-9c8a-4b40-b729-4e352bdd6ae8.jpg?im_w=720", "https://a0.muscache.com/im/pictures/miso/Hosting-20815828/original/1dd8a1db-f7ce-44d5-b573-57984d621864.jpeg?im_w=720"],
+            address: "Kasol",
+            city: "kasol",
+            state: "Himachal Pradesh",
+            country: "India",
+            price: 925,
+            rating: 4.86,
+            numberOfBathrooms: 3,
+            numberOfBeds: 4,
+            numberOfguest: 10,
+            numberOfBedrooms: 3,
+            numberOfStudies: 3,
+            hostName: "Sankalp Avirjaan",
+            hostJoinedOn: "May 2018",
+            ameneties: ["Kitchen", "Wifi", "Pets Allowed"],
+            healthAndSafety: ["No Smoke alarm", "No Carbon monox_ide alarm", "Nearby lake, river, other body of water"],
+            houseRules: ["Check-in: After 2:00 pm", "Check out: 11:00 am", "Pets are allowed", "No smoking", "No parties or events"],
+            propertyType: "House",
+            isCancelable: true,
+        },
+        {
+            _id: uuid(),
+            name: "Sun View Mountain",
+            category: "Shared Homes",
+            image: "https://a0.muscache.com/im/pictures/miso/Hosting-20815828/original/f4cfbfab-6113-444b-b1ac-f60e72ea510d.jpeg?im_w=1200",
+            imageArr: ["https://a0.muscache.com/im/pictures/89337997-5bdd-4dcd-9cc2-dd119df044ab.jpg?im_w=720", "https://a0.muscache.com/im/pictures/miso/Hosting-20815828/original/52b8b87c-af68-4823-ad83-24f1d1ce1ce7.jpeg?im_w=720", "https://a0.muscache.com/im/pictures/922f596f-9c8a-4b40-b729-4e352bdd6ae8.jpg?im_w=720", "https://a0.muscache.com/im/pictures/miso/Hosting-20815828/original/1dd8a1db-f7ce-44d5-b573-57984d621864.jpeg?im_w=720"],
+            address: "Kasol",
+            city: "kasol",
+            state: "Himachal Pradesh",
+            country: "India",
+            price: 925,
+            rating: 4.86,
+            numberOfBathrooms: 3,
+            numberOfBeds: 4,
+            numberOfguest: 10,
+            numberOfBedrooms: 3,
+            numberOfStudies: 3,
+            hostName: "Sankalp Avirjaan",
+            hostJoinedOn: "May 2018",
+            ameneties: ["Kitchen", "Wifi", "Pets Allowed"],
+            healthAndSafety: ["No Smoke alarm", "No Carbon monox_ide alarm", "Nearby lake, river, other body of water"],
+            houseRules: ["Check-in: After 2:00 pm", "Check out: 11:00 am", "Pets are allowed", "No smoking", "No parties or events"],
+            propertyType: "House",
+            isCancelable: true,
+        },
+        {
+            _id: uuid(),
+            name: "RiverTree Duplex- Rivers_ide Plantation TreehouseAC",
+            category: "Tiny Homes",
+            image: "https://a0.muscache.com/im/pictures/c59d4481-f48a-43db-ade2-1df5689b725f.jpg?im_w=1200",
+            imageArr: ["https://a0.muscache.com/im/pictures/51c9fc89-517c-42ed-a97b-002b5282c22a.jpg?im_w=720", "https://a0.muscache.com/im/pictures/f96ed3c3-6bbd-47f7-ac88-aa1bd9babb72.jpg?im_w=720", "https://a0.muscache.com/im/pictures/92b4a81e-416b-4c29-a1b0-4a9ce29ec223.jpg?im_w=720", "https://a0.muscache.com/im/pictures/e1dddd34-90fd-4394-a211-7ff96e00a57f.jpg?im_w=720"],
+            address: "Kottathara",
+            city: "Wayanad",
+            state: "Kerala",
+            country: "India",
+            price: 2580,
+            rating: 5.0,
+            numberOfBathrooms: 3,
+            numberOfBeds: 4,
+            numberOfguest: 10,
+            numberOfBedrooms: 3,
+            numberOfStudies: 3,
+            hostName: "Sankalp Avirjaan",
+            hostJoinedOn: "May 2018",
+            ameneties: ["Kitchen", "Wifi", "Pets Allowed"],
+            healthAndSafety: ["No Smoke alarm", "No Carbon monox_ide alarm", "Nearby lake, river, other body of water"],
+            houseRules: ["Check-in: After 2:00 pm", "Check out: 11:00 am", "Pets are allowed", "No smoking", "No parties or events"],
+            propertyType: "Hotel",
+            isCancelable: true,
+        },
+        {
+            _id: uuid(),
+            name: "RiverTree Duplex- Rivers_ide Plantation TreehouseAC",
+            category: "Island",
+            image: "https://a0.muscache.com/im/pictures/c59d4481-f48a-43db-ade2-1df5689b725f.jpg?im_w=1200",
+            imageArr: ["https://a0.muscache.com/im/pictures/51c9fc89-517c-42ed-a97b-002b5282c22a.jpg?im_w=720", "https://a0.muscache.com/im/pictures/f96ed3c3-6bbd-47f7-ac88-aa1bd9babb72.jpg?im_w=720", "https://a0.muscache.com/im/pictures/92b4a81e-416b-4c29-a1b0-4a9ce29ec223.jpg?im_w=720", "https://a0.muscache.com/im/pictures/e1dddd34-90fd-4394-a211-7ff96e00a57f.jpg?im_w=720"],
+            address: "Kottathara",
+            city: "Wayanad",
+            state: "Kerala",
+            country: "India",
+            price: 2580,
+            rating: 5.0,
+            numberOfBathrooms: 3,
+            numberOfBeds: 4,
+            numberOfguest: 10,
+            numberOfBedrooms: 3,
+            numberOfStudies: 3,
+            hostName: "Sankalp Avirjaan",
+            hostJoinedOn: "May 2018",
+            ameneties: ["Kitchen", "Wifi", "Pets Allowed"],
+            healthAndSafety: ["No Smoke alarm", "No Carbon monox_ide alarm", "Nearby lake, river, other body of water"],
+            houseRules: ["Check-in: After 2:00 pm", "Check out: 11:00 am", "Pets are allowed", "No smoking", "No parties or events"],
+            propertyType: "Hotel",
+            isCancelable: true,
+        },
+        {
+            _id: uuid(),
+            name: "RiverTree Duplex- Rivers_ide Plantation TreehouseAC",
+            category: "Island",
+            image: "https://a0.muscache.com/im/pictures/c59d4481-f48a-43db-ade2-1df5689b725f.jpg?im_w=720",
+            address: "Kottathara",
+            city: "Wayanad",
+            state: "Kerala",
+            country: "India",
+            price: 2580,
+            rating: 2.9,
+            numberOfBathrooms: 3,
+            numberOfBeds: 4,
+            numberOfguest: 10,
+            numberOfBedrooms: 3,
+            numberOfStudies: 3,
+            hostName: "Sankalp Avirjaan",
+            hostJoinedOn: "May 2018",
+            ameneties: ["Kitchen", "Wifi", "Pets Allowed"],
+            healthAndSafety: ["No Smoke alarm", "No Carbon monox_ide alarm", "Nearby lake, river, other body of water"],
+            houseRules: ["Check-in: After 2:00 pm", "Check out: 11:00 am", "Pets are allowed", "No smoking", "No parties or events"],
+            propertyType: "Flat",
+            isCancelable: false,
+        },
+        {
+            _id: uuid(),
+            name: "Camp Earnest King Yurt in Twain Harte",
+            category: "Earth Homes",
+            image: "https://a0.muscache.com/im/pictures/miso/Hosting-629808186437102897/original/c791c12d-9300-4419-ad6e-f20faefca77d.jpeg?im_w=720",
+            imageArr: [
+                "https://a0.muscache.com/im/pictures/miso/Hosting-629808186437102897/original/14a0f994-d199-4050-9622-f2d897bc99b3.jpeg?im_w=720",
+                "https://a0.muscache.com/im/pictures/miso/Hosting-629808186437102897/original/b22b7321-8093-4bb0-9895-b6092ce3dbc3.jpeg?im_w=720",
+                "https://a0.muscache.com/im/pictures/miso/Hosting-629808186437102897/original/8dc19f71-5f1e-4722-a74d-b7cd9b42c84c.jpeg?im_w=720",
+                "https://a0.muscache.com/im/pictures/miso/Hosting-629808186437102897/original/f4be612d-198d-428d-a958-a793d8759176.jpeg?im_w=720"
+            ],
+            address: "Twain Harte, California",
+            city: "Twain Harte",
+            state: "California",
+            country: "United States",
+            price: 99,
+            rating: 4.86,
+            numberOfBathrooms: 2,
+            numberOfBeds: 1,
+            numberOfguest: 3,
+            numberOfBedrooms: 1,
+            numberOfStudies: 1,
+            hostName: "Lokesh",
+            hostJoinedOn: "December 2019",
+            ameneties: [
+                "Kitchen",
+                "Wifi",
+                "Pets Allowed"
+            ],
+            healthAndSafety: [
+                "No Smoke alarm",
+                "No Carbon monox_ide alarm"
+            ],
+            houseRules: [
+                "Check-in: After 1:00 pm",
+                "Check out: 11:00 am",
+                "Pets are allowed"
+            ],
+            propertyType: "Guest House",
+            isCancelable: true
+        },
+        {
+            _id: uuid(),
+            name: "She Dances in Moonlight Yurt up Rock Creek",
+            category: "Earth Homes",
+            image: "https://a0.muscache.com/im/pictures/db3c600b-9a33-4655-b9d6-0d60120e246d.jpg?im_w=720",
+            imageArr: [
+                "https://a0.muscache.com/im/pictures/cab42fc6-b2fd-4659-8288-0018e99899a1.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/547ca041-cc63-406f-a557-1838d2ecef5e.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/870f26b9-5d67-4a41-9804-619301bc02d0.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/144d20bf-8c1d-47f0-8906-d94a984e35ae.jpg?im_w=720"
+            ],
+            address: "Clinton, Montana",
+            city: "Clinton",
+            state: "Montana",
+            country: "United States",
+            price: 89,
+            rating: 4.98,
+            numberOfBathrooms: 2,
+            numberOfBeds: 1,
+            numberOfguest: 3,
+            numberOfBedrooms: 1,
+            numberOfStudies: 1,
+            hostName: "Lokesh",
+            hostJoinedOn: "December 2019",
+            ameneties: [
+                "Kitchen",
+                "Wifi",
+                "Pets Allowed"
+            ],
+            healthAndSafety: [
+                "No Smoke alarm",
+                "No Carbon monox_ide alarm"
+            ],
+            houseRules: [
+                "Check-in: After 1:00 pm",
+                "Check out: 11:00 am",
+                "Pets are allowed"
+            ],
+            propertyType: "Guest House",
+            isCancelable: true
+        },
+        {
+            _id: uuid(),
+            name: "26' Yurt Cozy Glamping Getaway!",
+            category: "Earth Homes",
+            image: "https://a0.muscache.com/im/pictures/e928af0c-c1d7-42ee-a176-b798e9f452bf.jpg?im_w=720",
+            imageArr: [
+                "https://a0.muscache.com/im/pictures/34f44a19-c266-4119-8664-c7501a7d6719.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/36dd8fe2-a589-4729-8984-71be04a46962.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/ffde9fb4-2b5b-44b8-968a-c72d4e5c106a.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/f5e0c4a2-f628-4f48-867e-1786828db46e.jpg?im_w=720"
+            ],
+            address: "Cedar City, Utah",
+            city: "Cedar City",
+            state: "Utah",
+            country: "United States",
+            price: 69,
+            rating: 4.77,
+            numberOfBathrooms: 2,
+            numberOfBeds: 1,
+            numberOfguest: 3,
+            numberOfBedrooms: 1,
+            numberOfStudies: 1,
+            hostName: "Lokesh",
+            hostJoinedOn: "December 2019",
+            ameneties: [
+                "Kitchen",
+                "Wifi",
+                "Pets Allowed"
+            ],
+            healthAndSafety: [
+                "No Smoke alarm",
+                "No Carbon monox_ide alarm"
+            ],
+            houseRules: [
+                "Check-in: After 1:00 pm",
+                "Check out: 11:00 am",
+                "Pets are allowed"
+            ],
+            propertyType: "Guest House",
+            isCancelable: true
+        },
+        {
+            _id: uuid(),
+            name: "Wildedge Ranch Yurt",
+            category: "Countrys_ide",
+            image: "https://a0.muscache.com/im/pictures/miso/Hosting-770968997359978589/original/a2510c11-9486-449a-be4b-36700689b16f.jpeg?im_w=720",
+            imageArr: [
+                "https://a0.muscache.com/im/pictures/miso/Hosting-770968997359978589/original/cb5418b9-3d86-497a-8831-fc34bab38437.jpeg?im_w=720",
+                "https://a0.muscache.com/im/pictures/miso/Hosting-770968997359978589/original/6b829d41-8fac-498a-a5eb-95f3d4a86f82.jpeg?im_w=720",
+                "https://a0.muscache.com/im/pictures/miso/Hosting-770968997359978589/original/12697a0d-cc60-4087-b61c-66263395d28a.jpeg?im_w=720",
+                "https://a0.muscache.com/im/pictures/miso/Hosting-770968997359978589/original/885c2ce0-5d77-4da3-a9bf-d92046810048.jpeg?im_w=720"
+            ],
+            address: "Garden Valley, _idaho",
+            city: "Garden Valley",
+            state: "_idaho",
+            country: "United States",
+            price: 56,
+            rating: 4.97,
+            numberOfBathrooms: 2,
+            numberOfBeds: 1,
+            numberOfguest: 3,
+            numberOfBedrooms: 1,
+            numberOfStudies: 1,
+            hostName: "Lokesh",
+            hostJoinedOn: "December 2019",
+            ameneties: [
+                "Kitchen",
+                "Wifi",
+                "Pets Allowed"
+            ],
+            healthAndSafety: [
+                "No Smoke alarm",
+                "No Carbon monox_ide alarm"
+            ],
+            houseRules: [
+                "Check-in: After 1:00 pm",
+                "Check out: 11:00 am",
+                "Pets are allowed"
+            ],
+            propertyType: "Guest House",
+            isCancelable: false
+        },
+        {
+            _id: uuid(),
+            name: "Camp Caribou Guest Yurt - 10min from Glacier NP!",
+            category: "Countrys_ide",
+            image: "https://a0.muscache.com/im/pictures/86a9a03a-14bb-4337-9966-4feedd515bb8.jpg?im_w=720",
+            imageArr: [
+                "https://a0.muscache.com/im/pictures/ef4b0077-ab08-4d9d-9698-901331404147.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/3613bd67-b583-4f7e-bbcf-eccbce493b72.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/99baed93-648d-4f14-b9ab-fa12103f31a1.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/b525bbc4-51ab-4b78-947e-59a4c9fb5251.jpg?im_w=720"
+            ],
+            address: "Coram, Montana",
+            city: "Coram",
+            state: "Montana",
+            country: "United States",
+            price: 189,
+            rating: 4.98,
+            numberOfBathrooms: 2,
+            numberOfBeds: 1,
+            numberOfguest: 3,
+            numberOfBedrooms: 1,
+            numberOfStudies: 1,
+            hostName: "Lokesh",
+            hostJoinedOn: "December 2019",
+            ameneties: [
+                "Kitchen",
+                "Wifi",
+                "Pets Allowed"
+            ],
+            healthAndSafety: [
+                "No Smoke alarm",
+                "No Carbon monox_ide alarm"
+            ],
+            houseRules: [
+                "Check-in: After 1:00 pm",
+                "Check out: 11:00 am",
+                "Pets are allowed"
+            ],
+            propertyType: "Guest House",
+            isCancelable: true
+        },
+        {
+            _id: uuid(),
+            name: "Unique Luxury Grain Bin called the Happy Place",
+            category: "Luxe",
+            image: "https://a0.muscache.com/im/pictures/6c5bf06a-9df1-4549-9c83-0f6524cbfde3.jpg?im_w=720",
+            imageArr: [
+                "https://a0.muscache.com/im/pictures/39b503a9-cb9d-4d31-a333-f3f51b7fab97.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/47126dc8-06d5-4356-9441-aebcc6fff40f.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/066b9447-5e89-4044-8a81-304e6f8534dc.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/0e873a50-3509-4de1-8083-2dbd58ad0bf0.jpg?im_w=720"
+            ],
+            address: "Ronan, Montana",
+            city: "Ronan",
+            state: "Montana",
+            country: "United States",
+            price: 80,
+            rating: 4.97,
+            numberOfBathrooms: 2,
+            numberOfBeds: 1,
+            numberOfguest: 3,
+            numberOfBedrooms: 1,
+            numberOfStudies: 1,
+            hostName: "Lokesh",
+            hostJoinedOn: "December 2019",
+            ameneties: [
+                "Kitchen",
+                "Wifi",
+                "Pets Allowed"
+            ],
+            healthAndSafety: [
+                "No Smoke alarm",
+                "No Carbon monox_ide alarm"
+            ],
+            houseRules: [
+                "Check-in: After 1:00 pm",
+                "Check out: 11:00 am",
+                "Pets are allowed"
+            ],
+            propertyType: "Guest House",
+            isCancelable: true
+        },
+        {
+            _id: uuid(),
+            name: "Yurtle Turtle  Island Getaway",
+            category: "Luxe",
+            image: "https://a0.muscache.com/im/pictures/52d4fd9c-c6fc-41d0-b521-201068cd72d7.jpg?im_w=720",
+            imageArr: [
+                "https://a0.muscache.com/im/pictures/miso/Hosting-768248700081133087/original/1f3c4fd4-a298-4e89-8221-6df20a575e30.jpeg?im_w=720",
+                "https://a0.muscache.com/im/pictures/6cf011c0-e1f6-474b-9e34-705a08ff2c17.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/miso/Hosting-768248700081133087/original/63dacd60-c621-47cc-9973-81cd0ac3504e.jpeg?im_w=720",
+                "https://a0.muscache.com/im/pictures/miso/Hosting-768248700081133087/original/11e2af51-e092-497b-a93c-ec5716b7326c.jpeg?im_w=720"
+            ],
+            address: "Camano, Washington",
+            city: "Camano",
+            state: "Washington",
+            country: "United States",
+            price: 87,
+            rating: 4.87,
+            numberOfBathrooms: 2,
+            numberOfBeds: 1,
+            numberOfguest: 3,
+            numberOfBedrooms: 1,
+            numberOfStudies: 1,
+            hostName: "Lokesh",
+            hostJoinedOn: "December 2019",
+            ameneties: [
+                "Kitchen",
+                "Wifi",
+                "Pets Allowed"
+            ],
+            healthAndSafety: [
+                "No Smoke alarm",
+                "No Carbon monox_ide alarm"
+            ],
+            houseRules: [
+                "Check-in: After 1:00 pm",
+                "Check out: 11:00 am",
+                "Pets are allowed"
+            ],
+            propertyType: "Guest House",
+            isCancelable: true
+        },
+        {
+            _id: uuid(),
+            name: "Prism Mongolian Yurt with Cedar Hot Tub",
+            category: "Amazing Views",
+            image: "https://a0.muscache.com/im/pictures/f716a5a8-bc40-4663-8172-b080f8a53129.jpg?im_w=720",
+            imageArr: [
+                "https://a0.muscache.com/im/pictures/ea438c25-4664-49bd-addf-974a91b849fe.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/miso/Hosting-892263919214729843/original/b1d27bcc-8e4d-4bda-9e2f-7f82fbafab16.jpeg?im_w=720",
+                "https://a0.muscache.com/im/pictures/591efa06-2291-454d-bb9a-f4cf0d32d6bd.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/miso/Hosting-892263919214729843/original/0ee87f11-7679-43de-b5e1-be3d81263a8f.jpeg?im_w=720"
+            ],
+            address: "Buckley, Washington",
+            city: "Buckley",
+            state: "Washington",
+            country: "United States",
+            price: 79,
+            rating: 5.0,
+            numberOfBathrooms: 2,
+            numberOfBeds: 1,
+            numberOfguest: 3,
+            numberOfBedrooms: 1,
+            numberOfStudies: 1,
+            hostName: "Lokesh",
+            hostJoinedOn: "December 2019",
+            ameneties: [
+                "Kitchen",
+                "Wifi",
+                "Pets Allowed"
+            ],
+            healthAndSafety: [
+                "No Smoke alarm",
+                "No Carbon monox_ide alarm"
+            ],
+            houseRules: [
+                "Check-in: After 1:00 pm",
+                "Check out: 11:00 am",
+                "Pets are allowed"
+            ],
+            propertyType: "Guest House",
+            isCancelable: true
+        },
+        {
+            _id: uuid(),
+            name: "Sanctuary Farm Yurt Glamping with Breakfast",
+            category: "Amazing Views",
+            image: "https://a0.muscache.com/im/pictures/071c7ae3-a091-405f-a6c9-abff3974c648.jpg?im_w=720",
+            imageArr: [
+                "https://a0.muscache.com/im/pictures/9ac8d3b5-136e-433e-a2fd-49e28d204c9a.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/3b174fca-b5d4-4ebc-a078-2d1afb746fe4.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/1714440d-66ae-48ac-b818-d106433e56f2.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/094032ce-6680-4bf8-af06-fb08d81799a3.jpg?im_w=720"
+            ],
+            address: "Alberton, Montana",
+            city: "Alberton",
+            state: "Montana",
+            country: "United States",
+            price: 107,
+            rating: 4.94,
+            numberOfBathrooms: 2,
+            numberOfBeds: 1,
+            numberOfguest: 3,
+            numberOfBedrooms: 1,
+            numberOfStudies: 1,
+            hostName: "Lokesh",
+            hostJoinedOn: "December 2019",
+            ameneties: [
+                "Kitchen",
+                "Wifi",
+                "Pets Allowed"
+            ],
+            healthAndSafety: [
+                "No Smoke alarm",
+                "No Carbon monox_ide alarm"
+            ],
+            houseRules: [
+                "Check-in: After 1:00 pm",
+                "Check out: 11:00 am",
+                "Pets are allowed"
+            ],
+            propertyType: "Guest House",
+            isCancelable: true
+        },
+        {
+            _id: uuid(),
+            name: "Magical retreat: off-gr_id on 10 acres",
+            category: "Golfing",
+            image: "https://a0.muscache.com/im/pictures/6e2bced9-41e1-442e-9e3c-fd9990205d9d.jpg?im_w=720",
+            imageArr: [
+                "https://a0.muscache.com/im/pictures/562d2c41-1084-4d37-9f02-432f6674e233.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/598f9282-8221-4551-8567-fad5659f447b.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/1eda5b8c-b65f-4164-9bb5-11ab63843d00.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/70d1ee9d-53f2-42ee-b789-9b83a87911f2.jpg?im_w=720"
+            ],
+            address: "Nevada City, California",
+            city: "Nevada City",
+            state: "California",
+            country: "United States",
+            price: 185,
+            rating: 4.9,
+            numberOfBathrooms: 2,
+            numberOfBeds: 1,
+            numberOfguest: 3,
+            numberOfBedrooms: 1,
+            numberOfStudies: 1,
+            hostName: "Lokesh",
+            hostJoinedOn: "December 2019",
+            ameneties: [
+                "Kitchen",
+                "Wifi",
+                "Pets Allowed"
+            ],
+            healthAndSafety: [
+                "No Smoke alarm",
+                "No Carbon monox_ide alarm"
+            ],
+            houseRules: [
+                "Check-in: After 1:00 pm",
+                "Check out: 11:00 am",
+                "Pets are allowed"
+            ],
+            propertyType: "Guest House",
+            isCancelable: false
+        },
+        {
+            _id: uuid(),
+            name: "White Salmon Yurt Getaway",
+            category: "Castle",
+            image: "https://a0.muscache.com/im/pictures/b4f9ea55-546f-4a11-b52c-421fdec90ade.jpg?im_w=720",
+            imageArr: [
+                "https://a0.muscache.com/im/pictures/airflow/Hosting-49691344/original/3057a569-f23b-45c5-b272-4aaf6aa29164.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/airflow/Hosting-49691344/original/0570eed6-1ede-4c3f-91c1-e8e0afb11bdb.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/airflow/Hosting-49691344/original/5efb3b49-c2a9-460b-b0c4-2cecac854293.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/airflow/Hosting-49691344/original/07ad17b0-c9e0-4cb4-a7d6-44a7601ab828.jpg?im_w=720"
+            ],
+            address: "White Salmon, Washington",
+            city: "White Salmon",
+            state: "Washington",
+            country: "United States",
+            price: 204,
+            rating: 4.99,
+            numberOfBathrooms: 2,
+            numberOfBeds: 1,
+            numberOfguest: 3,
+            numberOfBedrooms: 1,
+            numberOfStudies: 1,
+            hostName: "Lokesh",
+            hostJoinedOn: "December 2019",
+            ameneties: [
+                "Kitchen",
+                "Wifi",
+                "Pets Allowed"
+            ],
+            healthAndSafety: [
+                "No Smoke alarm",
+                "No Carbon monox_ide alarm"
+            ],
+            houseRules: [
+                "Check-in: After 1:00 pm",
+                "Check out: 11:00 am",
+                "Pets are allowed"
+            ],
+            propertyType: "Guest House",
+            isCancelable: true
+        },
+        {
+            _id: uuid(),
+            name: "Cozy yurt getaway - 16' and 20'",
+            category: "Castle",
+            image: "https://a0.muscache.com/im/pictures/miso/Hosting-891298470628500049/original/8321c367-84c7-4215-8a69-18670a65bb42.jpeg?im_w=720",
+            imageArr: [
+                "https://a0.muscache.com/im/pictures/miso/Hosting-891298470628500049/original/594f7cd5-6f69-4bdf-b5dc-2b22bd9b27c9.jpeg?im_w=720",
+                "https://a0.muscache.com/im/pictures/miso/Hosting-891298470628500049/original/bcf37076-e8a6-43aa-917e-9aabf11d024e.jpeg?im_w=720",
+                "https://a0.muscache.com/im/pictures/miso/Hosting-891298470628500049/original/3a7f5a0f-de4e-44a2-9dd5-bd9295f938bf.jpeg?im_w=720",
+                "https://a0.muscache.com/im/pictures/miso/Hosting-891298470628500049/original/35bf42dc-93a5-4224-b152-11c9fd1aa84e.jpeg?im_w=720"
+            ],
+            address: "Pleasant Hill, Oregon",
+            city: "Pleasant Hill",
+            state: "Oregon",
+            country: "United States",
+            price: 200,
+            rating: 5.0,
+            numberOfBathrooms: 2,
+            numberOfBeds: 1,
+            numberOfguest: 3,
+            numberOfBedrooms: 1,
+            numberOfStudies: 1,
+            hostName: "Lokesh",
+            hostJoinedOn: "December 2019",
+            ameneties: [
+                "Kitchen",
+                "Wifi",
+                "Pets Allowed"
+            ],
+            healthAndSafety: [
+                "No Smoke alarm",
+                "No Carbon monox_ide alarm"
+            ],
+            houseRules: [
+                "Check-in: After 1:00 pm",
+                "Check out: 11:00 am",
+                "Pets are allowed"
+            ],
+            propertyType: "Guest House",
+            isCancelable: true
+        },
+        {
+            _id: uuid(),
+            name: "Countrys_ide Yurt",
+            category: "Yurts",
+            image: "https://a0.muscache.com/im/pictures/miso/Hosting-917705126228415358/original/c45c9d41-4cbd-4072-bdd2-90c4bbaeea39.jpeg?im_w=720",
+            imageArr: [
+                "https://a0.muscache.com/im/pictures/e3069c5f-ca5c-4b31-a167-3a81c3dc9bed.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/76c96ea0-5e0e-4e6f-b183-a4871680cab6.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/miso/Hosting-917705126228415358/original/93a721c3-0f3c-47bc-94c5-8c50b7c58754.jpeg?im_w=720",
+                "https://a0.muscache.com/im/pictures/54505039-13e4-4537-bd69-f465c853f880.jpg?im_w=720"
+            ],
+            address: "Pincher Creek No. 9, Canada",
+            city: "Pincher Creek No. 9",
+            state: "Canada",
+            country: "United States",
+            price: 144,
+            rating: 4.9,
+            numberOfBathrooms: 2,
+            numberOfBeds: 1,
+            numberOfguest: 3,
+            numberOfBedrooms: 1,
+            numberOfStudies: 1,
+            hostName: "Lokesh",
+            hostJoinedOn: "December 2019",
+            ameneties: [
+                "Kitchen",
+                "Wifi",
+                "Pets Allowed"
+            ],
+            healthAndSafety: [
+                "No Smoke alarm",
+                "No Carbon monox_ide alarm"
+            ],
+            houseRules: [
+                "Check-in: After 1:00 pm",
+                "Check out: 11:00 am",
+                "Pets are allowed"
+            ],
+            propertyType: "Guest House",
+            isCancelable: true
+        },
+        {
+            _id: uuid(),
+            name: "Heart Yurt - artisan made with cedar hot tub",
+            category: "Iconic Sites",
+            image: "https://a0.muscache.com/im/pictures/prohost-api/Hosting-961661687102034735/original/9d15bd35-725e-4c51-96e4-9108681d7507.jpeg?im_w=720",
+            imageArr: [
+                "https://a0.muscache.com/im/pictures/prohost-api/Hosting-961661687102034735/original/e9d0f7a3-81bc-4f04-9551-936c9173125b.jpeg?im_w=720",
+                "https://a0.muscache.com/im/pictures/prohost-api/Hosting-961661687102034735/original/66cab60b-acd0-459f-ba26-22cb283a3bb4.jpeg?im_w=720",
+                "https://a0.muscache.com/im/pictures/prohost-api/Hosting-961661687102034735/original/0005ebbe-7ca6-431d-a057-071b52ab81af.jpeg?im_w=720",
+                "https://a0.muscache.com/im/pictures/prohost-api/Hosting-961661687102034735/original/ca7cb1a6-4b0d-45bb-a87c-70001084d9b9.jpeg?im_w=720"
+            ],
+            address: "Buckley, Washington",
+            city: "Buckley",
+            state: "Washington",
+            country: "United States",
+            price: 99,
+            rating: 0.0,
+            numberOfBathrooms: 2,
+            numberOfBeds: 1,
+            numberOfguest: 3,
+            numberOfBedrooms: 1,
+            numberOfStudies: 1,
+            hostName: "Lokesh",
+            hostJoinedOn: "December 2019",
+            ameneties: [
+                "Kitchen",
+                "Wifi",
+                "Pets Allowed"
+            ],
+            healthAndSafety: [
+                "No Smoke alarm",
+                "No Carbon monox_ide alarm"
+            ],
+            houseRules: [
+                "Check-in: After 1:00 pm",
+                "Check out: 11:00 am",
+                "Pets are allowed"
+            ],
+            propertyType: "Guest House",
+            isCancelable: true
+        },
+        {
+            _id: uuid(),
+            name: "Enchanting 22-Foot Mongolian Yurt in the Woods",
+            category: "Iconic Sites",
+            image: "https://a0.muscache.com/im/pictures/782691b1-6ed5-4d3c-b19a-2937ffd169a8.jpg?im_w=720",
+            imageArr: [
+                "https://a0.muscache.com/im/pictures/6295b4dd-24b3-48e5-b39b-b35960cbc1c4.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/68a220c6-d85a-4f3c-9917-5c9e53f54d54.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/miso/Hosting-51129650/original/f6a56b89-8050-4b14-a358-ad5cbfc722ca.jpeg?im_w=720",
+                "https://a0.muscache.com/im/pictures/miso/Hosting-51129650/original/9a0a3f2e-6972-42f5-a7df-0dac462f3ccf.jpeg?im_w=720"
+            ],
+            address: "Weed, California",
+            city: "Weed",
+            state: "California",
+            country: "United States",
+            price: 195,
+            rating: 4.96,
+            numberOfBathrooms: 2,
+            numberOfBeds: 1,
+            numberOfguest: 3,
+            numberOfBedrooms: 1,
+            numberOfStudies: 1,
+            hostName: "Lokesh",
+            hostJoinedOn: "December 2019",
+            ameneties: [
+                "Kitchen",
+                "Wifi",
+                "Pets Allowed"
+            ],
+            healthAndSafety: [
+                "No Smoke alarm",
+                "No Carbon monox_ide alarm"
+            ],
+            houseRules: [
+                "Check-in: After 1:00 pm",
+                "Check out: 11:00 am",
+                "Pets are allowed"
+            ],
+            propertyType: "Guest House",
+            isCancelable: true
+        },
+        {
+            _id: uuid(),
+            name: "Unique Luxury Grain Bin called the Happy Place",
+            category: "Historical Homes",
+            image: "https://a0.muscache.com/im/pictures/6c5bf06a-9df1-4549-9c83-0f6524cbfde3.jpg?im_w=720",
+            imageArr: [
+                "https://a0.muscache.com/im/pictures/39b503a9-cb9d-4d31-a333-f3f51b7fab97.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/47126dc8-06d5-4356-9441-aebcc6fff40f.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/066b9447-5e89-4044-8a81-304e6f8534dc.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/0e873a50-3509-4de1-8083-2dbd58ad0bf0.jpg?im_w=720"
+            ],
+            address: "Ronan, Montana",
+            city: "Ronan",
+            state: "Montana",
+            country: "United States",
+            price: 80,
+            rating: 4.97,
+            numberOfBathrooms: 2,
+            numberOfBeds: 1,
+            numberOfguest: 3,
+            numberOfBedrooms: 1,
+            numberOfStudies: 1,
+            hostName: "Lokesh",
+            hostJoinedOn: "December 2019",
+            ameneties: [
+                "Kitchen",
+                "Wifi",
+                "Pets Allowed"
+            ],
+            healthAndSafety: [
+                "No Smoke alarm",
+                "No Carbon monox_ide alarm"
+            ],
+            houseRules: [
+                "Check-in: After 1:00 pm",
+                "Check out: 11:00 am",
+                "Pets are allowed"
+            ],
+            propertyType: "Guest House",
+            isCancelable: true
+        },
+        {
+            _id: uuid(),
+            name: "Yurtle Turtle  Island Getaway",
+            category: "Historical Homes",
+            image: "https://a0.muscache.com/im/pictures/52d4fd9c-c6fc-41d0-b521-201068cd72d7.jpg?im_w=720",
+            imageArr: [
+                "https://a0.muscache.com/im/pictures/miso/Hosting-768248700081133087/original/1f3c4fd4-a298-4e89-8221-6df20a575e30.jpeg?im_w=720",
+                "https://a0.muscache.com/im/pictures/6cf011c0-e1f6-474b-9e34-705a08ff2c17.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/miso/Hosting-768248700081133087/original/63dacd60-c621-47cc-9973-81cd0ac3504e.jpeg?im_w=720",
+                "https://a0.muscache.com/im/pictures/miso/Hosting-768248700081133087/original/11e2af51-e092-497b-a93c-ec5716b7326c.jpeg?im_w=720"
+            ],
+            address: "Camano, Washington",
+            city: "Camano",
+            state: "Washington",
+            country: "United States",
+            price: 87,
+            rating: 4.87,
+            numberOfBathrooms: 2,
+            numberOfBeds: 1,
+            numberOfguest: 3,
+            numberOfBedrooms: 1,
+            numberOfStudies: 1,
+            hostName: "Lokesh",
+            hostJoinedOn: "December 2019",
+            ameneties: [
+                "Kitchen",
+                "Wifi",
+                "Pets Allowed"
+            ],
+            healthAndSafety: [
+                "No Smoke alarm",
+                "No Carbon monox_ide alarm"
+            ],
+            houseRules: [
+                "Check-in: After 1:00 pm",
+                "Check out: 11:00 am",
+                "Pets are allowed"
+            ],
+            propertyType: "Guest House",
+            isCancelable: true
+        },
     ]
 }
+
 
 module.exports = hotels;
