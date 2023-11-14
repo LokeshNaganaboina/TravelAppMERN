@@ -12,7 +12,7 @@ const hotels = {
                 "https://a0.muscache.com/im/pictures/7afef86b-0b28-4c3c-9928-d89e605337ce.jpg?im_w=720",
                 "https://a0.muscache.com/im/pictures/fdb0fcb1-fee6-4cc0-aa62-bb3901b4bd3c.jpg?im_w=720"
             ],
-            address: "Orderville, Utah",
+            address: "Orderville, Utah place",
             city: "Orderville",
             state: "Utah",
             country: "United States",
@@ -53,7 +53,7 @@ const hotels = {
                 "https://a0.muscache.com/im/pictures/4890fd56-04ae-45b8-9c16-784268c50ca8.jpg?im_w=720",
                 "https://a0.muscache.com/im/pictures/210b89aa-a934-4763-ad0f-63690da23196.jpg?im_w=720"
             ],
-            address: "Orderville, Utah",
+            address: "Orderville",
             city: "Orderville",
             state: "Utah",
             country: "United States",
